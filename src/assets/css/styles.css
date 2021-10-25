@@ -1,0 +1,102 @@
+:root {
+  --secondary-light: #feeff6;
+  --primary-light: #F2F5FF;
+  --accent-light: #ffe7e0;
+  --success-light: #eefaf3;
+  --info-light: #e4f2fe;
+  --error-light: #fff1f1;
+  --warning-light: #fffcf3;
+}
+
+@font-face {
+  font-family: SolomonSans;
+  src: url(../fonts/solomonSans/solomonSansNormal.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SolomonSans;
+  src: url(../fonts/solomonSans/solomonSansBold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: SolomonSans;
+  src: url(../fonts/solomonSans/solomonSansBlack.otf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: SolomonSans;
+  src: url(../fonts/solomonSans/solomonSansSemiBold.otf);
+  font-weight: 600;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+.v-application, 
+.v-application .display-1, 
+.v-application .display-2, 
+.v-application .display-3, 
+.v-application .display-4, 
+.v-application .text-h1,  
+.v-application .text-h2,  
+.v-application .text-h3,  
+.v-application .text-h4,  
+.v-application .text-h5,  
+.v-application .text-h6,  
+.v-application .headline, 
+.v-application .subtitle-1, 
+.v-application .subtitle-2, 
+.v-application .title, .nd-font {
+    font-family: SolomonSans, sans-serif !important;
+}
+
+.gradient {
+  background: transparent linear-gradient(90deg, #4EA7D0 0%, #425390 100%) 0% 0% no-repeat padding-box !important;
+}
+
+.rgradient {
+  background: transparent linear-gradient(270deg, #4EA7D0 0%, #425390 100%) 0% 0% no-repeat padding-box !important;
+}
+
+.light {
+  background: #F2F5FF 0% 0% no-repeat padding-box !important;
+}
+
+.curved {
+  border-radius: 40px !important;
+}
+
+.v-application .bg-primary-lt {
+  background-color: var(--primary-light);
+}
+
+.v-application .bg-secondary-lt {
+  background-color: var(--secondary-light) !important;
+}
+
+.v-application .bg-success-lt {
+  background-color: var(--success-light) !important;
+}
+
+.v-application .bg-info-lt {
+  background-color: var(--info-light) !important;
+}
+
+.v-application .bg-accent-lt {
+  background-color: var(--accent-light);
+}
+
+.v-application .bg-error-lt {
+  background-color: var(--error-light);
+}
+
+.v-application .bg-warning-lt {
+  background-color: var(--warning-light);
+}
