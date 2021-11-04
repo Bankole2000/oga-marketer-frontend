@@ -1,11 +1,11 @@
 <template>
   <div class="metric-card">
-    <v-card elevation="0" class="bg-primary-lt">
+    <v-card elevation="0" :class="`bg-${color}-lt`">
       <v-responsive aspect-ratio="1">
         
         <div class="d-flex align-center flex-column justify-center" style="width: 100%; height: 100%;">
-          <p class="display-2 primary--text mb-0">{{value}}</p>
-          <p class="text-h6 mb-0">{{metric}}</p>
+          <p class="primary--text mb-0" :class="majFZ">{{value}}</p>
+          <p class="mb-0" :class="minFZ">{{metric}}</p>
         </div>
       </v-responsive>
     </v-card>
@@ -17,7 +17,7 @@ export default {
   props: {
     color: {
       type: String,
-      defaul: 'primay'
+      default: 'primary'
     }, 
     majFZ: {
       type: String, 
@@ -25,7 +25,7 @@ export default {
     }, 
     minFZ: {
       type: String, 
-      default: ''
+      default: 'text-h6'
     }, 
     metric: {
       type: String, 

@@ -1,5 +1,5 @@
 <template>
-  <div class="user-details-step-form">
+  <div class="user-details-step-form my-2">
     <v-row class="d-flex flex-column">
       <v-col col="12" style="min-height: 50vh">
         <v-text-field value="Timothy" label="First Name"></v-text-field>
@@ -19,8 +19,8 @@
       <v-spacer></v-spacer>
       <v-col cols="12">
         <div class="d-flex justify-center">
-          <v-btn large class="light text-capitalize primary--text px-14 curved mx-4">Back</v-btn>
-          <v-btn large class="gradient text-capitalize white--text px-14 curved mx-4">Next</v-btn>
+          <v-btn @click="$emit('back')" large class="light text-capitalize primary--text px-14 curved mx-4">Back</v-btn>
+          <v-btn @click="next" :disabled="isLoading" :loading="isLoading" large :class="!isLoading ? 'gradient' : ''" class="text-capitalize white--text px-14 curved mx-4">Next</v-btn>
         </div>
       </v-col>
     </v-row>
@@ -32,6 +32,16 @@ export default {
   data(){
     return {
       showPassword: false,
+      isLoading: false,
+    }
+  }, 
+  methods: {
+    next(){
+      this.isLoading = true;
+      setTimeout(() => {
+        this.isLoading = false;
+        this.$emit('next')
+      }, 1500);
     }
   }
 }

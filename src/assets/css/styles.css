@@ -100,3 +100,29 @@ h6,
 .v-application .bg-warning-lt {
   background-color: var(--warning-light);
 }
+
+.v-application .p-18 {
+  font-size: 18px !important;
+}
+
+.v-application .p-16 {
+  font-size: 14px !important;
+}
+
+.v-application .p-color {
+  color: #4D4F5C;
+}
+
+.v-application .elevated {
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.12),
+    0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.1),
+    0 0.25rem 0.53125rem rgba(4, 9, 20, 0.1),
+    0 0.125rem 0.1875rem rgba(4, 9, 20, 0.1) !important;
+}
+
+.v-application .elevated-light {
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.042),
+    0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.04),
+    0 0.25rem 0.53125rem rgba(4, 9, 20, 0.04),
+    0 0.125rem 0.1875rem rgba(4, 9, 20, 0.04) !important;
+}

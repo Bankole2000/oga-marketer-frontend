@@ -20,6 +20,9 @@
         <v-col cols="2">
           <MetricCard />
         </v-col>
+        <v-col cols="4">
+          <ContactCard />
+        </v-col>
       </v-row>
     </v-container>
     <h1>Test Page</h1>
@@ -27,6 +30,7 @@
 </template>
 
 <script>
+import ContactCard from '../components/app/blocks/ContactCard.vue';
 import MetricCard from '../components/app/blocks/MetricCard.vue';
 import LoginForm from "../components/forms/LoginForm.vue";
 import BusinessInfoStepForm from '../components/forms/register/BusinessInfoStepForm.vue';
@@ -40,10 +44,11 @@ export default {
     BusinessInfoStepForm,
     UserGoalsStepForm,
     DefaultEmailIdStepForm,
+    ContactCard,
     MetricCard
   },
 };
-</script>
+</script>,
 
 <style>
 </style>

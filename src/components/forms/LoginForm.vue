@@ -21,7 +21,7 @@
         </div>
          <div class="d-flex px-auto">
           <v-btn large class="mx-auto light primary--text text-capitalize px-10 curved">
-            <v-img :aspect-ratio="1" class="mr-4" :src="require('@/assets/imgs/logos/google-icon.png')"/>
+            <v-img :aspect-ratio="1" width="20" class="mr-1" :src="require('@/assets/imgs/logos/google-icon.png')"/>
             Login With Google</v-btn>
         </div>
       </v-col>
