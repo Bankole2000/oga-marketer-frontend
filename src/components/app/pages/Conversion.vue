@@ -1,5 +1,7 @@
 <template>
-  <div class="conversions-page"></div>
+  <div class="conversions-page">
+    <h1>Conversions</h1>
+  </div>
 </template>
 
 <script>

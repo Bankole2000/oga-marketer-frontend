@@ -1,11 +1,14 @@
 :root {
   --secondary-light: #feeff6;
   --primary-light: #F2F5FF;
+  /* --primary-light: #2F599199; */
   --accent-light: #ffe7e0;
   --success-light: #eefaf3;
   --info-light: #e4f2fe;
   --error-light: #fff1f1;
   --warning-light: #fffcf3;
+  --primary: #2F5991;
+  --secondary: #4EA7D0;
 }
 
 @font-face {
@@ -125,4 +128,13 @@ h6,
     0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.04),
     0 0.25rem 0.53125rem rgba(4, 9, 20, 0.04),
     0 0.125rem 0.1875rem rgba(4, 9, 20, 0.04) !important;
+}
+
+.v-application .page-header {
+  /* background-color: var(--accent-light); */
+  min-height: 88px;
+  border-bottom: 1px solid var(--primary-light);
+  display: flex;
+  align-items: center;
+  
 }

@@ -1,6 +1,10 @@
 <template>
   <div class="app-nav">
-    <v-navigation-drawer permanent app class="gradient">
+    <v-navigation-drawer
+      permanent
+      app
+      class="gradient"
+    >
       <div
         style="
           min-height: 70px;
@@ -12,17 +16,13 @@
       >
         <DynamicIcon />
       </div>
-      <!-- <v-list-item>
-        <v-list-item-content>
-          <v-list-item-title class="title"> Application </v-list-item-title>
-          <v-list-item-subtitle> subtext </v-list-item-subtitle>
-        </v-list-item-content>
-      </v-list-item> -->
-
-      <v-divider></v-divider>
+      <v-divider />
       <div>
         <div>
-          <div style="display: flex; flex-direction: column" class="white">
+          <div
+            style="display: flex; flex-direction: column; min-height: 88px"
+            class="white"
+          >
             <div
               style="flex: 1; transition: all 0.2s ease"
               :class="{ 'rounded-br-xl': isActiveRoute('app.dashboard') }"
@@ -30,9 +30,11 @@
             >
               &nbsp;
             </div>
-            <div style="flex: 4" class="gradient pl-4">
+            <div
+              style="flex: 4"
+              class="gradient pl-4"
+            >
               <div
-                @click="$router.push({ name: 'app.dashboard' })"
                 style="
                   display: flex;
                   align-items: center;
@@ -46,13 +48,15 @@
                     ? 'rounded-tl-xl rounded-bl-xl white primary--text'
                     : 'white--text'
                 "
+                @click="$router.push({ name: 'app.dashboard' })"
               >
                 <v-icon
                   :color="isActiveRoute('app.dashboard') ? 'primary' : 'white'"
                   class="mr-4 mb-1"
                   size="20"
-                  >mdi-view-dashboard</v-icon
                 >
+                  mdi-view-dashboard
+                </v-icon>
                 Dashboard
               </div>
             </div>
@@ -67,18 +71,18 @@
           <div class="px-4">
             <v-divider
               class="primary lighten-1"
-              :class="isActiveRoute('app.contacts') ? 'mb-5' : 'mb-5'"
-            ></v-divider>
+              :class="isActiveRoute('app.contacts') ? 'mb-3' : 'mb-4'"
+            />
           </div>
           <div
+            v-for="item in appNavItems"
+            :key="item.title"
             style="
               display: flex;
               flex-direction: column;
               transition: all 0.2s ease;
             "
             class="white"
-            v-for="(item, i) in appNavItems"
-            :key="i"
           >
             <div
               v-show="isActiveRoute(item.route)"
@@ -91,9 +95,8 @@
 
             <div
               style="flex: 4; cursor: pointer; transition: all 0.2s ease"
-              @click="$router.push({ name: item.route })"
               class="gradient pl-4"
-              :class="isActiveRoute(item.route) ? 'py-0' : 'py-2'"
+              @click="$router.push({ name: item.route })"
             >
               <div
                 style="
@@ -106,15 +109,16 @@
                 :class="
                   isActiveRoute(item.route)
                     ? 'rounded-tl-xl rounded-bl-xl white primary--text elevated-light'
-                    : 'white--text'
+                    : 'white--text my-2'
                 "
               >
                 <v-icon
                   :color="isActiveRoute(item.route) ? 'primary' : 'white'"
                   class="mr-4 mb-1"
                   size="20"
-                  >{{ item.icon }}</v-icon
                 >
+                  {{ item.icon }}
+                </v-icon>
                 {{ item.title }}
               </div>
             </div>
@@ -132,17 +136,17 @@
             <v-divider
               class="primary lighten-1"
               :class="isActiveRoute('app.targeting') ? 'my-5' : 'my-5'"
-            ></v-divider>
+            />
           </div>
           <div
+            v-for="(item, j) in otherNavItems"
+            :key="j"
             style="
               display: flex;
               flex-direction: column;
               transition: all 0.2s ease;
             "
             class="white"
-            v-for="(item, i) in otherNavItems"
-            :key="i"
           >
             <v-expand-transition>
               <div
@@ -156,9 +160,9 @@
             </v-expand-transition>
             <div
               style="flex: 4; cursor: pointer; transition: all 0.2s ease"
-              @click="$router.push({ name: item.route })"
               class="gradient pl-4"
               :class="isActiveRoute(item.route) ? 'py-0' : 'py-2'"
+              @click="$router.push({ name: item.route })"
             >
               <div
                 style="
@@ -178,8 +182,9 @@
                   :color="isActiveRoute(item.route) ? 'primary' : 'white'"
                   class="mr-4 mb-1"
                   size="20"
-                  >{{ item.icon }}</v-icon
                 >
+                  {{ item.icon }}
+                </v-icon>
                 {{ item.title }}
               </div>
             </div>
@@ -250,9 +255,12 @@ export default {
       right: null,
     };
   },
+  mounted() {
+    console.log({ vuetifyObject: this.$vuetify });
+  },
   methods: {
     isActiveRoute(route) {
-      console.log(this.$route);
+      // console.log(this.$route);
       if (this.$route.name.includes(route)) return true;
       return false;
     },

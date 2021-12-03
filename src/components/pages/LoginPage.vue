@@ -25,7 +25,11 @@
           <v-row>
             <v-col cols="12">
               <div class="d-flex align-center flex-column justify-center">
-                <DynamicIcon :primary="primary" :width="100" :height="100" />
+                <DynamicIcon
+                  :primary="primary"
+                  :width="100"
+                  :height="100"
+                />
                 <p class="text-h4 primary--text">
                   <span class="font-weight-bold">Oga</span>marketer
                 </p>
@@ -33,7 +37,11 @@
               <div class="px-16">
                 <LoginForm />
               </div>
-              <p class="text-center pt-12">Are you new around here? <router-link :to="{name: 'pages.register'}"><a>Sign up</a></router-link></p>
+              <p class="text-center pt-12">
+                Are you new around here? <router-link :to="{name: 'pages.register'}">
+                  <a>Sign up</a>
+                </router-link>
+              </p>
             </v-col>
           </v-row>
         </v-container>

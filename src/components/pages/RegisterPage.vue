@@ -11,21 +11,35 @@
         "
         class="rgradient pl-16"
       >
-        <div style="flex: 1;" class="py-8">
+        <div
+          style="flex: 1;"
+          class="py-8"
+        >
           <v-img
             max-width="400"
             class="pl-1"
             :src="require('@/assets/Ogamarketer-logo-final.svg')"
           />
         </div>
-        <div style="flex: 10; display: flex; align-items: center;" class="pb-16">
-          <v-window vertical v-model="step">
+        <div
+          style="flex: 10; display: flex; align-items: center;"
+          class="pb-16"
+        >
+          <v-window
+            v-model="step"
+            vertical
+          >
             <v-window-item
               v-for="(item, i) in stepMessages"
               :key="i"
               :value="i"
             >
-              <p class="white--text headline mb-16" v-html="stepMessage(i)">{{ item }}</p>
+              <p
+                class="white--text headline mb-16"
+                v-html="stepMessage(i)"
+              >
+                {{ item }}
+              </p>
             </v-window-item>
           </v-window>
         </div>
@@ -44,13 +58,20 @@
           <v-row>
             <v-col cols="12">
               <div class="d-flex align-center flex-column justify-center">
-                <DynamicIcon :primary="primary" :width="100" :height="100" />
+                <DynamicIcon
+                  :primary="primary"
+                  :width="100"
+                  :height="100"
+                />
                 <p class="text-h4 primary--text">
                   <span class="font-weight-bold">Oga</span>marketer
                 </p>
               </div>
               <div class="px-10">
-                <v-window v-model="step" class="px-4">
+                <v-window
+                  v-model="step"
+                  class="px-4"
+                >
                   <v-window-item :value="1">
                     <UserDetailsStepForm
                       @back="$router.go(-1)"
@@ -58,21 +79,32 @@
                     />
                   </v-window-item>
                   <v-window-item :value="2">
-                    <BusinessInfoStepForm @back="step = 1" @next="step = 3" />
+                    <BusinessInfoStepForm
+                      @back="step = 1"
+                      @next="step = 3"
+                    />
                   </v-window-item>
                   <v-window-item :value="3">
-                    <UserGoalsStepForm @back="step = 2" @next="step = 4" />
+                    <UserGoalsStepForm
+                      @back="step = 2"
+                      @next="step = 4"
+                    />
                   </v-window-item>
                   <v-window-item :value="4">
-                    <DefaultEmailIdStepForm @back="step = 3" @next="$router.push({name: 'pages.complete'})" />
+                    <DefaultEmailIdStepForm
+                      @back="step = 3"
+                      @next="$router.push({name: 'pages.complete'})"
+                    />
                   </v-window-item>
                 </v-window>
               </div>
               <p class="text-center pt-12">
                 Already have an account with us?
-                <router-link :to="{ name: 'pages.login' }"
-                  ><a>Log in</a></router-link
+                <router-link
+                  :to="{ name: 'pages.login' }"
                 >
+                  <a>Log in</a>
+                </router-link>
               </p>
             </v-col>
           </v-row>
@@ -104,6 +136,11 @@ export default {
       stepMessages: ["Hey", "Why", "Who", "What", "Where"],
     };
   },
+  computed: {
+    // stepMessages(){
+    //   return [`Hello ${this.name}`]
+    // }
+  },
   methods: {
     stepMessage(e) {
       switch (e) {
@@ -119,11 +156,6 @@ export default {
           return "";
       }
     },
-  },
-  computed: {
-    // stepMessages(){
-    //   return [`Hello ${this.name}`]
-    // }
   },
 };
 </script>

@@ -1,79 +1,100 @@
 <template>
   <div class="user-goals-step-form my-2">
     <v-row class="d-flex flex-column">
-      <v-col cols="12" style="min-height: 50vh">
+      <v-col
+        cols="12"
+        style="min-height: 50vh"
+      >
         <div class="d-flex align-center">
           <v-checkbox
             class="mb-3"
             hide-details
             label="Build and send more targeted emails"
-          ></v-checkbox>
-          <v-spacer></v-spacer>
-          <v-btn icon><v-icon>mdi-information-outline</v-icon></v-btn>
+          />
+          <v-spacer />
+          <v-btn icon>
+            <v-icon>mdi-information-outline</v-icon>
+          </v-btn>
         </div>
-        <v-divider></v-divider>
+        <v-divider />
         <div class="d-flex align-center">
           <v-checkbox
             class="mb-3"
             hide-details
             label="Target specific user groups"
-          ></v-checkbox>
-          <v-spacer></v-spacer>
-          <v-btn icon><v-icon>mdi-information-outline</v-icon></v-btn>
+          />
+          <v-spacer />
+          <v-btn icon>
+            <v-icon>mdi-information-outline</v-icon>
+          </v-btn>
         </div>
-        <v-divider></v-divider>
+        <v-divider />
         <div class="d-flex align-center">
           <v-checkbox
             class="mb-3"
             hide-details
             label="Build and send more targeted emails"
-          ></v-checkbox>
-          <v-spacer></v-spacer>
-          <v-btn icon><v-icon>mdi-information-outline</v-icon></v-btn>
+          />
+          <v-spacer />
+          <v-btn icon>
+            <v-icon>mdi-information-outline</v-icon>
+          </v-btn>
         </div>
-        <v-divider></v-divider>
+        <v-divider />
         <div class="d-flex align-center">
           <v-checkbox
             class="mb-3"
             hide-details
             label="Build and send more targeted emails"
-          ></v-checkbox>
-          <v-spacer></v-spacer>
-          <v-btn icon><v-icon>mdi-information-outline</v-icon></v-btn>
+          />
+          <v-spacer />
+          <v-btn icon>
+            <v-icon>mdi-information-outline</v-icon>
+          </v-btn>
         </div>
-        <v-divider></v-divider>
+        <v-divider />
         <div class="d-flex align-center">
           <v-checkbox
             class="mb-3"
             hide-details
             label="Build and send more targeted emails"
-          ></v-checkbox>
-          <v-spacer></v-spacer>
-          <v-btn icon><v-icon>mdi-information-outline</v-icon></v-btn>
+          />
+          <v-spacer />
+          <v-btn icon>
+            <v-icon>mdi-information-outline</v-icon>
+          </v-btn>
         </div>
-        <v-divider></v-divider>
+        <v-divider />
         <div class="d-flex align-center">
-          <v-checkbox class="mb-3" hide-details label="Other..."></v-checkbox>
-          <v-spacer></v-spacer>
-          <v-btn icon><v-icon>mdi-information-outline</v-icon></v-btn>
+          <v-checkbox
+            class="mb-3"
+            hide-details
+            label="Other..."
+          />
+          <v-spacer />
+          <v-btn icon>
+            <v-icon>mdi-information-outline</v-icon>
+          </v-btn>
         </div>
-        <v-divider></v-divider>
+        <v-divider />
       </v-col>
-      <v-spacer></v-spacer>
+      <v-spacer />
       <v-col cols="12">
         <div class="d-flex justify-center">
           <v-btn
             large
-            @click="$emit('back')"
             class="light text-capitalize primary--text px-14 curved mx-4"
-            >Back</v-btn
+            @click="$emit('back')"
           >
+            Back
+          </v-btn>
           <v-btn
             large
-            @click="$emit('next')"
             class="gradient text-capitalize white--text px-14 curved mx-4"
-            >Next</v-btn
+            @click="$emit('next')"
           >
+            Next
+          </v-btn>
         </div>
       </v-col>
     </v-row>

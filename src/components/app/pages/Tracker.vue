@@ -1,5 +1,7 @@
 <template>
-  <div class="trackers-page"></div>
+  <div class="trackers-page">
+    <h1>Trackers</h1>
+  </div>
 </template>
 
 <script>

@@ -1,7 +1,5 @@
 <template>
-  <div class="oga-campaign-page">
-    
-  </div>
+  <div class="oga-campaign-page" />
 </template>
 
 <script>

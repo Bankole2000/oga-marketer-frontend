@@ -2,17 +2,47 @@
   <v-container>
     <v-row class="text-center">
       <v-col cols="12">
-        <v-btn class="primary mx-1 text-capitalize">Primary</v-btn>
-        <v-btn class="secondary mx-1 text-capitalize">secondary</v-btn>
-        <v-btn class="accent mx-1 text-capitalize">accent</v-btn>
-        <v-btn class="success mx-1 text-capitalize">success</v-btn>
-        <v-btn class="error mx-1 text-capitalize">error</v-btn>
-        <v-btn class="light primary--text mx-1 text-capitalize">warning</v-btn>
-        <v-btn class="gradient white--text mx-1 text-capitalize">warning</v-btn>
-        <v-btn class="rgradient white--text mx-1 text-capitalize">warning <v-icon>mdi-flutter</v-icon></v-btn>
-        <v-btn outlined color="accent" class=" mx-1 text-capitalize">warning <v-icon right>mdi-gesture-tap</v-icon></v-btn>
-        <v-card height="100" width="100" class="rgradient"></v-card>
-        <p class="display-1 caption">Some Text</p>
+        <v-btn class="primary mx-1 text-capitalize">
+          Primary
+        </v-btn>
+        <v-btn class="secondary mx-1 text-capitalize">
+          secondary
+        </v-btn>
+        <v-btn class="accent mx-1 text-capitalize">
+          accent
+        </v-btn>
+        <v-btn class="success mx-1 text-capitalize">
+          success
+        </v-btn>
+        <v-btn class="error mx-1 text-capitalize">
+          error
+        </v-btn>
+        <v-btn class="light primary--text mx-1 text-capitalize">
+          warning
+        </v-btn>
+        <v-btn class="gradient white--text mx-1 text-capitalize">
+          warning
+        </v-btn>
+        <v-btn class="rgradient white--text mx-1 text-capitalize">
+          warning <v-icon>mdi-flutter</v-icon>
+        </v-btn>
+        <v-btn
+          outlined
+          color="accent"
+          class=" mx-1 text-capitalize"
+        >
+          warning <v-icon right>
+            mdi-gesture-tap
+          </v-icon>
+        </v-btn>
+        <v-card
+          height="100"
+          width="100"
+          class="rgradient"
+        />
+        <p class="display-1 caption">
+          Some Text
+        </p>
       </v-col>
       <v-col cols="12">
         <v-img

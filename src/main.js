@@ -5,7 +5,11 @@ import store from './store'
 import vuetify from './plugins/vuetify'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
-import  "./assets/css/styles.css";
+import "./assets/css/styles.css";
+
+
+import Vue2Editor from "vue2-editor";
+Vue.use(Vue2Editor);
 
 Vue.config.productionTip = false
 

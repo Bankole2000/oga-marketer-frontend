@@ -1,9 +1,20 @@
 <template>
   <div>
-    <button type="button" :class="classes" @click="onClick" :style="style">
+    <button
+      type="button"
+      :class="classes"
+      :style="style"
+      @click="onClick"
+    >
       {{ label }}
     </button>
-    <v-btn class="info py-16" elevation="0" block>Test</v-btn>
+    <v-btn
+      class="info py-16"
+      elevation="0"
+      block
+    >
+      Test
+    </v-btn>
   </div>
 </template>
 
@@ -11,7 +22,7 @@
 import "./button.css";
 
 export default {
-  name: "my-button",
+  name: "MyButton",
 
   props: {
     label: {

@@ -1,5 +1,7 @@
 <template>
-  <div class="profiler"></div>
+  <div class="tracking-goals">
+    <h1>Tracking Goals</h1>
+  </div>
 </template>
 
 <script>

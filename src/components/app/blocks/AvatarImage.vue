@@ -8,14 +8,17 @@
       :color="!imgSrc ? 'secondary' : ''"
       :style="addStyles"
     >
-      <img :src="imgSrc" v-if="imgSrc" alt="John" />
+      <img
+        v-if="imgSrc"
+        :src="imgSrc"
+        alt="John"
+      >
       <span
         v-else-if="firstname || lastname"
         :style="{ fontSize: `${Math.floor(size / 2)}px` }"
         class="white--text"
-        >{{ firstname ? firstname[0].toUpperCase() : ""
-        }}{{ lastname ? lastname[0].toUpperCase() : "" }}</span
-      >
+      >{{ firstname ? firstname[0].toUpperCase() : ""
+      }}{{ lastname ? lastname[0].toUpperCase() : "" }}</span>
       <img
         v-else
         :src="
@@ -24,7 +27,7 @@
           }`)
         "
         alt="John"
-      />
+      >
     </v-avatar>
   </div>
 </template>

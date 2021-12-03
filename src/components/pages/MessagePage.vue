@@ -14,9 +14,12 @@
           <strong>Oga</strong>Marketer
         </p>
         <div>
-          <v-btn large class="light curved text-capitalize mb-8 mt-4"
-            >Setup Assistant</v-btn
+          <v-btn
+            large
+            class="light curved text-capitalize mb-8 mt-4"
           >
+            Setup Assistant
+          </v-btn>
         </div>
         <router-link :to="{ name: 'app.dashboard' }">
           <p class="white--text headline text-center mt-16 pt-16 mb-0">
