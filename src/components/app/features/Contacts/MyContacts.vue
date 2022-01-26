@@ -1,45 +1,29 @@
 <template>
   <div class="my-contacts">
     <div class="page-header px-8">
-      <p class="display-1 mb-0 grey--text text--darken-2">
-        Contacts
-      </p>
-      <v-divider
-        vertical
-        class="ma-4"
-      />
+      <p class="display-1 mb-0 grey--text text--darken-2">Contacts</p>
+      <v-divider vertical class="ma-4" />
       <v-chip
         class="primary--text"
         style="background-color: var(--primary-light)"
+        @click="showAddNewContactForm"
       >
         <v-avatar left>
-          <v-icon
-            color="primary"
-            size="24"
-          >
-            mdi-plus
-          </v-icon>
+          <v-icon color="primary" size="24"> mdi-plus </v-icon>
         </v-avatar>
         New Contact
       </v-chip>
       <v-chip
+        @click="showImportFromContactsModal"
         class="primary--text mx-2"
         style="background-color: var(--primary-light)"
       >
         <v-avatar left>
-          <v-icon
-            color="primary"
-            size="24"
-          >
-            mdi-download
-          </v-icon>
+          <v-icon color="primary" size="24"> mdi-download </v-icon>
         </v-avatar>
         import
       </v-chip>
-      <v-text-field
-        label="Search"
-        prepend-inner-icon="mdi-magnify"
-      />
+      <v-text-field label="Search" prepend-inner-icon="mdi-magnify" />
       <span class="mx-2">View: </span>
       <v-btn-toggle
         v-model="toggleViewMode"
@@ -73,55 +57,73 @@
           List
         </v-btn>
       </v-btn-toggle>
-      <v-btn
-        class="gradient curved white--text text-capitalize"
-      >
-        <v-icon left>
-          mdi-help-circle-outline
-        </v-icon>Help
+      <v-btn class="gradient curved white--text text-capitalize">
+        <v-icon left> mdi-help-circle-outline </v-icon>Help
       </v-btn>
     </div>
-    <v-container class="my-4">
+    <v-container class="my-4" v-if="toggleViewMode == 'grid'">
       <v-row>
-        <v-col
-          v-for="i in 12"
-          :key="i"
-          cols="4"
-        >
-          <ContactCard />
+        <v-col v-for="(contact, i) in contacts" :key="i" cols="4">
+          <ContactCard @click="contactClicked(contact.id)" :contact="contact" />
         </v-col>
       </v-row>
       <v-row>
         <v-col cols="12">
           <div class="text-center">
-            <v-pagination
-              v-model="page"
-              :length="4"
-              circle
-            />
+            <v-pagination v-model="page" :length="4" circle />
           </div>
         </v-col>
       </v-row>
     </v-container>
+    <ContactListTable v-else />
+    <AddNewContactModal ref="addNewContactModal" />
+    <ImportContactsFromFileModal ref="importContactsFromFileModal" />
   </div>
 </template>
 
 <script>
 import ContactCard from "./blocks/ContactCard.vue";
+import AddNewContactModal from "./modals/AddNewContactModal.vue";
+import ImportContactsFromFileModal from "./modals/ImportContactsFromFileModal.vue";
+import ContactListTable from "./blocks/ContactListTable.vue";
+
+// Import Dummy Data
+import contacts from "@/data/contacts.json";
 
 export default {
   components: {
     ContactCard,
+    AddNewContactModal,
+    ImportContactsFromFileModal,
+    ContactListTable,
   },
   data() {
     return {
       page: 1,
-      toggleViewMode: "list",
+      toggleViewMode: "grid",
+      contacts,
     };
   },
   methods: {
     changeViewMode(e) {
       console.log({ e, value: this.toggleViewMode });
+    },
+    contactClicked(contactId) {
+      console.log("contact clicked", contactId);
+      this.$router
+        .push({
+          name: "app.contacts.contact-details",
+          params: { id: contactId },
+        })
+        .catch(() => {});
+    },
+    showAddNewContactForm() {
+      console.log("show add new contact form");
+      this.$refs.addNewContactModal.show(true);
+    },
+    showImportFromContactsModal() {
+      console.log("show import from contacts modal");
+      this.$refs.importContactsFromFileModal.show(true);
     },
   },
 };

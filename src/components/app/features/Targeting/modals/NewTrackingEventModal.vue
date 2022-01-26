@@ -1,39 +1,29 @@
 <template>
   <div class="new-tracking-event-modal">
-    <v-dialog
-      v-model="dialog"
-      max-width="290"
-    >
-      <v-card>
-        <v-card-title
-          class="headline"
-        >
-          Use Google's location service?
+    <v-dialog v-model="dialog" max-width="500">
+      <v-card class="rounded-xl">
+        <v-card-title class="headline">
+          <span>New Tracking Event</span>
+          <v-spacer></v-spacer>
+          <v-btn color="primary" @click="dialog = false" icon>
+            <v-icon>mdi-window-close</v-icon>
+          </v-btn>
         </v-card-title>
-
-        <v-card-text>
-          Let Google help apps determine location. This means sending anonymous
-          location data to Google, even when no apps are running.
+        <v-divider></v-divider>
+        <v-card-text class="py-4">
+          <NewTrackingEventForm />
         </v-card-text>
-
-        <v-card-actions>
-          <v-spacer />
-
+        <v-card-actions class="justify-center py-6">
           <v-btn
-            color="green darken-1"
-            text
+            class="light curved text-capitalize px-8 mx-2"
             @click="dialog = false"
+            >Back</v-btn
           >
-            Disagree
-          </v-btn>
-
           <v-btn
-            color="green darken-1"
-            text
+            class="gradient curved white--text text-capitalize px-8 mx-2"
             @click="dialog = false"
+            >Save</v-btn
           >
-            Agree
-          </v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -41,12 +31,19 @@
 </template>
 
 <script>
+import NewTrackingEventForm from "../forms/NewTrackingEventForm.vue";
 export default {
   data() {
     return {
       dialog: false,
     };
   },
+  methods: {
+    show(value) {
+      this.dialog = value;
+    },
+  },
+  components: { NewTrackingEventForm },
 };
 </script>
 

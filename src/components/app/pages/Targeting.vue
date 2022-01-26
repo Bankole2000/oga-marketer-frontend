@@ -14,7 +14,7 @@ export default {
     return {
       subroutes: [
         { title: "Targetting", route: "app.targeting.targeting" },
-        { title: "Targetting Events", route: "app.targeting.events" },
+        { title: "Tracking Events", route: "app.targeting.events" },
         { title: "Tracking Goals", route: "app.targeting.goals" },
         { title: "Targetting Rules", route: "app.targeting.rules" },
       ],

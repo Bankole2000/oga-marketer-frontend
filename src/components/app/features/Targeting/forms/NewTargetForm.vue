@@ -12,9 +12,7 @@
       label="Category"
       :items="targetCategories"
     />
-    <p class="subtitle">
-      Select Associated Goal*
-    </p>
+    <p class="subtitle">Select Associated Goal*</p>
     <div class="mb-4">
       <TargetGoalItem
         v-for="(goal, i) in targetAssociatedGoals"
@@ -35,9 +33,7 @@
           class="mb-0 primary--text"
           @click="onCreateNewTrackingGoal"
         >
-          <v-icon color="primary">
-            mdi-plus
-          </v-icon>
+          <v-icon color="primary"> mdi-plus </v-icon>
           <span
             style="font-size: 1rem"
             :class="{ 'text-decoration-underline': hover }"
@@ -60,8 +56,8 @@ export default {
   data() {
     return {
       target: {
-        name: "",
-        category: "",
+        name: "ABC Retail Anniversary Sales",
+        category: "Sales",
         associatedGoals: [],
       },
       targetCategories: ["Sales", "Promo", "Discount"],

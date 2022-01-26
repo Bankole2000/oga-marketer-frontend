@@ -49,4 +49,41 @@ export default {
     opacity: 1;
   }
 }
+
+* {
+  scrollbar-width: thin;
+  /* scrollbar-color: rgba(155, 155, 155, 0.5) transparent; */
+  scrollbar-color: transparent;
+  transition: all 0.2s;
+}
+
+*:hover {
+  /* scrollbar-color: rgba(155, 155, 155, 0.5) transparent; */
+  scrollbar-color: #4ea7d0;
+}
+
+*::-webkit-scrollbar {
+  width: 0px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+*:hover::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  /* background-color: #28282833; */
+  background-color: transparent;
+  /* background-color: #4ea7d0; */
+  border-radius: 10px;
+  border: transparent;
+}
+
+*:hover::-webkit-scrollbar-thumb {
+  background-color: #4ea7d0;
+}
 </style>

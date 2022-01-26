@@ -1,34 +1,20 @@
 <template>
   <div class="page-header px-8">
-    <p class="display-1 mb-0 grey--text text--darken-2">
-      Tracking
-    </p>
-    <v-divider
-      vertical
-      class="ma-4"
-    />
+    <p class="display-1 mb-0 grey--text text--darken-2">Targeting</p>
+    <v-divider vertical class="ma-4" />
     <v-chip
       :to="{ name: 'app.targeting.targeting.new' }"
       class="primary--text"
       style="background-color: var(--primary-light)"
     >
       <v-avatar left>
-        <v-icon
-          color="primary"
-          size="24"
-        >
-          mdi-plus
-        </v-icon>
+        <v-icon color="primary" size="24"> mdi-plus </v-icon>
       </v-avatar>
       New Target
     </v-chip>
     <v-spacer />
-    <v-btn
-      class="gradient curved white--text text-capitalize"
-    >
-      <v-icon left>
-        mdi-help-circle-outline
-      </v-icon>Help
+    <v-btn class="gradient curved white--text text-capitalize">
+      <v-icon left> mdi-help-circle-outline </v-icon>Help
     </v-btn>
   </div>
 </template>

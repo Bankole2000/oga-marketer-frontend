@@ -8,22 +8,32 @@ import AppPages from '../components/app/Index.vue';
 import DashbaordPage from "../components/app/pages/Dashboard.vue";
 import ContactPage from "../components/app/pages/Contacts.vue";
 import CampaignsPage from "../components/app/pages/Campaigns.vue";
+import EmailTemplates from "../components/app/features/Campaigns/EmailTemplates.vue";
 import TeamsPage from "../components/app/pages/Teams.vue";
 import TargetingPage from "../components/app/pages/Targeting.vue";
 import ProfilePage from '../components/app/pages/Profile.vue';
 import SettingsPage from '../components/app/pages/Settings.vue';
+import StartupAssistantPage from '../components/app/pages/StartupAssistant.vue';
 import Targeting from '../components/app/features/Targeting/Targeting.vue';
 import TargetingDashboard from '../components/app/features/Targeting/Dashboard.vue';
+import StartupAssistant from '../components/app/features/Assistant/Index.vue';
 import NewTargetPage from '../components/app/features/Targeting/NewTarget/Index.vue';
 import TargetingRules from '../components/app/features/Targeting/TargetingRules.vue';
 import TrackingEvents from '../components/app/features/Targeting/TrackingEvents.vue';
 import TrackingGoals from '../components/app/features/Targeting/TrackingGoals.vue';
 import MyContacts from '../components/app/features/Contacts/MyContacts.vue';
 import ContactsList from '../components/app/features/Contacts/ContactsList.vue';
+import ContactDetails from '../components/app/features/Contacts/ContactDetails/Index.vue';
+import Segments from "../components/app/features/Contacts/Segments.vue";
+import MyCampaigns from '../components/app/features/Campaigns/MyCampaigns.vue';
+import NewCampaign from '../components/app/features/Campaigns/NewCampaign/Index.vue';
+import CodeInstallationSettings from '../components/app/features/Settings/CodeInstallation.vue';
+import NotificationSettings from '../components/app/features/Settings/Notifications.vue';
 // import UserDetails from '../components/forms/register/UserDetailsStepForm.vue';
 // import UserGoals from '../components/forms/register/UserGoalsStepForm.vue';
 // import BusinessInfo from '../components/forms/register/BusinessInfoStepForm.vue';
 // import DefaultEmailId from '../components/forms/register/DefaultEmailIdStepForm.vue';
+import CustomComponent from '../components/TestComponents/CustomComponent.vue';
 Vue.use(VueRouter)
 
 const routes = [
@@ -73,9 +83,19 @@ const routes = [
             component: MyContacts
           },
           {
+            path: 'contact-details',
+            name: 'app.contacts.contact-details',
+            component: ContactDetails,
+          },
+          {
             path: 'lists',
             name: 'app.contacts.lists',
             component: ContactsList
+          },
+          {
+            path: 'segments',
+            name: 'app.contacts.segments',
+            component: Segments
           }
         ]
       },
@@ -90,24 +110,40 @@ const routes = [
         component: CampaignsPage,
         children: [
           {
+            path: '',
+            name: 'app.campaigns',
+            redirect: 'my-campaigns'
+          },
+          {
+            path: 'my-campaigns',
+            name: 'app.campaigns.my-campaigns',
+            component: MyCampaigns
+          },
+          {
+            path: 'email-templates',
+            name: "app.campaigns.email-templates",
+            component: EmailTemplates
+          },
+          {
             path: 'new',
-            name: 'app.campaign.new',
+            name: 'app.campaigns.new',
+            component: NewCampaign
           },
           {
             path: 'select-list',
-            name: 'app.campaign.select-list',
+            name: 'app.campaigns.select-list',
           },
           {
             path: 'email-setup',
-            name: 'app.campaign.email-setup'
+            name: 'app.campaigns.email-setup'
           },
           {
             path: 'schedule',
-            name: 'app.campaign.schedule'
+            name: 'app.campaigns.schedule'
           },
           {
             path: 'automation',
-            name: 'app.campaign.automation'
+            name: 'app.campaigns.automation'
           }
         ]
       },
@@ -118,7 +154,7 @@ const routes = [
           {
             path: '',
             name: 'app.targeting',
-            redirect: 'events'
+            redirect: 'targeting'
           },
           {
             path: 'targeting',
@@ -160,8 +196,35 @@ const routes = [
       },
       {
         path: 'settings',
-        name: 'app.settings',
         component: SettingsPage,
+        children: [
+          {
+            path: '',
+            name: "app.settings",
+            redirect: 'code-install'
+          },
+          {
+            path: "code-install",
+            name: "app.settings.codeInstallation",
+            component: CodeInstallationSettings
+          },
+          {
+            path: "notifications",
+            name: "app.settings.notifications",
+            component: NotificationSettings
+          }
+        ]
+      },
+      {
+        path: "assistant",
+        component: StartupAssistantPage,
+        children: [
+          {
+            path: '',
+            name: 'app.assistant',
+            component: StartupAssistant
+          }
+        ]
       }
     ]
   },
@@ -182,6 +245,11 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: CustomComponent
   }
 ]
 

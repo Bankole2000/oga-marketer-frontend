@@ -1,10 +1,6 @@
 <template>
   <div class="app-nav">
-    <v-navigation-drawer
-      permanent
-      app
-      class="gradient"
-    >
+    <v-navigation-drawer permanent app class="gradient">
       <div
         style="
           min-height: 70px;
@@ -17,7 +13,7 @@
         <DynamicIcon />
       </div>
       <v-divider />
-      <div>
+      <div class="d-flex flex-column" style="height: calc(100% - 71px)">
         <div>
           <div
             style="display: flex; flex-direction: column; min-height: 88px"
@@ -30,10 +26,7 @@
             >
               &nbsp;
             </div>
-            <div
-              style="flex: 4"
-              class="gradient pl-4"
-            >
+            <div style="flex: 4" class="gradient pl-4">
               <div
                 style="
                   display: flex;
@@ -48,7 +41,7 @@
                     ? 'rounded-tl-xl rounded-bl-xl white primary--text'
                     : 'white--text'
                 "
-                @click="$router.push({ name: 'app.dashboard' })"
+                @click="$router.push({ name: 'app.dashboard' }).catch(() => {})"
               >
                 <v-icon
                   :color="isActiveRoute('app.dashboard') ? 'primary' : 'white'"
@@ -96,7 +89,7 @@
             <div
               style="flex: 4; cursor: pointer; transition: all 0.2s ease"
               class="gradient pl-4"
-              @click="$router.push({ name: item.route })"
+              @click="$router.push({ name: item.route }).catch(() => {})"
             >
               <div
                 style="
@@ -133,10 +126,7 @@
             </div>
           </div>
           <div class="px-4">
-            <v-divider
-              class="primary lighten-1"
-              :class="isActiveRoute('app.targeting') ? 'my-5' : 'my-5'"
-            />
+            <v-divider class="primary lighten-1 my-5" />
           </div>
           <div
             v-for="(item, j) in otherNavItems"
@@ -162,7 +152,7 @@
               style="flex: 4; cursor: pointer; transition: all 0.2s ease"
               class="gradient pl-4"
               :class="isActiveRoute(item.route) ? 'py-0' : 'py-2'"
-              @click="$router.push({ name: item.route })"
+              @click="$router.push({ name: item.route }).catch(() => {})"
             >
               <div
                 style="
@@ -199,6 +189,119 @@
               </div>
             </v-expand-transition>
           </div>
+        </div>
+        <v-spacer></v-spacer>
+        <div
+          v-for="item in bottomNavItems"
+          :key="item.title"
+          style="
+            display: flex;
+            flex-direction: column;
+            transition: all 0.2s ease;
+          "
+          class="white"
+        >
+          <div
+            v-show="isActiveRoute(item.route)"
+            style="flex: 1; transition: all 0.2s ease"
+            :class="{ 'rounded-br-xl': isActiveRoute(item.route) }"
+            class="gradient"
+          >
+            &nbsp;
+          </div>
+
+          <div
+            style="flex: 4; cursor: pointer; transition: all 0.2s ease"
+            class="gradient pl-4"
+            @click="$router.push({ name: item.route }).catch(() => {})"
+          >
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                transition: all 0.2s ease;
+              "
+              class="px-4 py-2"
+              :class="
+                isActiveRoute(item.route)
+                  ? 'rounded-tl-xl rounded-bl-xl white primary--text elevated-light'
+                  : 'white--text my-2'
+              "
+            >
+              <v-icon
+                :color="isActiveRoute(item.route) ? 'primary' : 'white'"
+                class="mr-4 mb-1"
+                size="20"
+              >
+                {{ item.icon }}
+              </v-icon>
+              {{ item.title }}
+            </div>
+          </div>
+
+          <div
+            v-show="isActiveRoute(item.route)"
+            style="flex: 1; transition: all 0.2s ease"
+            :class="{ 'rounded-tr-xl': isActiveRoute(item.route) }"
+            class="gradient"
+          >
+            &nbsp;
+          </div>
+        </div>
+        <div class="px-4">
+          <v-divider class="primary lighten-1 my-5" />
+        </div>
+        <div
+          v-for="(item, j) in lastNavItems"
+          :key="j"
+          style="
+            display: flex;
+            flex-direction: column;
+            transition: all 0.2s ease;
+          "
+          class="white"
+        >
+          <div
+            style="flex: 4; cursor: pointer; transition: all 0.2s ease"
+            class="gradient pl-4"
+            :class="isActiveRoute(item.route) ? 'py-2' : 'py-2'"
+            @click="$router.push({ name: item.route }).catch(() => {})"
+          >
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                transition: all 0.2s ease;
+              "
+              class="px-4 pb-4 pt-0"
+              :class="
+                isActiveRoute(item.route)
+                  ? 'rounded-tl-xl rounded-bl-xl white primary--text'
+                  : 'white--text'
+              "
+            >
+              <v-icon
+                :color="isActiveRoute(item.route) ? 'primary' : 'white'"
+                class="mr-4 mb-1"
+                size="20"
+              >
+                {{ item.icon }}
+              </v-icon>
+              {{ item.title }}
+            </div>
+          </div>
+          <v-expand-transition>
+            <div
+              v-show="isActiveRoute(item.route)"
+              style="flex: 1; transition: all 0.2s ease"
+              :class="{ 'rounded-tr-xl': isActiveRoute(item.route) }"
+              class="gradient"
+            >
+              &nbsp;
+            </div>
+          </v-expand-transition>
         </div>
       </div>
     </v-navigation-drawer>
@@ -239,7 +342,7 @@ export default {
         {
           title: "Campaign",
           icon: "mdi-bullhorn",
-          route: "app.campaign",
+          route: "app.campaigns",
         },
         {
           title: "Targeting",
@@ -251,6 +354,20 @@ export default {
         { title: "Dashboard", icon: "mdi-view-dashboard" },
         { title: "Photos", icon: "mdi-image" },
         { title: "About", icon: "mdi-help-box" },
+      ],
+      bottomNavItems: [
+        {
+          title: "Startup Assistant",
+          icon: "mdi-check-circle",
+          route: "app.assistant",
+        },
+      ],
+      lastNavItems: [
+        {
+          title: "Logout",
+          icon: "mdi-power",
+          route: "app.logout",
+        },
       ],
       right: null,
     };

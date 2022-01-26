@@ -3,22 +3,18 @@
     <v-avatar
       :size="size"
       :class="addClasses"
-      
       class="elevated-light"
       :color="!imgSrc ? 'secondary' : ''"
       :style="addStyles"
     >
-      <img
-        v-if="imgSrc"
-        :src="imgSrc"
-        alt="John"
-      >
+      <img v-if="imgSrc" :src="imgSrc" alt="John" />
       <span
         v-else-if="firstname || lastname"
         :style="{ fontSize: `${Math.floor(size / 2)}px` }"
         class="white--text"
-      >{{ firstname ? firstname[0].toUpperCase() : ""
-      }}{{ lastname ? lastname[0].toUpperCase() : "" }}</span>
+        >{{ firstname ? firstname[0].toUpperCase() : ""
+        }}{{ lastname ? lastname[0].toUpperCase() : "" }}</span
+      >
       <img
         v-else
         :src="
@@ -27,7 +23,7 @@
           }`)
         "
         alt="John"
-      >
+      />
     </v-avatar>
   </div>
 </template>
@@ -53,16 +49,16 @@ export default {
     },
     addClasses: {
       type: String,
-      default: ''
-    }, 
+      default: "",
+    },
     addStyles: {
-      type: Object, 
-      default: () => ({})
-    }, 
+      type: Object,
+      default: () => ({}),
+    },
     localSrc: {
-      type: String, 
-      default: '',
-    }
+      type: String,
+      default: "",
+    },
   },
   data() {
     return {

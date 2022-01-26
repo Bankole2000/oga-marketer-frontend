@@ -5,12 +5,8 @@
         Good morning, Timothy
       </p>
       <v-spacer />
-      <v-btn
-        class="gradient curved white--text text-capitalize"
-      >
-        <v-icon left>
-          mdi-help-circle-outline
-        </v-icon>Help
+      <v-btn class="gradient curved white--text text-capitalize">
+        <v-icon left> mdi-help-circle-outline </v-icon>Help
       </v-btn>
     </div>
     <v-container>
@@ -18,37 +14,20 @@
         <v-col cols="12">
           <v-tabs v-model="tab">
             <v-tabs-slider color="accent" />
-            <v-tab class="text-capitalize text-h6">
-              Overview
-            </v-tab>
-            <v-tab class="text-capitalize text-h6">
-              Activities
-            </v-tab>
+            <v-tab class="text-capitalize text-h6"> Overview </v-tab>
+            <v-tab class="text-capitalize text-h6"> Activities </v-tab>
           </v-tabs>
           <v-divider />
-          <v-tabs-items
-            v-model="tab"
-            style="min-height: calc(100vh - 200px)"
-          >
+          <v-tabs-items v-model="tab" style="min-height: calc(100vh - 200px)">
             <v-tab-item>
               <v-container class="px-1">
                 <v-row>
-                  <v-col
-                    cols="12"
-                    sm="6"
-                  >
-                    <v-card
-                      flat
-                      class="rounded-lg elevated-light px-2 py-1"
-                    >
+                  <v-col cols="12" sm="6">
+                    <v-card flat class="rounded-lg elevated-light px-2 py-1">
                       <v-card-title class="d-flex pb-0">
-                        <div
-                          style="flex-grow: 1"
-                          class="pr-16"
-                        >
-                          <v-icon class="mr-4">
-                            mdi-bullseye
-                          </v-icon> Targetting
+                        <div style="flex-grow: 1" class="pr-16">
+                          <v-icon class="mr-4"> mdi-bullseye </v-icon>
+                          Targetting
                           <v-divider class="bg-primary-lt mt-1" />
                         </div>
 
@@ -57,10 +36,7 @@
                           style="background-color: var(--primary-light)"
                         >
                           <v-avatar left>
-                            <v-icon
-                              color="primary"
-                              size="24"
-                            >
+                            <v-icon color="primary" size="24">
                               mdi-plus
                             </v-icon>
                           </v-avatar>
@@ -89,7 +65,7 @@
                               color="accent"
                             >
                               <p class="mb-0 caption text-center">
-                                32% <br>
+                                32% <br />
                                 Conversions
                               </p>
                             </v-progress-circular>
@@ -102,14 +78,9 @@
                               >
                                 mdi-circle
                               </v-icon>
-                              <p class="mb-0 caption mr-1">
-                                Conversions
-                              </p>
+                              <p class="mb-0 caption mr-1">Conversions</p>
                               <v-spacer />
-                              <p
-                                class="mb-n1"
-                                style="font-size: 8px"
-                              >
+                              <p class="mb-n1" style="font-size: 8px">
                                 32 Visitors
                               </p>
                             </div>
@@ -122,14 +93,9 @@
                               >
                                 mdi-circle
                               </v-icon>
-                              <p class="mb-0 caption mr-1">
-                                Impressions
-                              </p>
+                              <p class="mb-0 caption mr-1">Impressions</p>
                               <v-spacer />
-                              <p
-                                class="mb-n1"
-                                style="font-size: 8px"
-                              >
+                              <p class="mb-n1" style="font-size: 8px">
                                 142 Visitors
                               </p>
                             </div>
@@ -140,14 +106,9 @@
                           </v-card>
                         </v-col>
                         <v-col cols="6">
-                          <div
-                            v-for="i in 6"
-                            :key="i"
-                          >
+                          <div v-for="i in 6" :key="i">
                             <div class="d-flex align-end">
-                              <p class="mb-0">
-                                First time visitors
-                              </p>
+                              <p class="mb-0">First time visitors</p>
                               <v-spacer />
                               <small class="mb-0 caption">domain.co.uk</small>
                             </div>
@@ -185,22 +146,11 @@
                       </v-row>
                     </v-card>
                   </v-col>
-                  <v-col
-                    cols="12"
-                    sm="6"
-                  >
-                    <v-card
-                      flat
-                      class="elevated-light rounded-lg px-2 py-1"
-                    >
+                  <v-col cols="12" sm="6">
+                    <v-card flat class="elevated-light rounded-lg px-2 py-1">
                       <v-card-title class="d-flex pb-0">
-                        <div
-                          style="flex-grow: 1"
-                          class="pr-16"
-                        >
-                          <v-icon class="mr-4">
-                            mdi-bullhorn
-                          </v-icon> Campaigns
+                        <div style="flex-grow: 1" class="pr-16">
+                          <v-icon class="mr-4"> mdi-bullhorn </v-icon> Campaigns
                           <v-divider class="bg-primary-lt mt-1" />
                         </div>
 
@@ -209,10 +159,7 @@
                           style="background-color: var(--primary-light)"
                         >
                           <v-avatar left>
-                            <v-icon
-                              color="primary"
-                              size="24"
-                            >
+                            <v-icon color="primary" size="24">
                               mdi-plus
                             </v-icon>
                           </v-avatar>
@@ -221,10 +168,7 @@
                       </v-card-title>
                       <v-row class="ma-0 pa-0">
                         <v-col cols="12">
-                          <div
-                            v-for="(item, i) in campaignStatuses"
-                            :key="i"
-                          >
+                          <div v-for="(item, i) in campaignStatuses" :key="i">
                             <div class="d-flex align-end">
                               <p class="mb-0 truncate">
                                 {{ campaignNames[i] }}
@@ -251,15 +195,10 @@
                 </v-row>
                 <v-row>
                   <v-col cols="8">
-                    <v-card>
+                    <v-card class="rounded-lg elevated-light">
                       <v-card-title class="d-flex pb-0">
-                        <div
-                          style="flex-grow: 1"
-                          class="pr-16"
-                        >
-                          <v-icon class="mr-4">
-                            mdi-gesture-double-tap
-                          </v-icon>
+                        <div style="flex-grow: 1" class="pr-16">
+                          <v-icon class="mr-4"> mdi-gesture-double-tap </v-icon>
                           Engagements
                           <v-divider class="bg-primary-lt mt-1" />
                         </div>
@@ -281,15 +220,16 @@
                           New Campaign
                         </v-chip> -->
                       </v-card-title>
+                      <v-card-text>
+                        <AreaChart :chartData="chart" :aspectRatio="1" />
+                      </v-card-text>
                     </v-card>
                   </v-col>
                   <v-col cols="4">
-                    <v-card>
+                    <v-card class="rounded-lg elevated-light">
                       <v-card-title class="d-flex pb-0">
                         <div style="flex-grow: 1">
-                          <v-icon class="mr-1">
-                            mdi-account-box
-                          </v-icon>
+                          <v-icon class="mr-1"> mdi-account-box </v-icon>
                           Contacts(21)
                           <v-divider class="bg-primary-lt mt-1" />
                         </div>
@@ -299,10 +239,7 @@
                           style="background-color: var(--primary-light)"
                         >
                           <v-avatar left>
-                            <v-icon
-                              color="primary"
-                              size="24"
-                            >
+                            <v-icon color="primary" size="24">
                               mdi-plus
                             </v-icon>
                           </v-avatar>
@@ -336,38 +273,22 @@
                             />
                           </v-col>
                         </v-row>
-                        <p class="subtitle-1 mb-0 mt-4">
-                          New Contacts (14)
-                        </p>
+                        <p class="subtitle-1 mb-0 mt-4">New Contacts (14)</p>
                         <v-row>
                           <v-col cols="12">
                             <div
-                              v-for="i in 2"
+                              v-for="i in 4"
                               :key="i"
                               class="d-flex align-center my-2"
                             >
                               <AvatarImage />
-                              <p class="mb-0 ml-4">
-                                Patrick porter
-                              </p>
+                              <p class="mb-0 ml-4">Patrick porter</p>
                               <v-spacer />
-                              <v-btn
-                                icon
-                              >
-                                <v-icon
-                                  color="success"
-                                >
-                                  mdi-pencil
-                                </v-icon>
+                              <v-btn icon>
+                                <v-icon color="success"> mdi-pencil </v-icon>
                               </v-btn>
-                              <v-btn
-                                icon
-                              >
-                                <v-icon
-                                  color="error"
-                                >
-                                  mdi-trash-can
-                                </v-icon>
+                              <v-btn icon>
+                                <v-icon color="error"> mdi-trash-can </v-icon>
                               </v-btn>
                             </div>
                           </v-col>
@@ -379,7 +300,128 @@
               </v-container>
             </v-tab-item>
             <v-tab-item>
-              <p>Activities Tab</p>
+              <v-container>
+                <v-row>
+                  <v-col cols="4">
+                    <v-card class="rounded-lg elevated-light">
+                      <v-card-title class="d-flex pb-0">
+                        <div style="flex-grow: 1" class="pr-16">
+                          <v-icon class="mr-4"> mdi-bullseye </v-icon>
+                          Targetting
+                          <v-divider class="bg-primary-lt mt-1" />
+                        </div>
+
+                        <v-chip
+                          class="primary--text"
+                          style="background-color: var(--primary-light)"
+                        >
+                          <v-avatar left>
+                            <v-icon color="primary" size="24">
+                              mdi-plus
+                            </v-icon>
+                          </v-avatar>
+                          New
+                        </v-chip>
+                      </v-card-title>
+                      <v-card-text class="py-4 px-5">
+                        <div v-for="i in 5" :key="i">
+                          <v-row>
+                            <v-col cols="3" class="pr-0">04:25pm</v-col>
+                            <v-col cols="9" class="pl-0">
+                              <p class="font-weight-bold mb-1">
+                                Fermemtum Lectus
+                              </p>
+                              <p class="mb-2">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Eaque non ad fugiat reiciendis
+                                commodi reprehenderit possimus!
+                              </p>
+                            </v-col>
+                          </v-row>
+                        </div>
+                      </v-card-text>
+                    </v-card>
+                  </v-col>
+                  <v-col cols="4">
+                    <v-card class="rounded-lg elevated-light">
+                      <v-card-title class="d-flex pb-0">
+                        <div style="flex-grow: 1" class="pr-16">
+                          <v-icon class="mr-4"> mdi-bullhorn </v-icon> Campaigns
+                          <v-divider class="bg-primary-lt mt-1" />
+                        </div>
+
+                        <v-chip
+                          class="primary--text"
+                          style="background-color: var(--primary-light)"
+                        >
+                          <v-avatar left>
+                            <v-icon color="primary" size="24">
+                              mdi-plus
+                            </v-icon>
+                          </v-avatar>
+                          New
+                        </v-chip>
+                      </v-card-title>
+                      <v-card-text class="py-4 px-5">
+                        <div v-for="i in 5" :key="i">
+                          <v-row>
+                            <v-col cols="3" class="pr-0">04:25pm</v-col>
+                            <v-col cols="9" class="pl-0">
+                              <p class="font-weight-bold mb-1">
+                                Fermemtum Lectus
+                              </p>
+                              <p class="mb-2">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Eaque non ad fugiat reiciendis
+                                commodi reprehenderit possimus!
+                              </p>
+                            </v-col>
+                          </v-row>
+                        </div>
+                      </v-card-text>
+                    </v-card>
+                  </v-col>
+                  <v-col cols="4">
+                    <v-card class="rounded-lg elevated-light">
+                      <v-card-title class="d-flex pb-0">
+                        <div style="flex-grow: 1" class="pr-16">
+                          <v-icon class="mr-4"> mdi-send </v-icon> Emails
+                          <v-divider class="bg-primary-lt mt-1" />
+                        </div>
+
+                        <v-chip
+                          class="primary--text"
+                          style="background-color: var(--primary-light)"
+                        >
+                          <v-avatar left>
+                            <v-icon color="primary" size="24">
+                              mdi-plus
+                            </v-icon>
+                          </v-avatar>
+                          New
+                        </v-chip>
+                      </v-card-title>
+                      <v-card-text class="py-4 px-5">
+                        <div v-for="i in 5" :key="i">
+                          <v-row>
+                            <v-col cols="3" class="pr-0">04:25pm</v-col>
+                            <v-col cols="9" class="pl-0">
+                              <p class="font-weight-bold mb-1">
+                                Fermemtum Lectus
+                              </p>
+                              <p class="mb-2">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Eaque non ad fugiat reiciendis
+                                commodi reprehenderit possimus!
+                              </p>
+                            </v-col>
+                          </v-row>
+                        </div>
+                      </v-card-text>
+                    </v-card>
+                  </v-col>
+                </v-row>
+              </v-container>
             </v-tab-item>
           </v-tabs-items>
         </v-col>
@@ -390,11 +432,14 @@
 
 <script>
 import AvatarImage from "../blocks/AvatarImage.vue";
+import AreaChart from "../blocks/charts/AreaChart.vue";
 import MetricCard from "../blocks/MetricCard.vue";
+import chart from "@/data/chartData.js";
 export default {
   components: {
     MetricCard,
     AvatarImage,
+    AreaChart,
   },
   data() {
     return {
@@ -420,6 +465,7 @@ export default {
         draft: "",
         inactive: "accent",
       },
+      chart,
     };
   },
   beforeRouteEnter(to, from, next) {

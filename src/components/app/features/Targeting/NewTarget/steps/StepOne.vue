@@ -146,7 +146,9 @@ export default {
     onBackSelect() {
       switch (this.window) {
         case 1:
-          this.$router.push({ name: "app.targeting.targeting" });
+          this.$router
+            .push({ name: "app.targeting.targeting" })
+            .catch(() => {});
           break;
         case 2:
           this.window--;
