@@ -54,7 +54,7 @@ export default {
   scrollbar-width: thin;
   /* scrollbar-color: rgba(155, 155, 155, 0.5) transparent; */
   scrollbar-color: transparent;
-  transition: all 0.2s;
+  /* transition: all 0.2s; */
 }
 
 *:hover {

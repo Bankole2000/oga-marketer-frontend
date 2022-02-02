@@ -57,25 +57,40 @@
           List
         </v-btn>
       </v-btn-toggle>
-      <v-btn class="gradient curved white--text text-capitalize">
-        <v-icon left> mdi-help-circle-outline </v-icon>Help
-      </v-btn>
+      <v-tooltip top>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            v-bind="attrs"
+            v-on="on"
+            class="gradient curved white--text text-capitalize"
+          >
+            <v-icon left> mdi-information-outline </v-icon>Info
+          </v-btn>
+        </template>
+        <span>Learn more about managing your contacts</span>
+      </v-tooltip>
     </div>
     <v-container class="my-4" v-if="toggleViewMode == 'grid'">
       <v-row>
-        <v-col v-for="(contact, i) in contacts" :key="i" cols="4">
+        <v-col v-for="(contact, i) in pageContacts" :key="i" cols="4">
           <ContactCard @click="contactClicked(contact.id)" :contact="contact" />
         </v-col>
       </v-row>
+    </v-container>
+    <ContactListTable v-else :contacts="pageContacts" />
+    <v-container>
       <v-row>
         <v-col cols="12">
           <div class="text-center">
-            <v-pagination v-model="page" :length="4" circle />
+            <v-pagination
+              v-model="page"
+              :length="Math.ceil(contacts.length / noPerPage)"
+              circle
+            />
           </div>
         </v-col>
       </v-row>
     </v-container>
-    <ContactListTable v-else />
     <AddNewContactModal ref="addNewContactModal" />
     <ImportContactsFromFileModal ref="importContactsFromFileModal" />
   </div>
@@ -88,7 +103,7 @@ import ImportContactsFromFileModal from "./modals/ImportContactsFromFileModal.vu
 import ContactListTable from "./blocks/ContactListTable.vue";
 
 // Import Dummy Data
-import contacts from "@/data/contacts.json";
+import contacts from "@/data/mock_contacts.json";
 
 export default {
   components: {
@@ -102,6 +117,7 @@ export default {
       page: 1,
       toggleViewMode: "grid",
       contacts,
+      noPerPage: 12,
     };
   },
   methods: {
@@ -124,6 +140,20 @@ export default {
     showImportFromContactsModal() {
       console.log("show import from contacts modal");
       this.$refs.importContactsFromFileModal.show(true);
+    },
+  },
+  computed: {
+    pageContacts() {
+      if (this.contacts.length) {
+        const start = (this.page - 1) * this.noPerPage;
+        const end = start + this.noPerPage;
+        const contactsToShow = this.contacts.filter(
+          (contact, i) => i >= start && i < end
+        );
+        console.log({ contactsToShow });
+        return contactsToShow;
+      }
+      return [];
     },
   },
 };

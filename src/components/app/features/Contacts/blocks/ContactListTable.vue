@@ -22,7 +22,7 @@
             <v-flex md3 class="d-flex pl-2"> Tags </v-flex>
             <!-- <v-flex md2 class="d-flex pl-0"> Actions </v-flex> -->
           </v-layout>
-          <ContactListTableList />
+          <ContactListTableList :contacts="contacts" />
         </v-col>
       </v-row>
     </v-container>
@@ -31,7 +31,7 @@
 
 <script>
 import ContactListTableList from "./ContactListTableList.vue";
-export default { components: { ContactListTableList } };
+export default { components: { ContactListTableList }, props: ["contacts"] };
 </script>
 
 <style>

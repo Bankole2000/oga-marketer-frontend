@@ -6,7 +6,9 @@
         <v-checkbox />
       </v-flex>
       <v-flex xs2 class="d-flex">
-        <p class="mb-0 text-truncate">{{ contact.name }}</p>
+        <p class="mb-0 text-truncate">
+          {{ contact.first_name }} {{ contact.last_name }}
+        </p>
       </v-flex>
       <v-flex md2>
         <p class="mb-0 text-truncate">{{ contact.email }}</p>
@@ -16,7 +18,7 @@
       </v-flex>
       <v-flex md2>
         <p class="mb-0 text-truncate">
-          {{ contact.address.street }} {{ contact.address.city }}
+          {{ contact.location }} {{ contact.city }}
         </p>
       </v-flex>
       <v-flex md1 class="d-flex pl-0">
@@ -34,23 +36,24 @@
 
 <script>
 export default {
-  props: {
-    contact: {
-      type: Object,
-      default: () => ({
-        id: 999,
-        name: "Jane Doe",
-        phone: "+123(0)8012345678",
-        email: "contact@email.com",
-        profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-        labels: ["Label 1", "Label 2"],
-        address: {
-          street: "Maple Street",
-          city: "Gotham City",
-        },
-      }),
-    },
-  },
+  props: ["contact"],
+  // props: {
+  //   contact: {
+  //     type: Object,
+  //     default: () => ({
+  //       id: 999,
+  //       name: "Jane Doe",
+  //       phone: "+123(0)8012345678",
+  //       email: "contact@email.com",
+  //       profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
+  //       labels: ["Label 1", "Label 2"],
+  //       address: {
+  //         street: "Maple Street",
+  //         city: "Gotham City",
+  //       },
+  //     }),
+  //   },
+  // },
 };
 </script>
 

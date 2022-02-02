@@ -16,16 +16,17 @@
               class="mt-2"
               style="border: 2px solid"
             >
-              <v-img :aspect-ratio="1" :src="contact.profileImage" />
+              <v-img :aspect-ratio="1" :src="contact.profile_image" />
             </v-avatar>
           </div>
           <div style="width: 80%">
             <div class="d-flex align-center">
               <p
                 class="mb-0 p-18 p-color font-weight-bold text-truncate"
-                :title="contact.name"
+                :title="`${contact.first_name} ${contact.last_name}`"
               >
-                {{ contact.name }}
+                {{ contact.first_name }}
+                {{ contact.last_name }}
               </p>
               <v-spacer />
               <v-btn small icon class="mx-2" @click.stop="editContact">
@@ -38,7 +39,7 @@
             <p class="mb-0 p-16 p-color">{{ contact.phone }}</p>
             <p class="mb-0 p-16 p-color">{{ contact.email }}</p>
             <p class="mb-0 p-16 p-color">
-              {{ contact.address.street }} {{ contact.address.city }}
+              {{ contact.city }} {{ contact.country }}
             </p>
           </div>
         </div>
@@ -94,6 +95,9 @@ export default {
         email: "contact@email.com",
         profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
         labels: ["Label 1", "Label 2"],
+        location: "",
+        city: "",
+        country: "",
         address: {
           street: "Maple Street",
           city: "Gotham City",

@@ -5,9 +5,18 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn class="gradient curved white--text text-capitalize">
-        <v-icon left> mdi-help-circle-outline </v-icon>Help
-      </v-btn>
+      <v-tooltip top>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            v-bind="attrs"
+            v-on="on"
+            class="gradient curved white--text text-capitalize"
+          >
+            <v-icon left> mdi-information-outline </v-icon>Info
+          </v-btn>
+        </template>
+        <span>Learn more about Teams</span>
+      </v-tooltip>
     </div>
     <v-container>
       <v-row>

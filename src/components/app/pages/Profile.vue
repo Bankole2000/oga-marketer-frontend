@@ -4,9 +4,18 @@
       <p class="display-1 mb-0 grey--text text--darken-2">My Profile</p>
 
       <v-spacer></v-spacer>
-      <v-btn class="gradient curved white--text text-capitalize">
-        <v-icon left> mdi-help-circle-outline </v-icon>Help
-      </v-btn>
+      <v-tooltip top>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            v-bind="attrs"
+            v-on="on"
+            class="gradient curved white--text text-capitalize"
+          >
+            <v-icon left> mdi-information-outline </v-icon>Info
+          </v-btn>
+        </template>
+        <span>Learn more about Your Profile</span>
+      </v-tooltip>
     </div>
     <v-container class="mb-6">
       <v-row>

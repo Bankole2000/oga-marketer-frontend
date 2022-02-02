@@ -11,12 +11,13 @@
 <script>
 import ContactListTableItem from "./ContactListTableItem.vue";
 
-import contacts from "@/data/contacts.json";
+// import contacts from "@/data/contacts.json";
 export default {
   components: { ContactListTableItem },
+  props: ["contacts"],
   data() {
     return {
-      contacts,
+      // contacts,
     };
   },
 };

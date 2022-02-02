@@ -2,7 +2,7 @@
   <div class="contact-details">
     <div class="page-header px-8" style="max-height: 88px">
       <p class="display-1 mb-0 grey--text text--darken-2">
-        {{ contact.firstname }} {{ contact.lastname }}
+        {{ contact.first_name }} {{ contact.last_name }}
       </p>
       <v-divider vertical class="ma-4" />
       <v-card elevation="0" :class="`bg-primary-lt pa-0 my-2`">
@@ -12,7 +12,7 @@
             style="width: 100%; height: 100%; line-height: 1rem"
           >
             <p class="mb-1 text-h5 primary--text" style="line-height: 1rem">
-              23
+              {{ contact.customer_value }}
             </p>
             <p class="mb-0 caption text-center" style="line-height: 0.8rem">
               Cusomer <br />
@@ -28,7 +28,7 @@
             style="width: 100%; height: 100%; line-height: 1rem"
           >
             <p class="mb-1 text-h5 primary--text" style="line-height: 1rem">
-              45
+              {{ contact.response_value }}
             </p>
             <p class="mb-0 caption text-center" style="line-height: 0.8rem">
               Response <br />
@@ -45,7 +45,9 @@
         <v-icon color="primary lighten-2" style="cursor: pointer"
           >mdi-chevron-left</v-icon
         >
-        <span class="primary--text"> 1 / 14</span>
+        <span class="primary--text">
+          {{ currentContactIndex }} / {{ contactsCount }}</span
+        >
         <v-icon color="primary darken-2" style="cursor: pointer"
           >mdi-chevron-right</v-icon
         >
@@ -82,7 +84,7 @@
                     class="mt-2"
                     style="border: 2px solid"
                   >
-                    <v-img :aspect-ratio="1" :src="contact.profileImage" />
+                    <v-img :aspect-ratio="1" :src="contact.profile_image" />
                   </v-avatar>
                 </v-col>
                 <v-col cols="1" class="text-center">
@@ -92,11 +94,11 @@
                   <div class="d-flex align-center">
                     <div style="width: 50%">
                       <p class="caption mb-0">First Name</p>
-                      <p class="text-h5 mb-1">{{ contact.firstname }}</p>
+                      <p class="text-h5 mb-1">{{ contact.first_name }}</p>
                     </div>
                     <div style="width: 50%">
                       <p class="caption mb-0">Last Name</p>
-                      <p class="text-h5 mb-1">{{ contact.lastname }}</p>
+                      <p class="text-h5 mb-1">{{ contact.last_name }}</p>
                     </div>
                   </div>
                   <v-divider class="mb-4"></v-divider>
@@ -113,7 +115,7 @@
                   <div>
                     <p class="caption mb-0">Address</p>
                     <p class="text-h5 mb-1">
-                      {{ contact.address.street }}, {{ contact.address.city }}
+                      {{ contact.location }}, {{ contact.city }}
                     </p>
                   </div>
                   <v-divider class="mb-4"></v-divider>
@@ -324,27 +326,43 @@
 
 <script>
 // import MetricCard from "../../../blocks/MetricCard.vue";
-import contacts from "@/data/contacts.json";
+import contacts from "@/data/mock_contacts.json";
 export default {
   components: {
     // MetricCard,
   },
   data() {
     return {
-      contact: null,
+      contact: {},
     };
+  },
+  computed: {
+    contactsCount() {
+      return contacts.length;
+    },
+    currentContactIndex() {
+      return contacts.indexOf(this.contact) + 1;
+    },
+  },
+  methods: {
+    viewNextContact() {},
+    viewPreviousContact() {},
   },
   mounted() {
     console.log(this.$route.params);
     if (this.$route.params.id) {
       const contactId = this.$route.params.id;
+      const foundOtherContact = contacts.find(
+        (contact) => contact.id == contactId
+      );
+      console.log({ foundOtherContact });
       const foundContact = contacts.filter(
         (contact) => contact.id == contactId
       );
       this.contact = foundContact[0];
-      const names = this.contact.name.split(" ");
-      this.contact.firstname = names[0];
-      this.contact.lastname = names[1];
+      // const names = this.contact.name.split(" ");
+      // this.contact.firstname = names[0];
+      // this.contact.lastname = names[1];
       console.log({ contact: this.contact });
     }
   },
