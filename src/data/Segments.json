@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "User Experience",
+    "alias": "userex",
+    "labels": [
+      "Nooby",
+      "Fresh Meat",
+      "Beginner",
+      "Experienced",
+      "Super Advanced"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Brand Adoption",
+    "alias": "brandadopt",
+    "labels": [
+      "Non-Prescriber",
+      "Trialist",
+      "Prescriber",
+      "Advocate",
+      "Buyer",
+      "Dispenser",
+      "Non-Buyer",
+      "Non-Dispenser"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Personality Type",
+    "alias": "personality_type",
+    "labels": [
+      "Driver",
+      "Amiable",
+      "Analytical",
+      "Expressive"
+    ]
+  }
+]
