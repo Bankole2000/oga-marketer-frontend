@@ -34,6 +34,7 @@
               <v-spacer></v-spacer>
               <v-chip
                 class="primary--text"
+                @click="showNewSegmentForm"
                 style="background-color: var(--primary-light)"
               >
                 <v-avatar left>
@@ -70,6 +71,7 @@
                       <v-btn
                         v-bind="attrs"
                         v-on="on"
+                        @click="showNewLabelForm(segment)"
                         icon
                         small
                         class="mr-2"
@@ -84,6 +86,7 @@
                       <v-btn
                         v-bind="attrs"
                         v-on="on"
+                        @click="showEditSegmentForm(segment)"
                         icon
                         small
                         class="mr-2"
@@ -95,7 +98,7 @@
                   </v-tooltip>
                   <v-tooltip top>
                     <template v-slot:activator="{ on, attrs }">
-                      <v-btn v-bind="attrs" v-on="on" icon small color="error"
+                      <v-btn @click="confirmSegmentDelete(segment)" v-bind="attrs" v-on="on" icon small color="error"
                         ><v-icon>mdi-trash-can</v-icon></v-btn
                       >
                     </template>
@@ -121,7 +124,7 @@
                       </v-avatar>
                       {{ label }}
                       <v-slide-x-transition leave-absolute>
-                        <v-avatar @click="editLabel" v-show="hover" right>
+                        <v-avatar @click="editLabel(segment, label)" v-show="hover" right>
                           <v-tooltip top>
                             <template v-slot:activator="{ on, attrs }">
                               <v-btn v-bind="attrs" v-on="on" icon>
@@ -171,16 +174,16 @@
             <v-card-text>
               <v-window v-model="segmentFormStep">
                 <v-window-item :value="1">
-                  <NewSegmentForm />
+                  <NewSegmentForm @addSegment="addSegment" />
                 </v-window-item>
                 <v-window-item :value="2">
-                  <NewLabelForm />
+                  <NewLabelForm :segmentId="selectedSegment.id" :segments="segments" @addLabelToSegment="addLabelToSegment" @cancel="cancel" />
                 </v-window-item>
                 <v-window-item :value="3">
-                  <EditSegmentForm />
+                  <EditSegmentForm :id="selectedSegment.id" :segmentName="selectedSegment.name" :segmentAlias="selectedSegment.alias" @updateSegment="updateSegment" @cancel="cancel" />
                 </v-window-item>
                 <v-window-item :value="4">
-                  <EditLabelForm />
+                  <EditLabelForm :segments="segments" :segmentId="selectedSegment.id" :labelName="selectedLabel" :selectedLabelIndex="selectedLabelIndex" @cancel="cancel" />
                 </v-window-item>
               </v-window>
             </v-card-text>
@@ -188,6 +191,7 @@
         </v-col>
       </v-row>
     </v-container>
+    <DeleteSegmentWarningModal @confirmDelete="deleteSegment" :segment="selectedSegment ? selectedSegment: {}" ref="confirmSegmentDelete"/>
   </div>
 </template>
 
@@ -197,27 +201,86 @@ import NewSegmentForm from "./forms/NewSegmentForm.vue";
 import EditSegmentForm from "./forms/EditSegmentForm.vue";
 import NewLabelForm from "./forms/NewLabelForm.vue";
 import EditLabelForm from "./forms/EditLabelForm.vue";
+import DeleteSegmentWarningModal from './modals/DeleteSegmentWarningModal.vue';
 
 export default {
   data() {
     return {
       segments: segmentData,
       segmentFormStep: 1,
+      selectedSegment: {id: -1, name: "", alias: ""}, 
+      selectedLabel: null, 
+      selectedLabelIndex: null,
     };
   },
   methods: {
+    showDialog(ref, value){
+      this.$refs[ref].show(value);
+    },
+    confirmSegmentDelete(data){
+      console.log({data})
+      this.selectedSegment = data;
+      this.showDialog('confirmSegmentDelete', true)
+      // this.segments.splice(this.segments.indexOf(data), 1)
+    },
     deleteLabel(segment, label) {
       console.log({ segment, label });
-      // const index = segment.labels.indexOf(label);
-      // if (index > -1) {
-      //   segment.labels.splice(index, 1);
-      // }
+      const index = segment.labels.indexOf(label);
+      if (index > -1) {
+        segment.labels.splice(index, 1);
+      }
     },
-    editLabel() {
-      console.log("edit label");
+    deleteSegment(data){
+      console.log({data})
+      this.segments.splice(this.segments.indexOf(data), 1)
+      this.showDialog('confirmSegmentDelete', false)
     },
+    cancel(){
+      this.selectedSegment = {id: -1, name: "", alias: ""};
+      this.segmentFormStep = 1
+    },
+    editLabel(segment, label) {
+      console.log("edit label", {segment, label});
+      this.segmentFormStep = 4;
+      this.selectedSegment = segment
+      this.selectedLabel = label
+      this.selectedLabelIndex = segment.labels.indexOf(label)
+      console.log({selectedLabelIndex: this.selectedLabelIndex})
+    },
+    addSegment(data){
+      console.log({data});
+      const {newSegment} = data;
+      newSegment.id = this.segments.length
+      newSegment.labels = []
+      this.segments.push(newSegment)
+    },
+    updateSegment(data){
+      console.log({data});
+      this.segments.forEach(segment => {
+        if(segment.id == data.id){
+          segment.name = data.name
+          segment.alias = data.alias
+        }
+      });
+      this.cancel()
+    },
+    showNewLabelForm(segment){
+      console.log({segment})
+      this.selectedSegment = segment;
+      this.segmentFormStep = 2;
+    },
+    addLabelToSegment(data){
+      console.log({data})
+    },
+    showNewSegmentForm(){
+      this.segmentFormStep = 1;
+    },
+    showEditSegmentForm (segment){
+      this.selectedSegment = segment;
+      this.segmentFormStep = 3;
+    }
   },
-  components: { NewSegmentForm, EditSegmentForm, NewLabelForm, EditLabelForm },
+  components: { NewSegmentForm, EditSegmentForm, NewLabelForm, EditLabelForm, DeleteSegmentWarningModal },
 };
 </script>
 

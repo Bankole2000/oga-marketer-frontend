@@ -8,18 +8,18 @@
               <v-checkbox />
             </v-flex>
             <v-flex xs2 class="d-flex">
-              <p class="mb-0">Name</p>
+              <p class="mb-0 font-weight-bold">Name</p>
             </v-flex>
             <v-flex md2>
-              <p class="mb-0">Email</p>
+              <p class="mb-0 font-weight-bold">Email</p>
             </v-flex>
             <v-flex md2 class="d-flex">
-              <p class="mb-0">Telephone</p>
+              <p class="mb-0 font-weight-bold">Telephone</p>
             </v-flex>
             <v-flex md2>
-              <p class="mb-0">Address</p>
+              <p class="mb-0 font-weight-bold">Address</p>
             </v-flex>
-            <v-flex md3 class="d-flex pl-2"> Tags </v-flex>
+            <v-flex md3 class="d-flex pl-2 font-weight-bold"> Tags </v-flex>
             <!-- <v-flex md2 class="d-flex pl-0"> Actions </v-flex> -->
           </v-layout>
           <ContactListTableList :contacts="contacts" />

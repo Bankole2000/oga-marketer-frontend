@@ -7,7 +7,7 @@ import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
 import "./assets/css/styles.css";
 
-
+require('./filters')
 import Vue2Editor from "vue2-editor";
 Vue.use(Vue2Editor);
 

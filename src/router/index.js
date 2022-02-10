@@ -29,6 +29,9 @@ import MyCampaigns from '../components/app/features/Campaigns/MyCampaigns.vue';
 import NewCampaign from '../components/app/features/Campaigns/NewCampaign/Index.vue';
 import CodeInstallationSettings from '../components/app/features/Settings/CodeInstallation.vue';
 import NotificationSettings from '../components/app/features/Settings/Notifications.vue';
+import MyProfile from '../components/app/features/Profile/MyProfile.vue';
+import AccountCards from '../components/app/features/Profile/AccountCards.vue';
+import BillingHistory from '../components/app/features/Profile/BillingHistory.vue'
 // import UserDetails from '../components/forms/register/UserDetailsStepForm.vue';
 // import UserGoals from '../components/forms/register/UserGoalsStepForm.vue';
 // import BusinessInfo from '../components/forms/register/BusinessInfoStepForm.vue';
@@ -191,8 +194,29 @@ const routes = [
       },
       {
         path: 'profile',
-        name: 'app.profile',
         component: ProfilePage,
+        children: [
+          {
+            path: '',
+            name: "app.profile",
+            redirect: 'my-profile'
+          }, 
+          {
+            path: "my-profile",
+            name: 'app.profile.my-profile',
+            component: MyProfile,
+          },
+          {
+            path: 'cards',
+            name: "app.profile.cards",
+            component: AccountCards
+          },
+          {
+            path: 'billings',
+            name: 'app.profile.billing',
+            component: BillingHistory
+          }
+        ]
       },
       {
         path: 'settings',

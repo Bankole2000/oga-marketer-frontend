@@ -18,7 +18,7 @@ export default {
     return {
       subroutes: [
         { title: "My Contacts", route: "app.contacts.my-contacts" },
-        { title: "Lists", route: "app.contacts.lists" },
+        { title: "Contact Lists", route: "app.contacts.lists" },
         { title: "Segments & Labels", route: "app.contacts.segments" },
       ],
     };
