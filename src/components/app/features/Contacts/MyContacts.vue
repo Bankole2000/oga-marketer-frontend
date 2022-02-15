@@ -72,19 +72,24 @@
     </div>
     <v-container class="my-4" v-if="toggleViewMode == 'grid'">
       <v-row>
-        <v-col v-for="(contact, i) in pageContacts" :key="i" cols="4">
+        <v-col v-for="(contact, i) in contacts" :key="i" cols="4">
           <ContactCard @click="contactClicked(contact.id)" :contact="contact" />
         </v-col>
       </v-row>
     </v-container>
-    <ContactListTable v-else :contacts="pageContacts" />
+    <ContactListTable v-else :contacts="contacts" />
     <v-container>
       <v-row>
         <v-col cols="12">
           <div class="text-center">
+              <!-- @next="nextPage"
+              @progress="progress"
+              @previous="previous"
+              @input="input" -->
             <v-pagination
               v-model="page"
-              :length="Math.ceil(contacts.length / noPerPage)"
+              :length="Math.ceil(totalCount / limit)"
+              :total-visible="7"
               circle
             />
           </div>
@@ -97,13 +102,14 @@
 </template>
 
 <script>
+import API from "@/api/";
 import ContactCard from "./blocks/ContactCard.vue";
 import AddNewContactModal from "./modals/AddNewContactModal.vue";
 import ImportContactsFromFileModal from "./modals/ImportContactsFromFileModal.vue";
 import ContactListTable from "./blocks/ContactListTable.vue";
 
 // Import Dummy Data
-import contacts from "@/data/mock_contacts.json";
+// import contacts from "@/data/mock_contacts.json";
 
 export default {
   components: {
@@ -116,11 +122,28 @@ export default {
     return {
       page: 1,
       toggleViewMode: "grid",
-      contacts,
-      noPerPage: 12,
+      contacts: [],
+      totalCount : 0,
+      limit: 12,
     };
   },
+  watch: {
+    page(newValue){
+      // console.log({newValue})
+      this.getContacts(newValue)
+    }
+  },
   methods: {
+    async getContacts(page = 1, limit = 12){
+      try {
+        const {data, headers} = await API.Account.Contacts.getContacts(page, limit)
+        console.log({data})
+        this.contacts = data
+        this.totalCount = headers['x-total-count'];
+      } catch (error) {
+        console.log({error})
+      }
+    },
     changeViewMode(e) {
       console.log({ e, value: this.toggleViewMode });
     },
@@ -141,6 +164,18 @@ export default {
       console.log("show import from contacts modal");
       this.$refs.importContactsFromFileModal.show(true);
     },
+    // nextPage(e){
+    //   console.log({e}, 'Next Page')
+    // },
+    // progress(e){
+    //   console.log({e}, 'Progress')
+    // },
+    // previous(e){
+    //   console.log({e}, 'Previous Page');
+    // },
+    // input(e){
+    //   console.log({e}, 'Pagination Input')
+    // }
   },
   computed: {
     pageContacts() {
@@ -156,6 +191,9 @@ export default {
       return [];
     },
   },
+  async mounted(){
+    await this.getContacts(this.page, this.limit)
+  }
 };
 </script>
 

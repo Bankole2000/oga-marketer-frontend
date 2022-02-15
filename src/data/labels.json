@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1, 
+    "segmentId": 1, 
+    "name": "Nooby"
+  },
+  {
+    "id": 2, 
+    "segmentId": 1, 
+    "name": "Fresh Meat"
+  },
+  {
+    "id": 3, 
+    "segmentId": 1, 
+    "name": "Beginners"
+  },
+  {
+    "id": 4, 
+    "segmentId": 1, 
+    "name": "Experienced"
+  },
+  {
+    "id": 5, 
+    "segmentId": 1,
+    "name": "Super Advanced"
+  }, 
+  {
+    "id": 6, 
+    "segmentId": 2, 
+    "name": "Non-Prescriber"
+  },
+  {
+    "id": 7, 
+    "segmentId": 2, 
+    "name": "Trialist"
+  },
+  {
+    "id": 8, 
+    "segmentId": 2, 
+    "name": "Prescriber"
+  },
+  {
+    "id": 9, 
+    "segmentId": 2, 
+    "name": "Advocate"
+  },
+  {
+    "id": 10, 
+    "segmentId": 2, 
+    "name": "Buyer"
+  },
+  {
+    "id": 11, 
+    "segmentId": 2, 
+    "name": "Dispenser"
+  },
+  {
+    "id": 12, 
+    "segmentId": 2, 
+    "name": "Non-Buyer"
+  },
+  {
+    "id": 13, 
+    "segmentId": 2, 
+    "name": "Non-Dispenser"
+  },
+  {
+    "id": 14, 
+    "segmentId": 3, 
+    "name": "Driver"
+  },
+  {
+    "id": 15, 
+    "segmentId": 3, 
+    "name": "Amiable"
+  },
+  {
+    "id": 16, 
+    "segmentId": 3, 
+    "name": "Analytical"
+  },
+  {
+    "id": 17, 
+    "segmentId": 3, 
+    "name": "Expressive"
+  }
+]

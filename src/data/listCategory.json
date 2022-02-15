@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Oga Survey Lists", 
+    "description": "Contacts from Oga Survey Campaign"
+  }, 
+  {
+    "id": 2, 
+    "name": "Tracker Goal Form Lists",
+    "description":"Lists from Tracker Goals Forms"
+  }, 
+  {
+    "id": 3, 
+    "name": "Uploaded Lists",
+    "description":"Lists from Excel CSVs"
+  }
+]

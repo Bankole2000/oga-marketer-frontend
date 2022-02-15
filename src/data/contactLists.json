@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1, 
+    "name": "Pharmacy CRM", 
+    "categoryId": 1
+  }, 
+  {
+    "id": 2, 
+    "name": "Staff of Samsung", 
+    "categoryId": 2
+  }, 
+  {
+    "id": 3, 
+    "name": "Budget 2018", 
+    "categoryId": 1
+  },
+  {
+    "id": 4, 
+    "name": "Marketing Automation", 
+    "categoryId": 1
+  }, 
+  {
+    "id": 5, 
+    "name": "Post UME", 
+    "categoryId": 3
+  }, 
+  {
+    "id": 6, 
+    "name": "Consultants", 
+    "categoryId": 1
+  }, 
+  {
+    "id": 7, 
+    "name": "Students", 
+    "categoryId": 3
+  }, 
+  {
+    "id": 8, 
+    "name": "Customer CRM", 
+    "categoryId": 2
+  }, 
+  {
+    "id": 9, 
+    "name": "Travel Clicks", 
+    "categoryId": 3
+  }, 
+  {
+    "id": 10, 
+    "name": "Most Active", 
+    "categoryId": 1
+  }, 
+  {
+    "id": 11, 
+    "name": "Seller Point", 
+    "categoryId": 2
+  }
+]
