@@ -3,6 +3,16 @@
     <transition name="router-anim">
       <router-view />
     </transition>
+    <v-overlay :value="overlay" absolute :opacity="0.8" style="padding-left: 0px;">
+      <v-row>
+        <div class="d-flex flex-column justify-center">
+        <p class="font-weight-bold display-1 text-center">Campaings Coming Soon...!</p>
+        <div style="max-width: 50vw;">
+          <video :src="require('@/assets/video/demo.mp4')" style="width: 40vw;" controls></video>
+        </div>
+        </div>
+      </v-row>
+    </v-overlay>
   </div>
 </template>
 
@@ -17,6 +27,7 @@ export default {
           route: "app.campaigns.email-templates",
         },
       ],
+      overlay: false,
     };
   },
   beforeRouteEnter(to, from, next) {

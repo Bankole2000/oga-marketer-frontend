@@ -1,18 +1,8 @@
 <template>
-  <div class="email-templates">
+  <div class="edit-email-template">
     <div class="page-header px-8">
-      <p class="display-1 mb-0 grey--text text--darken-2">Email Templates</p>
+      <p class="display-1 mb-0 grey--text text--darken-2">Edit Template - {template Name}</p>
       <v-divider vertical class="ma-4" />
-      <v-chip
-        @click="$router.push({name: 'app.campaigns.email-templates.new'})"
-        class="primary--text"
-        style="background-color: var(--primary-light)"
-      >
-        <v-avatar left>
-          <v-icon color="primary" size="24"> mdi-plus </v-icon>
-        </v-avatar>
-        New Email Template
-      </v-chip>
       <v-spacer></v-spacer>
       <v-text-field label="Search" prepend-inner-icon="mdi-magnify" />
       <v-tooltip top>
@@ -30,15 +20,18 @@
     </div>
     <v-container>
       <v-row>
-        <!-- Email Templates & IDs page content -->
+        <!-- Edit Email Templates Section -->
       </v-row>
     </v-container>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+
+}
 </script>
 
 <style>
+
 </style>

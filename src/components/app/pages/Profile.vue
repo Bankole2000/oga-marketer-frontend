@@ -3,6 +3,11 @@
     <transition name="router-anim">
       <router-view />
     </transition>
+    <v-overlay :value="overlay" :opacity="0.8" style="padding-left: 256px;">
+      <v-row>
+        <p class="font-weight-bold display-1">Coming Soon...!</p>
+      </v-row>
+    </v-overlay>
   </div>
 </template>
 
@@ -17,6 +22,7 @@ export default {
         { title: "Payment Methods", route: "app.profile.cards" },
         { title: "Billing History", route: "app.profile.billing" },
       ],
+      overlay: true
     };
   },
     methods: {

@@ -8,7 +8,10 @@ import AppPages from '../components/app/Index.vue';
 import DashbaordPage from "../components/app/pages/Dashboard.vue";
 import ContactPage from "../components/app/pages/Contacts.vue";
 import CampaignsPage from "../components/app/pages/Campaigns.vue";
+import EmailTemplatesPage from "../components/app/pages/EmailTemplates";
 import EmailTemplates from "../components/app/features/Campaigns/EmailTemplates.vue";
+import NewEmailTemplate from '../components/app/features/Campaigns/EmailTemplates/NewEmailTemplate.vue';
+import EditEmailTemplate from '../components/app/features/Campaigns/EmailTemplates/EditEmailTemplate.vue';
 import TeamsPage from "../components/app/pages/Teams.vue";
 import TargetingPage from "../components/app/pages/Targeting.vue";
 import ProfilePage from '../components/app/pages/Profile.vue';
@@ -37,6 +40,7 @@ import BillingHistory from '../components/app/features/Profile/BillingHistory.vu
 // import BusinessInfo from '../components/forms/register/BusinessInfoStepForm.vue';
 // import DefaultEmailId from '../components/forms/register/DefaultEmailIdStepForm.vue';
 import CustomComponent from '../components/TestComponents/CustomComponent.vue';
+// import { component } from 'vue/types/umd';
 Vue.use(VueRouter)
 
 const routes = [
@@ -59,7 +63,6 @@ const routes = [
         name: 'app.dashboard',
         redirect: 'dashboard',
         children: [
-
           {
             path: 'dashboard/activities',
             name: 'app.dashboard.activities'
@@ -125,7 +128,24 @@ const routes = [
           {
             path: 'email-templates',
             name: "app.campaigns.email-templates",
-            component: EmailTemplates
+            component: EmailTemplatesPage,
+            children: [
+              {
+                path: "",
+                name: "app.campaigns.email-templates",
+                component: EmailTemplates
+              },
+              {
+                path: "new",
+                name: "app.campaigns.email-templates.new",
+                component: NewEmailTemplate
+              }, 
+              {
+                path: "edit",
+                name: "app.campaigns.email-templates.edit",
+                component: EditEmailTemplate
+              }
+            ]
           },
           {
             path: 'new',

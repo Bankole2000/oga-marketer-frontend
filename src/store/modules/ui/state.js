@@ -41,5 +41,15 @@ export default () => ({
   },
   appNav: {
     show: true,
+  }, 
+  featureFlags: {
+    dashboard: true,
+    contacts: true,
+    teams: true,
+    campaigns: true,
+    targeting: true,
+    profile: true,
+    settings: true,
+    assistant: true,
   }
 })

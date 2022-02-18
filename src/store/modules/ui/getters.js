@@ -13,5 +13,8 @@ export default {
   },
   subroutes(state) {
     return state.subroutes;
+  }, 
+  featureFlags(state){
+    return state.featureFlags;
   }
 };

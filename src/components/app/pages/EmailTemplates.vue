@@ -1,6 +1,8 @@
 <template>
   <div class="email-templates">
-    <h1>Email Templates</h1>
+    <transition name="router-anim">
+      <router-view />
+    </transition>
   </div>
 </template>
 

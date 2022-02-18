@@ -3,6 +3,11 @@
     <transition name="router-anim">
       <router-view />
     </transition>
+    <v-overlay :value="overlay" :opacity="0.8" style="padding-left: 256px;">
+      <v-row>
+        <p class="font-weight-bold display-1">Coming Soon...!</p>
+      </v-row>
+    </v-overlay>
   </div>
 </template>
 
@@ -18,6 +23,7 @@ export default {
         { title: "Tracking Goals", route: "app.targeting.goals" },
         { title: "Targetting Rules", route: "app.targeting.rules" },
       ],
+      overlay: true,
     };
   },
   beforeRouteEnter(to, from, next) {

@@ -436,6 +436,17 @@
         </v-col>
       </v-row>
     </v-container>
+    <v-overlay :value="overlay" :opacity="0.8" style="padding-left: 256px;">
+      <v-row>
+        <div class="d-flex flex-column justify-center">
+
+        <p class="font-weight-bold display-1">Dashboard Feature Coming Soon...!</p>
+        <div style="max-width: 50vw;">
+          <video :src="require('@/assets/video/demo.mp4')" style="width: 40vw;" controls></video>
+        </div>
+        </div>
+      </v-row>
+    </v-overlay>
   </div>
 </template>
 
@@ -475,6 +486,7 @@ export default {
         inactive: "accent",
       },
       chart,
+      overlay: true
     };
   },
   beforeRouteEnter(to, from, next) {
