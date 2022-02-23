@@ -53,9 +53,8 @@
         >
       </div>
       <v-btn
-        @click="
-          $router.push({ name: 'app.contacts.my-contacts' }).catch(() => {})
-        "
+        @click="$router.go(-1)"
+        
         outlined
         color="error"
         class="text-capitalize"

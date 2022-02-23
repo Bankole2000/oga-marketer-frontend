@@ -438,13 +438,15 @@
     </v-container>
     <v-overlay :value="overlay" :opacity="0.8" style="padding-left: 256px;">
       <v-row>
-        <div class="d-flex flex-column justify-center">
+        <v-slide-x-transition>
 
-        <p class="font-weight-bold display-1">Dashboard Feature Coming Soon...!</p>
+        <div v-show="overlayContent">
+        <p class="font-weight-bold display-1 text-center">Dashboard Feature Coming Soon!</p>
         <div style="max-width: 50vw;">
           <video :src="require('@/assets/video/demo.mp4')" style="width: 40vw;" controls></video>
         </div>
         </div>
+        </v-slide-x-transition>
       </v-row>
     </v-overlay>
   </div>
@@ -455,6 +457,7 @@ import AvatarImage from "../blocks/AvatarImage.vue";
 import AreaChart from "../blocks/charts/AreaChart.vue";
 import MetricCard from "../blocks/MetricCard.vue";
 import chart from "@/data/chartData.js";
+import { mapGetters } from "vuex";
 export default {
   components: {
     MetricCard,
@@ -486,8 +489,22 @@ export default {
         inactive: "accent",
       },
       chart,
-      overlay: true
+      overlay: true, 
+      overlayContent: false,
     };
+  },
+  computed: {
+    ...mapGetters({
+      featureFlags: 'ui/featureFlags'
+    })
+  },
+  mounted(){
+    const {name} = this.$route;
+    const routeFeature = name.split('.')[1];
+    this.overlay = !this.featureFlags[routeFeature]
+    setTimeout(() => {
+      this.overlayContent = true;
+    }, 500);
   },
   beforeRouteEnter(to, from, next) {
     // console.log({ to, from, next });

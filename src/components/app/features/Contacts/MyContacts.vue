@@ -70,6 +70,28 @@
         <span>Learn more about managing your contacts</span>
       </v-tooltip>
     </div>
+    <v-progress-linear :active="loading" indeterminate color="secondary"></v-progress-linear>
+    <v-container v-if="!contacts.length">
+      <v-row>
+        <v-col cols="12">
+          <div class="light primary--text pa-4 d-flex align-center justify-space-between">
+            <p class="mb-0 headline">
+              You don't have any registered Contacts 
+            </p>
+            <div>
+              <v-btn @click="showAddNewContactForm" class="gradient white--text curved px-6 text-capitalize mx-2">
+                <v-icon left>mdi-plus</v-icon>
+                Add Contacts
+              </v-btn>
+              <v-btn @click="showImportFromContactsModal" class="light primary--text curved px-6 text-capitalize">
+                <v-icon left>mdi-download</v-icon>
+                Import Contacts 
+              </v-btn>
+            </div>
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
     <v-container class="my-4" v-if="toggleViewMode == 'grid'">
       <v-row>
         <v-col v-for="(contact, i) in contacts" :key="i" cols="4">
@@ -107,6 +129,7 @@ import ContactCard from "./blocks/ContactCard.vue";
 import AddNewContactModal from "./modals/AddNewContactModal.vue";
 import ImportContactsFromFileModal from "./modals/ImportContactsFromFileModal.vue";
 import ContactListTable from "./blocks/ContactListTable.vue";
+import { mapActions } from "vuex";
 
 // Import Dummy Data
 // import contacts from "@/data/mock_contacts.json";
@@ -125,6 +148,7 @@ export default {
       contacts: [],
       totalCount : 0,
       limit: 12,
+      loading: false,
     };
   },
   watch: {
@@ -134,14 +158,21 @@ export default {
     }
   },
   methods: {
+    ...mapActions({
+      showToast: 'ui/showToast'
+    }),
     async getContacts(page = 1, limit = 12){
+      this.loading = true;
       try {
         const {data, headers} = await API.Account.Contacts.getContacts(page, limit)
         console.log({data})
         this.contacts = data
         this.totalCount = headers['x-total-count'];
+        this.loading = false;
+        this.showToast({show: true, message: "Contacts Loaded", timeout: 2000, sclass: 'success'})
       } catch (error) {
         console.log({error})
+        this.loading = false;
       }
     },
     changeViewMode(e) {

@@ -1,14 +1,18 @@
 <template>
+    <v-hover v-slot:default="{ hover }" >
   <div class="contact-list-table-item">
     <v-divider></v-divider>
-    <v-layout row :wrap="false" align-center>
+    <v-layout row :wrap="false" class="my-auto" :class="hover ? 'elevated-light grey lighten-3': ''" align-center >
       <v-flex xs1 class="d-flex justify-center">
-        <v-checkbox />
+        <v-checkbox @change="toggleSelected" v-model="isSelected"/>
       </v-flex>
       <v-flex xs2 class="d-flex">
-        <p class="mb-0 text-truncate">
+        <router-link class="text-decoration-none" :to="{ name: 'app.contacts.contact-details', params: { id: contact.id }}">
+
+        <p class="mb-0 text-truncate primary--text">
           {{ contact.first_name }} {{ contact.last_name }}
         </p>
+        </router-link>
       </v-flex>
       <v-flex md2>
         <p class="mb-0 text-truncate">{{ contact.email }}</p>
@@ -27,16 +31,22 @@
       </v-flex>
       <v-flex md2 class="d-flex pl-0">
         <v-divider vertical class="mx-4"></v-divider>
-        <p class="mb-0 mr-3 primary--text">Edit</p>
-        <p class="mb-0 error--text">Delete</p>
+        <EditContactModal :contact="contact"/>
+        <DeleteContactModal :contact="contact" />
+        <!-- <p class="mb-0 mr-3 primary--text">Edit</p>
+        <p class="mb-0 error--text">Delete</p> -->
       </v-flex>
     </v-layout>
   </div>
+    </v-hover>
 </template>
 
 <script>
+import DeleteContactModal from '../modals/DeleteContactModal.vue';
+import EditContactModal from '../modals/EditContactModal.vue';
 export default {
-  props: ["contact"],
+  components: { EditContactModal, DeleteContactModal },
+  props: ["contact", "selected"],
   // props: {
   //   contact: {
   //     type: Object,
@@ -54,6 +64,27 @@ export default {
   //     }),
   //   },
   // },
+  watch: {
+    selected: function(newValue, oldValue) {
+      this.isSelected = newValue;
+      console.log({oldValue, newValue})
+    }
+  },
+  data(){
+    return {
+      isSelected: false
+    }
+  }, 
+  methods: {
+    toggleSelected(e){
+      console.log("🚀 ContactListTableItem.vue ~ line 76 ~ toggleSelected ~ e", e.target, `${e ? 'add': 'remove'}`)
+      if(e){
+        this.$emit('add', this.contact.id)
+      } else {
+        this.$emit('remove', this.contact.id)
+      }
+    }
+  }
 };
 </script>
 

@@ -5,11 +5,14 @@
         <router-view />
       </transition>
     </v-main>
+    <Snackbar />
   </v-app>
 </template>
 
 <script>
+import Snackbar from './components/app/common/Snackbar.vue';
 export default {
+  components: { Snackbar },
   name: "App",
 
   data: () => ({

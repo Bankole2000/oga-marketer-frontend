@@ -22,7 +22,7 @@
         </v-stepper>
       </div>
       <v-divider vertical class="ma-4" />
-      <v-btn exact-path :to="{ name: 'app.dashboard' }" outlined color="error">
+      <v-btn exact-path @click="$router.go(-1)" outlined color="error">
         <v-icon left> mdi-chevron-left </v-icon> Back
       </v-btn>
     </div>

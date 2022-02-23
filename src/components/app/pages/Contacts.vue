@@ -5,7 +5,14 @@
     </transition>
     <v-overlay :value="overlay" :opacity="0.8" style="padding-left: 256px;">
       <v-row>
-        <p class="font-weight-bold display-1">Coming Soon...!</p>
+        <v-slide-x-transition>
+        <div v-show="overlayContent">
+        <p class="font-weight-bold display-1 text-center">Contacts Coming Soon!</p>
+        <div style="max-width: 50vw;">
+          <video :src="require('@/assets/video/demo.mp4')" style="width: 40vw;" controls></video>
+        </div>
+        </div>
+        </v-slide-x-transition>
       </v-row>
     </v-overlay>
   </div>
@@ -27,6 +34,7 @@ export default {
         { title: "Segments & Labels", route: "app.contacts.segments" },
       ],
       overlay: false,
+      overlayContent: false,
     };
   },
   computed: {
@@ -50,11 +58,12 @@ export default {
     });
   },
   mounted(){
-    console.log({route: this.$route});
     const {name} = this.$route;
     const routeFeature = name.split('.')[1];
-    console.log({routeFeature, featureFlags: this.featureFlags, featureAvailable: this.featureFlags[routeFeature]})
     this.overlay = !this.featureFlags[routeFeature]
+    setTimeout(() => {
+      this.overlayContent = true;
+    }, 500);
   }
 };
 </script>

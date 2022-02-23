@@ -19,10 +19,9 @@
       <v-btn text color="primary" class="text-capitalize">Export</v-btn>
       <v-btn text color="error" class="text-capitalize">Delete</v-btn>
 
+          <!-- $router.push({ name: 'app.contacts.my-contacts' }).catch(() => {}) -->
       <v-btn
-        @click="
-          $router.push({ name: 'app.contacts.my-contacts' }).catch(() => {})
-        "
+        @click="$router.go(-1)"
         outlined
         color="error"
         class="text-capitalize"
@@ -140,7 +139,7 @@
               <v-container>
                 <v-row>
                   <v-col cols="6" v-for="(contact, i) in selectedListContacts" :key="i">
-                    <v-card class="elevated-light rounded-xs" style="position: relative" height="100">
+                    <v-card @click="$router.push({ name: 'app.contacts.contact-details', params: { id: contact.id }})" class="elevated-light rounded-xs" style="position: relative" height="100">
                       <div class="d-flex align-center" style="width: 100%;">
                          <v-avatar class="ma-0 ml-4" color="secondary" size="50">
                             <v-img :src="contact.profile_image" contain></v-img>

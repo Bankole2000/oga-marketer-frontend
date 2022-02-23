@@ -29,12 +29,14 @@
                 {{ contact.last_name }}
               </p>
               <v-spacer />
-              <v-btn small icon class="mx-2" @click.stop="editContact">
+              <EditContactModal :contact="contact"/>
+              <DeleteContactModal :contact="contact"/>
+              <!-- <v-btn small icon class="mx-2" @click.stop="editContact">
                 <v-icon color="success"> mdi-pencil </v-icon>
               </v-btn>
               <v-btn small icon @click.stop="deleteContact">
                 <v-icon color="error"> mdi-delete </v-icon>
-              </v-btn>
+              </v-btn> -->
             </div>
             <p class="mb-0 p-16 p-color">{{ contact.phone }}</p>
             <p class="mb-0 p-16 p-color">{{ contact.email }}</p>
@@ -64,14 +66,15 @@
             </v-col>
 
             <v-col cols="2" class="px-0">
-              <v-btn
+              <AddContactToListModal :contact="contact" />
+              <!-- <v-btn
                 text
                 class="text-capitalize"
                 color="primary"
                 @click.stop="addToList"
               >
                 Add to List
-              </v-btn>
+              </v-btn> -->
             </v-col>
           </v-row>
         </v-card-actions>
@@ -81,8 +84,12 @@
 </template>
 
 <script>
+import AddContactToListModal from '../modals/AddContactToListModal.vue';
+import DeleteContactModal from '../modals/DeleteContactModal.vue';
+import EditContactModal from '../modals/EditContactModal.vue';
 // import AvatarImage from "./AvatarImage.vue";
 export default {
+  components: { EditContactModal, DeleteContactModal, AddContactToListModal },
   // components: { AvatarImage },
   props: {
     contact: {

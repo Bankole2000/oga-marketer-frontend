@@ -12,9 +12,9 @@
         <v-card-title class="d-flex headline primary white--text">
           Edit Contact
           <v-spacer></v-spacer>
-          <v-btn icon @click="dialog = false"><v-icon color="white">mdi-window-close</v-icon></v-btn>
+          <v-btn :disabled="loading" icon @click="dialog = false"><v-icon color="white">mdi-window-close</v-icon></v-btn>
         </v-card-title>
-
+        
         <v-card-text>
           <v-row>
             <v-col cols="12">
@@ -68,13 +68,18 @@
             </div>
           </v-expand-transition>
         </v-card-text>
+        <v-progress-linear
+        :active="loading"
+        :indeterminate="loading"
+        color="secondary"
+        ></v-progress-linear>
         <v-divider></v-divider>
         <v-card-actions class="justify-center py-4">
-          <v-btn @click="dialog = false" class="light primary--text text-capitalize px-6 curved mx-2">
+          <v-btn :disabled="loading" @click="dialog = false" class="light primary--text text-capitalize px-6 curved mx-2">
             <v-icon left>mdi-window-close</v-icon>
             Cancel
           </v-btn>
-          <v-btn @click="dialog = false" class="gradient white--text text-capitalize px-6 mx-2 curved">
+          <v-btn :loading="loading" @click="updateContact" class="gradient white--text text-capitalize px-6 mx-2 curved">
             <v-icon left>mdi-check</v-icon>
             Save
           </v-btn>
@@ -94,7 +99,6 @@ export default {
       expandLocation: false,
       expandSegments: false,
       update: {
-
         first_name: "",
         last_name: "",
         email: "",
@@ -103,13 +107,20 @@ export default {
         country: "",
         city:"",
         birthdate: "",
-      }
-      
+      }, 
+      loading: false,
     }
   }, 
   methods: {
     show(value){
       this.dialog = value;
+    }, 
+    updateContact(){
+      this.loading = true;
+      console.log({updateData: this.update})
+      setTimeout(() => {
+        this.loading = false;
+      }, 2000);
     }
   }, 
   mounted(){
