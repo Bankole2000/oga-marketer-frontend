@@ -30,6 +30,7 @@ import ContactDetails from '../components/app/features/Contacts/ContactDetails/I
 import Segments from "../components/app/features/Contacts/Segments.vue";
 import MyCampaigns from '../components/app/features/Campaigns/MyCampaigns.vue';
 import NewCampaign from '../components/app/features/Campaigns/NewCampaign/Index.vue';
+import EmailSendersPage from '../components/app/features/Campaigns/EmailSenders.vue';
 import CodeInstallationSettings from '../components/app/features/Settings/CodeInstallation.vue';
 import NotificationSettings from '../components/app/features/Settings/Notifications.vue';
 import MyProfile from '../components/app/features/Profile/MyProfile.vue';
@@ -146,6 +147,11 @@ const routes = [
                 component: EditEmailTemplate
               }
             ]
+          },
+          {
+            path: 'email-senders',
+            name: 'app.campaigns.email-senders',
+            component: EmailSendersPage
           },
           {
             path: 'new',

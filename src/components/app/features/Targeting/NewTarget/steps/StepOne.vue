@@ -2,7 +2,7 @@
   <div class="step-one">
     <v-row>
       <v-col cols="12" lg="8" offset-lg="2">
-        <v-card class="elevated-light rounded-xl pa-4">
+        <v-card class="elevated-light rounded-xl px-4 pb-4">
           <v-card-title class="d-flex flex-column align-start">
             <p class="text-title mb-0">New Target</p>
             <p class="caption mb-0">
@@ -14,6 +14,7 @@
           <v-window v-model="window">
             <v-window-item :value="1">
               <v-card-text>
+                <v-item-group @change="onSelectTargetType" v-model="selectedTargetType">
                 <div v-for="(targetType, i) in targetTypes" :key="i">
                   <v-divider
                     v-if="i == targetTypes.length - 1"
@@ -21,26 +22,31 @@
                     style="border-color: var(--primary-light)"
                     class="my-4"
                   />
+                  <v-item :value="targetType" v-slot:default="{ active, toggle }">
                   <div
-                    class="bg-primary-lt pa-4 rounded-lg mb-4"
-                    style="cursor: pointer"
-                    @click.capture="onSelectTargetType(targetType)"
+                    class="px-4 py-3 rounded-lg mb-4"
+                    :class="active ? 'rgradient': 'bg-primary-lt'"
+                    style="cursor: pointer; transition: all 0.3s ease;"
+                    @click.capture="toggle"
                   >
                     <p
                       class="
-                        text-h6 text-center
+                        title text-center
                         font-weight-bold
-                        primary--text
+                        
                         mb-0
                       "
+                      :class="active ? 'white--text': 'primary--text'"
                     >
                       {{ targetType.title }}
                     </p>
-                    <p class="text-center grey--text text-subtitle mb-0">
+                    <p :class="active ? 'yellow--text': 'grey--text'" class="text-center text-subtitle mb-0">
                       {{ targetType.text }}
                     </p>
                   </div>
+                  </v-item>
                 </div>
+                </v-item-group>
               </v-card-text>
             </v-window-item>
             <v-window-item :value="2">
@@ -59,7 +65,9 @@
             </v-btn>
             <v-btn
               large
-              class="px-16 mx-4 curved gradient text-capitalize white--text"
+              :disabled="!selectedTargetType"
+              :class="selectedTargetType ? 'gradient': ''"
+              class="px-16 mx-4 curved text-capitalize white--text"
               @click="onNextSelect"
             >
               Next
@@ -107,10 +115,15 @@ export default {
           code: "custom",
         },
       ],
+      selectedTargetType: ''
     };
   },
   methods: {
     onSelectTargetType(targetType) {
+      console.log({selectedTargetType: this.selectedTargetType})
+      if(!targetType){
+        return;
+      }
       switch (targetType.code) {
         case "welcome":
           console.log({ targetType });

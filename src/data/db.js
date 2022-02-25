@@ -4,6 +4,8 @@ const segments = require('./Segments.json');
 const categories = require('./listCategory.json')
 const lists = require('./contactLists.json')
 const labels = require('./labels.json')
+const eventTypes = require('./tracker_event_types.json');
+const events = require('./tracker_events.json');
 // console.log({contacts, cards, segments});
 
 module.exports = () => {
@@ -19,6 +21,6 @@ module.exports = () => {
     // }
     return contact;
   })
-  const data = { contacts, cards, segments, categories, lists, labels }
+  const data = { contacts, cards, segments, categories, lists, labels, eventTypes, events }
   return data
 }

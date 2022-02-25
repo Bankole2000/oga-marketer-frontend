@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1, 
+    "name": "Form submit",
+    "value":"form_submit"
+  },
+  {
+    "id": 2, 
+    "name": "Button click",
+    "value":"button_click"
+  },
+  {
+    "id": 3, 
+    "name": "Link click",
+    "value":"link_click"
+  },
+  {
+    "id": 4, 
+    "name": "Page view",
+    "value":"page_view"
+  },
+  {
+    "id": 5, 
+    "name": "Time spent on page",
+    "value":"time_spent_on_page"
+  },
+  {
+    "id": 6, 
+    "name": "Input field",
+    "value":"input_field"
+  }
+]

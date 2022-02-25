@@ -108,27 +108,47 @@
       </v-row>
       <v-row>
         <v-col cols="12">
-          <v-card class="pa-4 rounded-lg elevated-light">
-            <v-card-title class="pa-0 mb-4">
+          <v-card class="px-6 pb-6 pt-8 rounded-lg elevated-light">
               <v-layout row :wrap="false" align-center>
                 <v-flex xs2 class="d-flex">
-                  <p class="mb-0 pl-4">Targets</p>
+                  <p class="font-weight-bold pl-4">Targets</p>
                 </v-flex>
                 <v-flex xs2 class="d-flex">
-                  <p class="mb-0">Domain</p>
+                  <p class="font-weight-bold pl-4">Domain</p>
                 </v-flex>
                 <v-flex md2>
-                  <p class="mb-0">Goal</p>
+                  <p class="font-weight-bold pl-4">Goal</p>
                 </v-flex>
                 <v-flex md3 class="d-flex">
-                  <p class="mb-0 pl-4">Tracking Events</p>
+                  <p class="font-weight-bold pl-4">Tracking Events</p>
                 </v-flex>
                 <v-flex md1>
-                  <p class="mb-0 pl-4">Actions</p>
+                  <p class="font-weight-bold pl-4">Actions</p>
                 </v-flex>
               </v-layout>
-            </v-card-title>
-            <TargetsList />
+            <v-divider></v-divider>
+            <v-container fluid>
+              <v-row>
+                <v-col cols="12" class="px-0">
+                  <div class="light primary--text pa-4 d-flex align-center justify-space-between">
+                    <p class="mb-0 headline">
+                      You don't have any registered Targets 
+                    </p>
+                    <div>
+                      <v-btn :to="{ name: 'app.targeting.targeting.new' }" class="gradient white--text curved px-6 text-capitalize mx-2">
+                        <v-icon left>mdi-plus</v-icon>
+                        Create A New Target
+                      </v-btn>
+                      <!-- <v-btn @click="() => {}" class="light primary--text curved px-6 text-capitalize">
+                        <v-icon left>mdi-download</v-icon>
+                        Import Contacts 
+                      </v-btn> -->
+                    </div>
+                  </div>
+                </v-col>
+              </v-row>
+            </v-container>
+            <TargetsList :targets="targets" />
           </v-card>
         </v-col>
       </v-row>
@@ -147,6 +167,7 @@ export default {
   data() {
     return {
       chart,
+      targets: [],
     };
   },
   mounted() {

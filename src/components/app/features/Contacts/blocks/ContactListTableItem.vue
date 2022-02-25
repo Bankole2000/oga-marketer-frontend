@@ -2,9 +2,9 @@
     <v-hover v-slot:default="{ hover }" >
   <div class="contact-list-table-item">
     <v-divider></v-divider>
-    <v-layout row :wrap="false" class="my-auto" :class="hover ? 'elevated-light grey lighten-3': ''" align-center >
+    <v-layout row :wrap="false" class="my-0 py-1" :class="hover ? 'elevated-light grey lighten-3': ''" align-center >
       <v-flex xs1 class="d-flex justify-center">
-        <v-checkbox @change="toggleSelected" v-model="isSelected"/>
+        <v-checkbox class="mb-2 mt-0" @change="toggleSelected" v-model="isSelected" hide-details/>
       </v-flex>
       <v-flex xs2 class="d-flex">
         <router-link class="text-decoration-none" :to="{ name: 'app.contacts.contact-details', params: { id: contact.id }}">

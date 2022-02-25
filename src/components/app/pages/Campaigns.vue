@@ -30,6 +30,10 @@ export default {
           title: "Email Templates & IDs",
           route: "app.campaigns.email-templates",
         },
+         {
+          title: "Email Senders",
+          route: "app.campaigns.email-senders",
+        },
       ],
       overlay: false,
       overlayContent: false,

@@ -1,10 +1,13 @@
 <template>
+<v-hover v-slot:default="{ hover }" >
   <div>
+    <v-divider></v-divider>
     <v-layout
       row
       :wrap="false"
       align-center
-      class="py-1"
+      class="my-0 py-1"
+      :class="hover ? 'elevated-light grey lighten-3': ''"
     >
       <v-flex
         xs1
@@ -12,7 +15,7 @@
       >
         <v-checkbox
           hide-details
-          class="mb-4"
+          class="mb-2 mt-0"
         />
       </v-flex>
       <v-flex
@@ -62,6 +65,7 @@
       </v-flex>
     </v-layout>
   </div>
+</v-hover>
 </template>
 
 <script>

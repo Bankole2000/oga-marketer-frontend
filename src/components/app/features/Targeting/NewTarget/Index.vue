@@ -38,7 +38,7 @@
           <StepOne class="my-4 mx-2" @next="next" />
         </v-window-item>
         <v-window-item :value="2">
-          <StepTwo class="my-4 mx-2" />
+          <StepTwo @back="currentStep--" class="my-4 mx-2" />
         </v-window-item>
         <v-window-item :value="3">
           <StepThree class="my-4 mx-2" />

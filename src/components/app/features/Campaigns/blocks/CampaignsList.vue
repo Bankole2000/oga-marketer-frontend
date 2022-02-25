@@ -1,5 +1,5 @@
 <template>
-  <div class="campaigns-list my-4">
+  <div class="campaigns-list my-0">
     <CampaignListItem v-for="i in 9" :index="i" :key="i" />
   </div>
 </template>

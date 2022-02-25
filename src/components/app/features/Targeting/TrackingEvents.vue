@@ -5,53 +5,52 @@
       <v-row>
         <v-col cols="12">
           <v-card class="pa-4 elevated-light rounded-lg">
-            <v-card-title class="pa-0">
               <v-layout
                 row
                 :wrap="false"
                 align-center
+                class="my-0 py-1"
               >
                 <v-flex
                   xs1
-                  class="d-flex justify-center"
+                  class="d-flex font-weight-bold justify-center"
                 >
-                  <v-checkbox />
+                  <v-checkbox hide-details class="mb-2 mt-0" />
                 </v-flex>
                 <v-flex
                   xs3
-                  class="d-flex"
+                  class="d-flex font-weight-bold"
                 >
-                  <p class="mb-0">
+                  <p class="mb-0 font-weight-bold">
                     Tracking Events
                   </p>
                 </v-flex>
                 <v-flex md2>
-                  <p class="mb-0">
+                  <p class="mb-0 font-weight-bold">
                     Alias
                   </p>
                 </v-flex>
                 <v-flex
                   md2
-                  class="d-flex"
+                  class="d-flex font-weight-bold"
                 >
-                  <p class="mb-0">
+                  <p class="mb-0 font-weight-bold">
                     Type
                   </p>
                 </v-flex>
                 <v-flex md2>
-                  <p class="mb-0">
+                  <p class="mb-0 font-weight-bold">
                     Score
                   </p>
                 </v-flex>
                 <v-flex
                   md2
-                  class="d-flex pl-4"
+                  class="d-flex font-weight-bold pl-4"
                 >
-                  Actions
+                  <p class="mb-0">Actions</p>
                 </v-flex>
               </v-layout>
-            </v-card-title>
-            <v-divider class="mb-4 mt-2" />
+            <v-divider class="my-0" />
             <TrackingEventsList />
           </v-card>
         </v-col>
