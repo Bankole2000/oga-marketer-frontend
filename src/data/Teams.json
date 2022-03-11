@@ -1,6 +1,22 @@
 [
   {
     "id": 1,
-    "name": "1st Teams"
-  }
+    "name": "1st Teams", 
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, libero."
+  }, 
+  {
+    "id": 2,
+    "name": "Management Team", 
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, libero."
+  }, 
+  {
+    "id": 3,
+    "name": "Marketing Team", 
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, libero."
+  }, 
+  {
+    "id": 4,
+    "name": "Software Team", 
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, libero."
+  } 
 ]

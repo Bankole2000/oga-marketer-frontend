@@ -1,3 +1,127 @@
 {
-  "company": ""
+  "account": {
+    "id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "company": "Awesome Airlines",
+    "balance": {
+      "value": 107400.33,
+      "format": "₦107,400",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "active_campaigns_count": 4,
+    "contacts_count": 26531,
+    "plan": null,
+    "statistic": {
+      "id": "4d414620-40e5-11e9-9180-05867457b3d0",
+      "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+      "contacts_count": 26531,
+      "campaigns_count": 0,
+      "tracker_goals_count": 0,
+      "tracker_sites_count": 0,
+      "team_managers_count": 0,
+      "team_observers_count": 0,
+      "sender_emails_count": 0
+    },
+    "subscription": {
+      "id": "4addb970-9e04-11ec-ac9b-99ce059c6e14",
+      "name": "Professional Plan",
+      "description": "                <ul>\n                    <li>Get all on the start-up plan with some limitation</li>\n                    <li><b>Your customers:</b> know how visitors use your site</li>\n                    <li><b>Funnels:</b> find out where your customers are dropping off.</li>\n                    <li><b>Support:</b> 24 hour chat & email support</li>\n                </ul>\n                ",
+      "price": {
+        "value": 7500,
+        "format": "₦7,500",
+        "currency": {
+          "code": "NGN",
+          "name": "Naira",
+          "short": "₦"
+        }
+      },
+      "duration": 30,
+      "plan_id": "ec408250-0acb-11e9-b4f9-4d33541e045f",
+      "end_at": {
+        "human": "4 weeks from now",
+        "value": {
+          "date": "2022-04-06 11:49:41.000000",
+          "timezone_type": 3,
+          "timezone": "Africa/Lagos"
+        }
+      }
+    }
+  },
+  "plan": {
+    "id": "ec408250-0acb-11e9-b4f9-4d33541e045f",
+    "name": "Professional Plan",
+    "description": "                <ul>\n                    <li>Get all on the start-up plan with some limitation</li>\n                    <li><b>Your customers:</b> know how visitors use your site</li>\n                    <li><b>Funnels:</b> find out where your customers are dropping off.</li>\n                    <li><b>Support:</b> 24 hour chat & email support</li>\n                </ul>\n                ",
+    "intro": "for more experienced user, who want more out of ogamarketer",
+    "duration": 30,
+    "price": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "free_contacts_count": 21000,
+    "subscribe_limit_count": 0,
+    "campaigns_max_count": 30,
+    "tracker_goals_max_count": 100,
+    "tracker_sites_max_count": 2,
+    "email_id_max_count": 10,
+    "team_managers_max_count": 7,
+    "team_observers_max_count": 10,
+    "feature_sms_sender": true,
+    "feature_conversion": true,
+    "feature_profiler": true,
+    "feature_online_support": true,
+    "services": [
+      {
+        "id": "07be6210-40e5-11e9-af64-832acc651f99",
+        "name": "Extra contacts",
+        "type": "MAX_CONTACTS_COUNT",
+        "count": 1000,
+        "price": {
+          "value": 200,
+          "format": "₦200",
+          "currency": {
+            "code": "NGN",
+            "name": "Naira",
+            "short": "₦"
+          }
+        }
+      },
+      {
+        "id": "07c1ddb0-40e5-11e9-8dae-eb55edfeba77",
+        "name": "Extra domains for tracker",
+        "type": "MAX_TRACKER_SITES_COUNT",
+        "count": 20,
+        "price": {
+          "value": 200,
+          "format": "₦200",
+          "currency": {
+            "code": "NGN",
+            "name": "Naira",
+            "short": "₦"
+          }
+        }
+      }
+    ]
+  },
+  "user": {
+    "id": "ebecfbf0-0acb-11e9-8642-61de2808ae6b",
+    "name": "Tim Chuks",
+    "email": "owner@gmail.com",
+    "phone": "12345678Owner",
+    "image": "uploads/LoRLK5jcY68LFpKpSKbaaZDOHfejf8KyLcOUgOzg.gif",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "role_id": "owner",
+    "settings": null,
+    "last_login": null,
+    "created_at": "2018-12-28 19:10:56",
+    "updated_at": "2019-01-09 11:13:16",
+    "deleted_at": null
+  }
 }

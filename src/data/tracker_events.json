@@ -1,9 +1,308 @@
 [
   {
-    "id": 1,
-    "name": "",
-    "alias": "",
-    "page": "",
-    "score": ""
+    "id": "ae797c50-7b55-11e9-abbe-c7e386e19aba",
+    "name": "15 seconds TS",
+    "alias": "15-seconds-ts",
+    "type": {
+      "id": "timespent",
+      "name": "Time spent on a page"
+    }
+  },
+  {
+    "id": "e746dd40-74a3-11e9-96b3-ad1f7e162a4d",
+    "name": "2 seconds",
+    "alias": "2-seconds",
+    "type": {
+      "id": "timespent",
+      "name": "Time spent on a page"
+    }
+  },
+  {
+    "id": "faad8a20-7386-11e9-9df1-4b33e87c988a",
+    "name": "5 seconds",
+    "alias": "5-seconds",
+    "type": {
+      "id": "timespent",
+      "name": "Time spent on a page"
+    }
+  },
+  {
+    "id": "c0c96f90-108d-11ea-96b0-134c433df002",
+    "name": "Add card",
+    "alias": "add-card",
+    "type": {
+      "id": "button",
+      "name": "Button click"
+    }
+  },
+  {
+    "id": "e9118610-7c1a-11e9-be5c-b71b635ebdf1",
+    "name": "Another PV on Safety Excos",
+    "alias": "another-pv-on-safety-excos",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "96a08890-ac7d-11e9-8e40-095e240a4f3f",
+    "name": "Apply BTN",
+    "alias": "apply-btn",
+    "type": {
+      "id": "button",
+      "name": "Button click"
+    }
+  },
+  {
+    "id": "1302d460-71b6-11e9-9298-d34b0ce73607",
+    "name": "Click on Widget",
+    "alias": "click-on-widget",
+    "type": {
+      "id": "button",
+      "name": "Button click"
+    }
+  },
+  {
+    "id": "a3aac610-7256-11e9-97d4-f961705d814b",
+    "name": "Click Survey link in Widget",
+    "alias": "click-survey-link-in-widget",
+    "type": {
+      "id": "link",
+      "name": "Link click"
+    }
+  },
+  {
+    "id": "8ab4b370-73e1-11e9-9fca-fb6d79afbeb3",
+    "name": "features Page view",
+    "alias": "features-page-view",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "13218a70-71af-11e9-80bc-593bb6c77415",
+    "name": "Free Plan View",
+    "alias": "free-plan",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "faea3d20-737b-11e9-a0eb-91f621007ca8",
+    "name": "In Category Link Click",
+    "alias": "in-category-link-click",
+    "type": {
+      "id": "link",
+      "name": "Link click"
+    }
+  },
+  {
+    "id": "42d61c70-7379-11e9-ac53-0928bca277de",
+    "name": "In-Category",
+    "alias": "add-to-cart",
+    "type": {
+      "id": "link",
+      "name": "Link click"
+    }
+  },
+  {
+    "id": "9efc7960-755a-11e9-a778-df31a92e3951",
+    "name": "Logo click",
+    "alias": "logo-button",
+    "type": {
+      "id": "link",
+      "name": "Link click"
+    }
+  },
+  {
+    "id": "875c17c0-7172-11e9-9ab4-21a660e167c7",
+    "name": "Messaging Module Event (Link-Click)",
+    "alias": "1st-linkclink-event-homepage",
+    "type": {
+      "id": "link",
+      "name": "Link click"
+    }
+  },
+  {
+    "id": "e86688f0-736d-11e9-8b51-b330df1a0a32",
+    "name": "New event",
+    "alias": "new-event",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "688c7a70-737c-11e9-ace2-e3ae3f8fd220",
+    "name": "New In-Cateory",
+    "alias": "new-in-cateory",
+    "type": {
+      "id": "link",
+      "name": "Link click"
+    }
+  },
+  {
+    "id": "ca0c1640-22e5-11eb-bd45-974796760930",
+    "name": "Nod Ad Landing PV",
+    "alias": "nod-ad-landing-pv",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "23e60d70-ac67-11e9-9973-1527cae1ac36",
+    "name": "Nod Billing MSG",
+    "alias": "nod-billing-msg",
+    "type": {
+      "id": "link",
+      "name": "Link click"
+    }
+  },
+  {
+    "id": "8ac34210-80c4-11e9-abd1-91072d406b75",
+    "name": "Nod Verify Page",
+    "alias": "nod-verify-page",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "cf84a780-80c9-11e9-a6f0-59a4b413f019",
+    "name": "OTP resend Click",
+    "alias": "otp-resend-click",
+    "type": {
+      "id": "link",
+      "name": "Link click"
+    }
+  },
+  {
+    "id": "1660a370-7db3-11e9-9ada-0328fea81375",
+    "name": "PageView for BHW",
+    "alias": "pageview-for-bhw",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "9d3fde90-7b55-11e9-b916-d5413fce7e9d",
+    "name": "Pageviews on safetyexcos",
+    "alias": "pageviews-on-safetyexcos",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "c66e9630-71ad-11e9-8cee-d724b06399a6",
+    "name": "Pricing page (1 mins)",
+    "alias": "pricing-page-1-mins",
+    "type": {
+      "id": "timespent",
+      "name": "Time spent on a page"
+    }
+  },
+  {
+    "id": "002fdd60-71b0-11e9-bbc3-65e75ca6e3f9",
+    "name": "Professional Plan View",
+    "alias": "professional-plan-view",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "2e901b60-b6ba-11e9-9a20-ff8f222ccf9c",
+    "name": "Safetyexcos PV 1",
+    "alias": "safetyexcos-pv-1",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "c286e0b0-7378-11e9-a35f-c512aacc638a",
+    "name": "Search SE",
+    "alias": "search-se",
+    "type": {
+      "id": "input",
+      "name": "Input field"
+    }
+  },
+  {
+    "id": "37e700c0-5222-11ec-84d9-8d2689023be4",
+    "name": "Site visit",
+    "alias": "site-visit-3k5qEh",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "7734bd10-b6b7-11e9-b59b-0975c19dee2b",
+    "name": "Site visit",
+    "alias": "site-visit-zKhkLi",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "da893fe0-71af-11e9-893f-8f5e67d9e871",
+    "name": "Startup Plan view",
+    "alias": "startup-plan-view",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "90038f20-73ee-11e9-a74a-6d01ff02da4b",
+    "name": "Survey for PP",
+    "alias": "survey-for-pp",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "d9c696a0-7e64-11e9-86e9-fb8d76cbcb29",
+    "name": "tag for David BHW",
+    "alias": "tag-for-david-bhw",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
+  },
+  {
+    "id": "51aafae0-7254-11e9-b4a4-49fcaa9ea625",
+    "name": "Targeting section",
+    "alias": "targeting-section",
+    "type": {
+      "id": "link",
+      "name": "Link click"
+    }
+  },
+  {
+    "id": "0bfbce60-7360-11e9-b83b-2b5738509f59",
+    "name": "Test Button click",
+    "alias": "test-button-click",
+    "type": {
+      "id": "button",
+      "name": "Button click"
+    }
+  },
+  {
+    "id": "e59e1be0-73f2-11e9-a5da-e7f36365a4a9",
+    "name": "Why PV",
+    "alias": "why-pv",
+    "type": {
+      "id": "pageview",
+      "name": "Page view"
+    }
   }
 ]

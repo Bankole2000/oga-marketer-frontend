@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "types": {
+      "submit": {
+        "id": "submit",
+        "name": "Form submit"
+      },
+      "button": {
+        "id": "button",
+        "name": "Button click"
+      },
+      "link": {
+        "id": "link",
+        "name": "Link click"
+      },
+      "pageview": {
+        "id": "pageview",
+        "name": "Page view"
+      },
+      "timespent": {
+        "id": "timespent",
+        "name": "Time spent on a page"
+      },
+      "input": {
+        "id": "input",
+        "name": "Input field"
+      }
+    },
+    "selector_types": [
+      {
+        "id": "css",
+        "name": "CSS Selector"
+      },
+      {
+        "id": "text_is",
+        "name": "Text is...",
+        "support_types": [
+          "button",
+          "link"
+        ]
+      },
+      {
+        "id": "text_contains",
+        "name": "Text contains...",
+        "support_types": [
+          "button",
+          "link",
+          "submit"
+        ]
+      },
+      {
+        "id": "text_starts",
+        "name": "Text starts with...",
+        "support_types": [
+          "button",
+          "link"
+        ]
+      },
+      {
+        "id": "text_ends",
+        "name": "Text ends with...",
+        "support_types": [
+          "button",
+          "link"
+        ]
+      }
+    ],
+    "inspect_types": [
+      {
+        "id": "value_is",
+        "name": "Input value is...",
+        "support_types": [
+          "input"
+        ]
+      },
+      {
+        "id": "value_contains",
+        "name": "Input value contains...",
+        "support_types": [
+          "input"
+        ]
+      }
+    ]
+  }
+}

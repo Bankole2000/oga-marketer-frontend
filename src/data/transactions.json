@@ -1,0 +1,4916 @@
+[
+  {
+    "id": "4add0650-9e04-11ec-832d-b1ec323d7e42",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9bc2ca6892554230ff424fed354acf60408f480f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "07 Mar 2022"
+  },
+  {
+    "id": "4addee40-9e04-11ec-ab81-07bbf65d9f21",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "5259e92af576b306a4b1a3bda4da9663919fca61",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Mar 2022"
+  },
+  {
+    "id": "4adec1d0-9e04-11ec-9940-6704f33b0f96",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "8b7d1a1fde8a1683b030561e2859ea8af72f42ba",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Mar 2022"
+  },
+  {
+    "id": "4adf7960-9e04-11ec-abf0-59f0f7a0c96a",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "c4b4557ecc50b41f5a0fc67df74a8903d141eb2e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Mar 2022"
+  },
+  {
+    "id": "4ae02d50-9e04-11ec-81c7-95a03a717678",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9aae5a814f1089f22db600325e8f0e0b8314adf0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Mar 2022"
+  },
+  {
+    "id": "4ae0e0a0-9e04-11ec-9f61-2121f8142e13",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "e0c653cf6337fef96d91c2e78e91f3da11859317",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Mar 2022"
+  },
+  {
+    "id": "4ae19900-9e04-11ec-aee6-e97547826bdd",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9734eb85abdaf2e7913474839399505c24aa4668",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Mar 2022"
+  },
+  {
+    "id": "47dd3940-8651-11ec-9340-1332c4e27e7c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6e40b9f256eb90969a2f1b86efdda2be9a28ab56",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "05 Feb 2022"
+  },
+  {
+    "id": "47deb5a0-8651-11ec-b6b9-d565ebbebea2",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "5bececc10f5480803bc35ae16529ed38d04eff8f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "05 Feb 2022"
+  },
+  {
+    "id": "47dfa4d0-8651-11ec-89b1-c31244e91655",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0e5db77fa11979687c239a747a8f5feacf787ec4",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "05 Feb 2022"
+  },
+  {
+    "id": "47e077c0-8651-11ec-b853-83b34360946d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d289a88e45e16496aaab5b0af9cc435da7df0f61",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "05 Feb 2022"
+  },
+  {
+    "id": "47e14790-8651-11ec-8445-f55a4dbded03",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "50baa0621e7abe02727b6dc3014d890edf294baa",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "05 Feb 2022"
+  },
+  {
+    "id": "47e22a80-8651-11ec-93ff-fd04db543cb4",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "28b89da16a1d1990ee9fc7385c23d6534e6c8c98",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "05 Feb 2022"
+  },
+  {
+    "id": "47e30520-8651-11ec-a33d-410ca99b6c08",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "669a744dba2fcc358aac876ac7713e9396a215d0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "05 Feb 2022"
+  },
+  {
+    "id": "4f657640-6ebe-11ec-9617-f1c57797d9d2",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d6b3567714bbfbb742b02f58313ddee0e9b46478",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "06 Jan 2022"
+  },
+  {
+    "id": "4f6698e0-6ebe-11ec-af32-5fc58e018ede",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a33b4ad99f2bf0ecabdd5d0bb07135bd565cbc15",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Jan 2022"
+  },
+  {
+    "id": "4f677e00-6ebe-11ec-9d9c-87ad1ac4c3bf",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4361398bd32cc7fe628353f94cad13767b7806cd",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Jan 2022"
+  },
+  {
+    "id": "4f689450-6ebe-11ec-a24b-e501c7b27ab7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "fc4f79af69e904d1618a39e8384405b207a125cf",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Jan 2022"
+  },
+  {
+    "id": "4f69b960-6ebe-11ec-b2e0-cd3f7df107f0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "e977779251a00c2feee469e5dc912bafc3e04ac3",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Jan 2022"
+  },
+  {
+    "id": "4f6acf80-6ebe-11ec-a199-79a1c124c2a7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "795c3d8138f5cb423251340f8320b7eb98cd246d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Jan 2022"
+  },
+  {
+    "id": "4f6bad70-6ebe-11ec-9118-65d59dd7139c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "08aa2e9a35b98c6dccb68182776e2426ab40864c",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Jan 2022"
+  },
+  {
+    "id": "c1a1c650-56c6-11ec-bacb-b755f839ff48",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "e069e57f08781478a8b66446baee845e6d26a36f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "06 Dec 2021"
+  },
+  {
+    "id": "c1a30390-56c6-11ec-93aa-b9c62eec9646",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "be6dab2029e4aa25a5936b73561757156a5b0b29",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Dec 2021"
+  },
+  {
+    "id": "c1a44d80-56c6-11ec-aaf6-815bc1d9ec58",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "52fe88c016922dfab686844f52bbb201ad909035",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Dec 2021"
+  },
+  {
+    "id": "c1a53e50-56c6-11ec-a569-bffe70623ab7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ee073011b5208bf437f995579da1f9a37e6ea959",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Dec 2021"
+  },
+  {
+    "id": "c1a64d70-56c6-11ec-8e98-1f927aab8f41",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ea949e82f1fc7d65bea4ca0cf4ce49a3946b4d52",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Dec 2021"
+  },
+  {
+    "id": "c1a72470-56c6-11ec-9589-67684019440a",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "1468019b84436d075b1ef9f884c2f34b69c04735",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Dec 2021"
+  },
+  {
+    "id": "c1a7fd30-56c6-11ec-8ada-a362bd2116f0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6dbaf8588b12345b0a900ffddf517c7a2d2a4460",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Dec 2021"
+  },
+  {
+    "id": "c8ec2fe0-3f33-11ec-94e1-c91a6a36e82b",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "7c18b62c26fd94e0f4a31399d1dcf1a586902bb4",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "06 Nov 2021"
+  },
+  {
+    "id": "c8eea600-3f33-11ec-b3bd-11aa3d525380",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "dd9bb8dce76669c7eac4c23518623940b0a1dbc4",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Nov 2021"
+  },
+  {
+    "id": "c8efe0e0-3f33-11ec-995b-2794d47a90a1",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "02f4087ee4874863a98a33639477fcb373282af4",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Nov 2021"
+  },
+  {
+    "id": "c8f0e510-3f33-11ec-9707-f390c5299cfc",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9558389b87e33812641196ca1973b1ff139dbf86",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Nov 2021"
+  },
+  {
+    "id": "c8f1ed50-3f33-11ec-9ca4-4bb974a2c9bd",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6365bd8913ecc31296f6052d83ef6afcf6010220",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Nov 2021"
+  },
+  {
+    "id": "c8f32200-3f33-11ec-a509-0fa78e4c7fa3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3484c7224d5fa7e948d6161204148658569d9b26",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Nov 2021"
+  },
+  {
+    "id": "c8f43530-3f33-11ec-804d-3deec2649d99",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a3e9619a6caca512afef715a131401fae95b35ca",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "06 Nov 2021"
+  },
+  {
+    "id": "cffe51f0-27a0-11ec-b091-c51aabc67de9",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "321d9e9dbbcffe63358d91f28f1577641df40a15",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "07 Oct 2021"
+  },
+  {
+    "id": "cfff4960-27a0-11ec-a9b0-f97e08112d65",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "c707fe145a8b0192952efb7a159d77da207548ee",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Oct 2021"
+  },
+  {
+    "id": "d0002230-27a0-11ec-bba4-3163e9b5d960",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "351e4d691df59f0c469d502d148a0ff078820d4b",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Oct 2021"
+  },
+  {
+    "id": "d000e7b0-27a0-11ec-b043-6dd92dc165a7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4ce25c9cbd4226722832382c797bceb065f3c981",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Oct 2021"
+  },
+  {
+    "id": "d0019ef0-27a0-11ec-9b69-8925583fa3e4",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3f35e1604efaa0e48d966ab85eef933c776ad89b",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Oct 2021"
+  },
+  {
+    "id": "d0025760-27a0-11ec-a3c8-8de27133af02",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ceaa58102f2492dae4cc0a8804a8f03be191c432",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Oct 2021"
+  },
+  {
+    "id": "d0032d30-27a0-11ec-a9bf-edf907ac434b",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "5f4530d88c31fe34de07ffdf0d55bdc3106426b7",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Oct 2021"
+  },
+  {
+    "id": "11a8a580-0fd1-11ec-897c-579544b3190c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "886e7e864efc23b848e2e89071c7849105462664",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Sep 2021"
+  },
+  {
+    "id": "11b39530-0fd1-11ec-8640-fbdbc132a4c2",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "c429a68b9dd85dee49a5c1d1b463c2bb4989adf0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Sep 2021"
+  },
+  {
+    "id": "11ba7f60-0fd1-11ec-9b8a-eb228a4403a4",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "05922ea1b15316dc9bc638db651fa4057e2b3094",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Sep 2021"
+  },
+  {
+    "id": "1181beb0-0fd1-11ec-927c-ad7a41d6418c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "fb2e932156baae0f565f27ff8026b1ff77f519e5",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "07 Sep 2021"
+  },
+  {
+    "id": "118fc9a0-0fd1-11ec-9efc-3bd7ff652d60",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "1fa1ce85ba2847c408065f4f57544ea2459ffc76",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Sep 2021"
+  },
+  {
+    "id": "1190dd50-0fd1-11ec-8a79-d1f1eab28747",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4f09807ce98270ce738c41a20c1184a8e6abfeb7",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Sep 2021"
+  },
+  {
+    "id": "119bfd10-0fd1-11ec-842f-ddc2e233d945",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "640dd3b50f1b087b8fbd615790005949ac0eb7ce",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "07 Sep 2021"
+  },
+  {
+    "id": "6c86d580-48da-11eb-a66c-311b86a5e616",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "66598c21f72dcc8fbe832d9f14df06ba48842cb5",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "28 Dec 2020"
+  },
+  {
+    "id": "6c87c920-48da-11eb-9ea0-f1891cdd903c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a17a6882a88c872ff74f1f43841f09b1d27eb145",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Dec 2020"
+  },
+  {
+    "id": "6c88a360-48da-11eb-8500-1785dddcecac",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "13a4fed051936760d5e02a9ddb2a9868dd6efd05",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Dec 2020"
+  },
+  {
+    "id": "6c8963e0-48da-11eb-9654-ddf4e679adac",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d0befe0ed924286fbe13ea4121e334bd07b08929",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Dec 2020"
+  },
+  {
+    "id": "6c8a2300-48da-11eb-8b55-4764789ce767",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "65ffcc36a52c9f7c997dbf98b10e5e10f964ae05",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Dec 2020"
+  },
+  {
+    "id": "6c8ae710-48da-11eb-a587-e33aacb36db7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f65228a681fb773f6d5bac706592834d76564b0f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Dec 2020"
+  },
+  {
+    "id": "6c8b9db0-48da-11eb-9706-e7e0ff4eb899",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "1e71c181b297632458c9b6ffcd3f1aed6c99df50",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Dec 2020"
+  },
+  {
+    "id": "5c2c1290-3147-11eb-8dcd-0747cf9285ce",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9a167ea8b884e019daa0effcf127dbf60d6c43fe",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "28 Nov 2020"
+  },
+  {
+    "id": "5c2d6570-3147-11eb-8794-0974a87377dd",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "71f7365fc33fc9c614bfbeb27e10829cdc91a86c",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Nov 2020"
+  },
+  {
+    "id": "5c2e1ec0-3147-11eb-8d16-9dc32e0f8899",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "b8fbbc2ad19a3de6f464b33173b2470f045e06a0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Nov 2020"
+  },
+  {
+    "id": "5c2ebf60-3147-11eb-b216-070f4dda0066",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d2ecc8b7743f96d40b51518cc02c76001ab05ebf",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Nov 2020"
+  },
+  {
+    "id": "5c2f51a0-3147-11eb-acb5-513a723c7448",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "94393cd381cc4499f7f4259b9839d52a39b215e8",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Nov 2020"
+  },
+  {
+    "id": "5c2feed0-3147-11eb-84b2-e9d7b24bab4d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d1cf1f14e221aba1e796e88445f33d4e2508bfd8",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Nov 2020"
+  },
+  {
+    "id": "5c308bb0-3147-11eb-a8a3-0d50a3bb4f56",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a594fa2272f78445f936c9bd8508e76162af0db5",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Nov 2020"
+  },
+  {
+    "id": "d0efcf80-194f-11eb-8b07-bf75223eafd2",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "83e52d4b0e8aea01ad2ec18f7b36e42dd805bfe3",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "28 Oct 2020"
+  },
+  {
+    "id": "d0f23a30-194f-11eb-8e3c-e1b1ff119bfe",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "00d4e38873f1d798c850784944a54619ca999cbd",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Oct 2020"
+  },
+  {
+    "id": "d0f34520-194f-11eb-936d-2fa55b3a721e",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0ec23c68fe4a6fdc833048138c949ef4b72ccd64",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Oct 2020"
+  },
+  {
+    "id": "d0f3f560-194f-11eb-8cdc-9d0dd5f59f5e",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f079ad47625bd59dd9a82563484e66681995560f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Oct 2020"
+  },
+  {
+    "id": "d0f49900-194f-11eb-9c0d-c1c5e6338762",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6ba3316154489f12209b32df50523f245347418b",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Oct 2020"
+  },
+  {
+    "id": "d0f53e20-194f-11eb-a956-21779fe9f1bb",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3c70035e1ec933d153f7f8fb5765a30c023d0fb2",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Oct 2020"
+  },
+  {
+    "id": "d0f5e400-194f-11eb-9111-732dd41f1961",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "dd47597f88ca2e450bd9bae650c00cbd48f1fe78",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Oct 2020"
+  },
+  {
+    "id": "d51bc280-01bc-11eb-b0af-07042207404d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "bb3462dd2477c2aea067bace288bd9fe285453c7",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "28 Sep 2020"
+  },
+  {
+    "id": "d51d1580-01bc-11eb-b83b-dd1df5f498f9",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "734be8c33b5f154093efc3bcb577d51050d832c1",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Sep 2020"
+  },
+  {
+    "id": "d51e1c30-01bc-11eb-9762-813964cde139",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a35df53ccbb05f6de41b1fd35fe0edefa64843d0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Sep 2020"
+  },
+  {
+    "id": "d51ec680-01bc-11eb-a031-e370fb183f26",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0f3cf8102c6aed6c9b0ca123b4950cdc69f9ee20",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Sep 2020"
+  },
+  {
+    "id": "d51f65b0-01bc-11eb-97d1-8b98c09a5970",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d44357d647bbf2d67cc30ec47a2d579fbd0c8cfe",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Sep 2020"
+  },
+  {
+    "id": "d5200e90-01bc-11eb-99f6-eb3d2d9c7736",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "44a44e14d66d29835ff28b4432b1e59df05c90af",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Sep 2020"
+  },
+  {
+    "id": "d520b430-01bc-11eb-b1dc-9967e15619f6",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ea41880b723ec5216d588980ca4dfd45bdcd751b",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "28 Sep 2020"
+  },
+  {
+    "id": "dcc47db0-ea29-11ea-acb2-23ce864363ee",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "fbc966d70431f3424fa682f367f217b7faced74f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "29 Aug 2020"
+  },
+  {
+    "id": "dcc62970-ea29-11ea-9004-2d291f94de5b",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "674f698846b5a680794e2405f81e1b05a15c5c0e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "29 Aug 2020"
+  },
+  {
+    "id": "dcc72160-ea29-11ea-b571-ffa18b3b4d37",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0d71915c26f2c7d7290b4b0927128b8db9758a4a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "29 Aug 2020"
+  },
+  {
+    "id": "dcc7d4f0-ea29-11ea-a139-6d06858c3253",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f3b23d46abf8b04343014db9e94e8ef525312a5c",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "29 Aug 2020"
+  },
+  {
+    "id": "dcc88670-ea29-11ea-a5f0-794ce9e47be3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "bc445167182217aaea96d8c53671635b24363f5e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "29 Aug 2020"
+  },
+  {
+    "id": "dcc94560-ea29-11ea-9ae9-9d4747173b72",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "5f28de8c8607ce057e18d2a46142052c8f467e71",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "29 Aug 2020"
+  },
+  {
+    "id": "dcc9f2a0-ea29-11ea-a4c9-59af0433b9e0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "1dd642eb1448bfdd54cad75fd8e3bec9bd82716a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "29 Aug 2020"
+  },
+  {
+    "id": "4ee4c610-d232-11ea-9cb0-11279c9e8ec4",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "757a80171584af85bdcc1502034d61a8d2a7291f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "30 Jul 2020"
+  },
+  {
+    "id": "4ee62ce0-d232-11ea-8251-b5ad485a8d5a",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "315bdff92b34de0c6baae4fc97b5707c123af9f9",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jul 2020"
+  },
+  {
+    "id": "4ee72290-d232-11ea-9248-d9b72cc515ca",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ab1f4941d57cdc857e3ec12c3b81c61948763e52",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jul 2020"
+  },
+  {
+    "id": "4ee7dcd0-d232-11ea-b195-b3018eb09207",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3b32dcfd10504b0cd64e51a984c7862c962d8b65",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jul 2020"
+  },
+  {
+    "id": "4ee89ad0-d232-11ea-aec0-4b705972cad8",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9c30e1f382578aead8ea8e874d661409f3159dad",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jul 2020"
+  },
+  {
+    "id": "4ee95500-d232-11ea-995b-d71ad861eba8",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0a24839b5c5c13909d9bb8709edd2e0ad6fa7722",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jul 2020"
+  },
+  {
+    "id": "4eea1f20-d232-11ea-95bd-b91b133dc77c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "7f73c8ab510803aaa8ecbdcae2553043646f3b81",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jul 2020"
+  },
+  {
+    "id": "56616f70-ba9f-11ea-8871-331c5bb7eed8",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "fa74a599a6faaf9b520a2b34c5bb786d85c5dd2b",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jun 2020"
+  },
+  {
+    "id": "565ad340-ba9f-11ea-943e-f5c0d16ed3c5",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0b7b55b31fddbfc1ef85efa565d2dd9d2b967c4d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "30 Jun 2020"
+  },
+  {
+    "id": "565c26a0-ba9f-11ea-9793-bf4bdef70132",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "502d7d19a5cb63817a4808058bbbaaab088deac7",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jun 2020"
+  },
+  {
+    "id": "565cee20-ba9f-11ea-9d16-331f990fde70",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "e2da459a86c351baf851701cbb4faa23d4b38ceb",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jun 2020"
+  },
+  {
+    "id": "565d9ac0-ba9f-11ea-ba42-c5845c140f0c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "14d3c36692d527f93ca81f0089cb7c4d5a2def9d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jun 2020"
+  },
+  {
+    "id": "565e43e0-ba9f-11ea-b24c-f74e1cb64b60",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "28c1bc80d480dcaeddced22f7e2ab64211c76c5a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jun 2020"
+  },
+  {
+    "id": "5660ab40-ba9f-11ea-beda-8b015e3b581e",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "042c329bfa4ce1be54b498a27c7b8f7f996eceb6",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "30 Jun 2020"
+  },
+  {
+    "id": "5d96e250-a30c-11ea-b179-ddbaa2181995",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d4955590e593992f21894de37fd641483efc8a23",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "31 May 2020"
+  },
+  {
+    "id": "5d9813b0-a30c-11ea-9a42-7b4d00ca645c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f457d368c9de3211554377ee250b5cbdb9cc0a8c",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "31 May 2020"
+  },
+  {
+    "id": "5d991ac0-a30c-11ea-be58-8d05fbce1dc9",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "deab878d6ec2ac4acb98d33971a521250abd9405",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "31 May 2020"
+  },
+  {
+    "id": "5d99ca00-a30c-11ea-9d97-3538f9204e1f",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "08934f78f3aad563c16c7b0d990208b8f91dc700",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "31 May 2020"
+  },
+  {
+    "id": "5d9a76f0-a30c-11ea-849a-abd1a10af2da",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "49aa6ad4065bb1cf6038772c3ea5e050f6679c22",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "31 May 2020"
+  },
+  {
+    "id": "5d9b1fe0-a30c-11ea-a1c6-b5f4908987b1",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "df148db96d0117a72c73230b3b766ac22d5d72a0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "31 May 2020"
+  },
+  {
+    "id": "5d9bc5b0-a30c-11ea-a2b1-999d604dfe52",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "fef0511bcf9d6b3f6e3f05ab383bd94a5124fafc",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "31 May 2020"
+  },
+  {
+    "id": "64e9eff0-8b79-11ea-ab6f-8f6341fa80b0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a2a98604a13d09a7e4c265e7ca1de7b46a6bf2c8",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "01 May 2020"
+  },
+  {
+    "id": "64eafff0-8b79-11ea-83fa-63f4a2e3a1b5",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "bf83c6f53aad63532ad3d0ca8159c41a41de4807",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 May 2020"
+  },
+  {
+    "id": "64ec4760-8b79-11ea-a4c3-2def27fec532",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "c1fc052be6f43bf1ebc8f0016376c9955f39c9dc",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 May 2020"
+  },
+  {
+    "id": "64ece240-8b79-11ea-bd59-4121d4f5709a",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "169d16af9ad5a9bc345a9a3cbe7c98e2d1967646",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 May 2020"
+  },
+  {
+    "id": "64ed8180-8b79-11ea-90a1-9baa7ff03bf9",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "b08b7c43a79307a64ee0562f8f8313e18917e124",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 May 2020"
+  },
+  {
+    "id": "64ee1420-8b79-11ea-b7c9-4f4b35ac00c8",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "306578bc3fe2ec36fa7777342bf8889985e09615",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 May 2020"
+  },
+  {
+    "id": "64eeabe0-8b79-11ea-a5a1-19503e3eb86d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "43d807fbc225599e47e22b296747538c74caa4c4",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 May 2020"
+  },
+  {
+    "id": "6c2bb9f0-73e6-11ea-a046-5b6e6dc96a52",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "1cab2728c399904113fa211adb5101edcd675ade",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "01 Apr 2020"
+  },
+  {
+    "id": "6c2cc370-73e6-11ea-aed3-2f9d969bc3ca",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4f266f3c0795bef3fa224ec0f57f2222b8be0d36",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Apr 2020"
+  },
+  {
+    "id": "6c2df300-73e6-11ea-9511-cf7078d1f5c8",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0a0c741aa982150f746945e7ab9f3cb8fc39c571",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Apr 2020"
+  },
+  {
+    "id": "6c2eb610-73e6-11ea-b20c-93fa301e0c47",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "dfe44c28ef9b0441186f98936e329c30618a1f24",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Apr 2020"
+  },
+  {
+    "id": "6c2f4df0-73e6-11ea-b31d-33c43563331b",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "08cdd39a45bc26c792aae1c8f31ffae4a8c37022",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Apr 2020"
+  },
+  {
+    "id": "6c2ff1e0-73e6-11ea-836a-9fbee2dccd7d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a3c593e1887129e3fad3603c5c231c41f75e63d9",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Apr 2020"
+  },
+  {
+    "id": "6c309310-73e6-11ea-ac67-f794244fdff3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "61f8eeecfcb9d52fd74690c101b6dc460ea841d0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Apr 2020"
+  },
+  {
+    "id": "73d6df70-5c53-11ea-b01a-6d2817a2f0a0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d472bffbc5c90e439778139bd46725be153aa40d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "02 Mar 2020"
+  },
+  {
+    "id": "73d8cd30-5c53-11ea-9595-69adaffc9376",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3bae6d560505139920f644ff851a1b3f674e3f2b",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Mar 2020"
+  },
+  {
+    "id": "73db4f00-5c53-11ea-9ead-f91010806ce4",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "b9760711aec8103a95629a563087f59bbdb63e1d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Mar 2020"
+  },
+  {
+    "id": "73dd6090-5c53-11ea-a0f3-6febb30a6031",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "374dfd00c368ff34187e0389abcb25c8a1670f65",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Mar 2020"
+  },
+  {
+    "id": "73df38e0-5c53-11ea-baee-313e6f921458",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ffddd0154aa60ec2e129b3dee5c7f46296de4adb",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Mar 2020"
+  },
+  {
+    "id": "73e0c010-5c53-11ea-97ba-05e10a395cbe",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0ddfa7f916ac8e992e0406b928f55c09433efc0f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Mar 2020"
+  },
+  {
+    "id": "73e210c0-5c53-11ea-8fb5-5bf04e107fcd",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f07c11da2c52d9ce58409aedc38558e67fd35556",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Mar 2020"
+  },
+  {
+    "id": "7b4753e0-44c0-11ea-9e3d-efc55fa0b1bb",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "8d1077c7fafa4761056a2d80ea9c649a9740f33d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "01 Feb 2020"
+  },
+  {
+    "id": "7b493e90-44c0-11ea-92bc-ebc3afedec9b",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "59cfcb23548d06ec904df6652e6b2dfa28478108",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Feb 2020"
+  },
+  {
+    "id": "7b4a8700-44c0-11ea-88c5-01407695a63b",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3c37bbfe0988862cf8b0e6ae1aae38582fa946b3",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Feb 2020"
+  },
+  {
+    "id": "7b4b8940-44c0-11ea-b913-e3236222d54e",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6550d582eacd01a868b8750b504af21e09d1b091",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Feb 2020"
+  },
+  {
+    "id": "7b4c6160-44c0-11ea-ae25-93d2ffcbce6c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "fedda71dabd736662bc441c73362abd93ac43963",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Feb 2020"
+  },
+  {
+    "id": "7b4d3950-44c0-11ea-bfe0-75f5ca9a7735",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "85144a9b9c39c82eb343c05c05c4471102747a5e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Feb 2020"
+  },
+  {
+    "id": "7b4e0e00-44c0-11ea-9578-f5c9a2c8f6a6",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a7160bb63ef0305a5c3ad034fd31a1aa9145aa31",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "01 Feb 2020"
+  },
+  {
+    "id": "82781c30-2d2d-11ea-94d9-659309188019",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "34a00d411fcb8901b6063518e7b58fd7a1b51d0d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "02 Jan 2020"
+  },
+  {
+    "id": "8279d340-2d2d-11ea-9fa2-8fe09335df85",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4dea33d6508f7b0060b6d977bd90667aa65ea191",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Jan 2020"
+  },
+  {
+    "id": "827b3bf0-2d2d-11ea-8b96-a3acf91004aa",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "5dda345173e1a7cb7a4fcaec49988a71d08c9ecd",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Jan 2020"
+  },
+  {
+    "id": "827cea80-2d2d-11ea-afbb-1b514e5e50e6",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d1bd393fe2e8e4b2d1f7d45c9302ab7ad2148fc6",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Jan 2020"
+  },
+  {
+    "id": "827e7180-2d2d-11ea-807d-d18a60b8a4af",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "bedde02de1c1c19b86c6c6d55250bd9b2a2b2f46",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Jan 2020"
+  },
+  {
+    "id": "82801d80-2d2d-11ea-b57b-e1f5d2af74a5",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f974d3e27c4c12582d683e95a9e08b4b59fb944c",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Jan 2020"
+  },
+  {
+    "id": "82815a00-2d2d-11ea-abd8-cb148dd2b26c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "7ab5171b192594051878867750577919cf343623",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Jan 2020"
+  },
+  {
+    "id": "89d0ac50-159a-11ea-8a32-e1f57262eaef",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "10d12fbd36ec0a7bda9748739d7d477832d9bdaa",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "03 Dec 2019"
+  },
+  {
+    "id": "89d24d00-159a-11ea-ad8e-d3d10e770f27",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d17a6345c05e5cc5472113ec342ff68ada925887",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Dec 2019"
+  },
+  {
+    "id": "89d39ad0-159a-11ea-ae7c-5396cc99ee33",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "05251bfd9a2f9a0453d799e80d37cdb2f7b527b9",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Dec 2019"
+  },
+  {
+    "id": "89d4d1d0-159a-11ea-a3cd-4f21ebd61ec4",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4904ee32316814ea570ce7a1c043df9a4782e21a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Dec 2019"
+  },
+  {
+    "id": "89d5e1b0-159a-11ea-97e5-8d77de0ccfc3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "52f29344842663d96f5e0e355f904069e0c978e0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Dec 2019"
+  },
+  {
+    "id": "89d6d910-159a-11ea-93b8-b1267db3f53d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "93e7c319cb763ff5fcf237299dd0ddfdaacbc81a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Dec 2019"
+  },
+  {
+    "id": "89d7b6e0-159a-11ea-a24f-7bceb3d055c3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "c1515350ce5095e0e87cd3fdc9cf049d5fcd3d59",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Dec 2019"
+  },
+  {
+    "id": "bf2a70e0-fda3-11e9-ba5f-9f3bdfde26cd",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ab0986a7a4520a9b2af69ccf5a55cb9f655bcc40",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Nov 2019"
+  },
+  {
+    "id": "bf953e70-fda3-11e9-a45e-a3c345760118",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "7f2683a26cef64a7d4dbcb47f61df9dbfb3d1d3e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Nov 2019"
+  },
+  {
+    "id": "bf964480-fda3-11e9-aafb-a78f006e2d12",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "cdcb0a9348d9730d42c4ec363ec5ecdea385b7cf",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Nov 2019"
+  },
+  {
+    "id": "bea21340-fda3-11e9-b47c-9976b14379d9",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "c5170f595b735cafc9cbf0b3bab7549355c52dc5",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Nov 2019"
+  },
+  {
+    "id": "beeaabd0-fda3-11e9-a31d-671aa999740b",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "68317e9e992d37ccea547763edb44ff468d42b47",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Nov 2019"
+  },
+  {
+    "id": "beff4dd0-fda3-11e9-8c40-352dc8882ed3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "36e9acb5060712897467d426eb6e58e0270308f7",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "02 Nov 2019"
+  },
+  {
+    "id": "be827010-fda3-11e9-8335-c7d3c5b212a2",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4386edb34b795e16a810f1a37f3a229a1197f380",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "02 Nov 2019"
+  },
+  {
+    "id": "a6314460-e610-11e9-b54f-bb3208422501",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "80aeb279ac1e9dc9f40e556a09b9e58e86bded66",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Oct 2019"
+  },
+  {
+    "id": "a63b5a70-e610-11e9-94be-e5b1d09a8fea",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f27151dad1ab73f73085926e50dccad89659ec23",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Oct 2019"
+  },
+  {
+    "id": "a5751900-e610-11e9-8b87-7bd2f31e7f72",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9c2b7c0e87582d7297f02cefeff561d0c28d0d10",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "03 Oct 2019"
+  },
+  {
+    "id": "a5b25000-e610-11e9-b60e-3162e73a9f4c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "2d5e283e230032fa541570a9e7d06fc87baf6954",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Oct 2019"
+  },
+  {
+    "id": "a5c1f830-e610-11e9-9e82-f37263023efc",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "cc6d41afed4acb4c79e92c3409d198a6b41db7c1",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Oct 2019"
+  },
+  {
+    "id": "a5e72670-e610-11e9-8638-7506da0c2ee6",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "2907e182206938202cb89abc3d4965cc744002ba",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Oct 2019"
+  },
+  {
+    "id": "a5e9f290-e610-11e9-91df-dd6fd86a6869",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "8531055a83887c0e26f46b4cffca935e64e65321",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Oct 2019"
+  },
+  {
+    "id": "2fd9c350-ce7d-11e9-9322-818d1a32f8e5",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a91e68f077cc378750d236acb218eda2ef2bc78e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Sep 2019"
+  },
+  {
+    "id": "2feadbf0-ce7d-11e9-bf3c-8992dd5f7da1",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "b62014cb2c8250992b4f484c11aaa50a665fe29e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Sep 2019"
+  },
+  {
+    "id": "2f5cf0e0-ce7d-11e9-b14d-412bada2c15e",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "385acf44710fc58f4f25e2737180bed898687566",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "03 Sep 2019"
+  },
+  {
+    "id": "2fa76c40-ce7d-11e9-b4de-7dddfcf54fe0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a20cd1c7d92976029a4dd7968149f1e37c06280d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Sep 2019"
+  },
+  {
+    "id": "2fb48bd0-ce7d-11e9-bf97-8f192e334132",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "159d963a9ba9de2be62a0f94c4253afd6eb619b9",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Sep 2019"
+  },
+  {
+    "id": "2fbfe530-ce7d-11e9-84b7-99e8c8482bd4",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a3b5aff7feb5c63d97adf07ac15ee23167702bf7",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Sep 2019"
+  },
+  {
+    "id": "2fcaa250-ce7d-11e9-afe6-d1bec1cdb8fb",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f8719d43501d3b70f103e7a4c94268bc7b771171",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Sep 2019"
+  },
+  {
+    "id": "eb198af0-b6c3-11e9-97cf-b56607d17f2d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d66fffe85ec1fad3dceddd157c65e0856b62a106",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "eb1af040-b6c3-11e9-b822-291637874917",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "2d45888b711cc6d27d38c132a76f352002380c0a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "eb1bd920-b6c3-11e9-8b69-5364760e8535",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "abf68bab9b157b7bfaff5c4d979fb4dccd5ccd30",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "eb1c8d40-b6c3-11e9-9a02-b9273ab1f8f0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "43f724ca05df2b37f797ebaadfd48cf12f3beeb3",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "eb1d32c0-b6c3-11e9-92ab-aba61ab5d274",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0f1f2ea7c934fef40ad13351ac581d17c109110a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "eb1dce50-b6c3-11e9-bb39-d9a1f6ed5995",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "59776afa31877342e4a755644e7aca38eb5cc429",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "eb1e6ea0-b6c3-11e9-b7d2-61fa82da9564",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "cc8d842f20013a5d29567aa61bd334bb94ed25dc",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "eb10b0b0-b6c3-11e9-a7a6-199cb1c397a3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1160,
+      "format": "₦1,160",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "616b31a99a45d26ceed06364235207d564036653",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "eb11d8b0-b6c3-11e9-ad7e-c7d147c9787f",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 10633.33,
+      "format": "₦10,633",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "425f71b511d7164b4213a1f2748a181942704b19",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds (extra services).",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7be4dd0-b6c3-11e9-81f1-91a94b6c470f",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1200,
+      "format": "₦1,200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "375f8f74a1a51b09ca9212153c8e5f64fb943455",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Start-up Plan",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7bf46a0-b6c3-11e9-8742-777dfad5702f",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a017cbbb4cd2cce75913e18649e39a67ce2fece6",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c02980-b6c3-11e9-9dcb-77c980a85ff2",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "2db85a4de26bfde1e39a141806f7d82279e06e04",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c0f3a0-b6c3-11e9-875a-fba9e5ecd996",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "954a586c53f98eed77dd9a85cff2e5a435e2ac27",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c18de0-b6c3-11e9-96de-1bb7f887cbf0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "1a37fcfeee42635c4eb10b323844260eb7402671",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c23d70-b6c3-11e9-9527-27db6386f133",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9a0feac75a8487794398d51b069d6efb6dc9801c",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c2cf00-b6c3-11e9-b7ba-17b57a044433",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "82e5e766cdf7f7fd1d38a6f64392bcce496c70fa",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c35f60-b6c3-11e9-8fb6-55100b2c2b8f",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "edd120209bf9c1d8c004da0ea75c1baf5c71c979",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c3f000-b6c3-11e9-8f2b-810d77e2cc73",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "65ece61e88f3477486c2d1cdb0e5c515fd9f7427",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c48360-b6c3-11e9-956a-7b8270666519",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "c81dabaa4f8e850e89174f1e067e01d62ae37313",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c51910-b6c3-11e9-ba3c-f79ae1183c56",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "77861080191b4e80ee39eac2c5a462beaeef8acf",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c5aa50-b6c3-11e9-b1f2-594c3d06a063",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "fae216b55e92f3629ac58c5131ea6451357c4bc0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c6b2d0-b6c3-11e9-aaeb-134ff43c9584",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "939101ab93605c281568898684cf2fb6ae7a501e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c744d0-b6c3-11e9-9974-252f947dcdcc",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3fae62af8dadcbd364e5ec5de0a45d69996b7095",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c7dc00-b6c3-11e9-9337-aff561c575a9",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4cc3f87a074d2797790e1bb175dde305f3eb399f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c87940-b6c3-11e9-9ef1-17e693516e51",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6cc55372dc168479a9eb6c30ccc664d935d48f5e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7c916a0-b6c3-11e9-8a37-279981b1d9eb",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "66fdc3c3c6236f5d113aefd887f6f1d53f5e3371",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7ca00e0-b6c3-11e9-a5da-f5345381ffd3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "1d7163307fb367021edca069122c93781c957cc0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7caa2c0-b6c3-11e9-8441-897facd284a9",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3515e76c6334c6f7b7dc1e09592fb46c7a9a11bf",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7cb40f0-b6c3-11e9-b9ca-df726f7262f8",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d48450b353fec31903899081ff82225109c73071",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7cbddc0-b6c3-11e9-88e8-ab67062bab7e",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3c3a0e68b54a864b1ffa0911ca95bf67e8d5f48a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7cc7a40-b6c3-11e9-86c0-e1c94d3615e7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d526a422e54e80c15b2f8c5fe3422ad7e2eb4763",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7cd1680-b6c3-11e9-8830-fbb637c1902d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "25114782f3e32fc5fee9d843c33b9a73c075ab5b",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7cdaee0-b6c3-11e9-805c-13ebec7d9618",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "2a7528c11414f82e1871400834a57df532f43b51",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7ce47c0-b6c3-11e9-b335-73ab6ecfed76",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3e62fdd6cf5604a864bc705c8873c1c7506c778e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7cee400-b6c3-11e9-a6ac-8132a7ef8b65",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3dbd3b4eca8eba737eabcbe8ad7721f6e1d4dd99",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7cf79b0-b6c3-11e9-af3f-b3e5fc82605f",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "96031b70359c6d4609ef4791f5d7e315d4e80ac1",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d013c0-b6c3-11e9-81d1-77ad59c8b52d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "1bc2bbe132e942a3843e0e7d4ab310eb0afa7ab9",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d0a640-b6c3-11e9-b5b6-2b590209b4bf",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "47eae3dd29804437226fa87de90f906c36249f09",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d13a50-b6c3-11e9-83e9-fd70a47bdc27",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "7c7d4962151be7bd28864ab901f54fee6a3782ae",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d1dda0-b6c3-11e9-9ee0-b1cf334bc74a",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "49abc8b0758ed4e1ca60d3371f05df3e3fd9bbc7",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d27930-b6c3-11e9-b0d5-778f49afa9b1",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "2e550f17c5fe1fa0a80c14fc8cb41ddee1625225",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d30b20-b6c3-11e9-b585-29e9cdc743d5",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6a24e3a45cc19e4cfd4a041300406938db14a31a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d39b10-b6c3-11e9-a58a-b943080d11f4",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "bc770b1f23c32a6bde4a9130260308083f29980c",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d430c0-b6c3-11e9-9dcb-8345d22a932d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "e0d3da17cdcf1449d3e3c0e4304ec9ad7894ac11",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d4c0a0-b6c3-11e9-b7b6-7742e887005d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "cbcd60892e2be5d32d606680ac24373be8724ddf",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d553c0-b6c3-11e9-a511-63bd5c607122",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "124ff0e58f1a552674d2ccc68179128d290466dc",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d5eae0-b6c3-11e9-a4e9-c9ed549d3ba7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "99d3718092f9cd2314689f1819683fe02eb79286",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d67d80-b6c3-11e9-9a65-8fffb17d81ed",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0d295a6d1f72dae57cbd683cae90b20ad7906a92",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d712b0-b6c3-11e9-8d8d-05c58e634ff8",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "626b87f9d31331d8847842e88a73633734c07450",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d7a2e0-b6c3-11e9-b56b-f7d21212072d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "dc615690b4faee88457ebb954be25065aa3b16b0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d869f0-b6c3-11e9-8f88-15b2e8a2839c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9c9b47ae7543779a93bf331d2ee73c18c2bb1c70",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d90120-b6c3-11e9-8726-cf35d010f909",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "cdb678360ed40fc933057f765b971b284eb2aa35",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7d995b0-b6c3-11e9-90b5-d1f2b19ad487",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6d620e9ba12b4429eae188e87d304d89f35a97a0",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7da2b60-b6c3-11e9-81bc-ebca12baa402",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 250,
+      "format": "₦250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ef208fde23e6e326d2307227a01f8ade76edde57",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7b47530-b6c3-11e9-9cc1-5d4ed09a4767",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7000,
+      "format": "₦7,000",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "8195029d78fab67ea1c11f7e50a6b1e15ffdcb27",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "e7b6d280-b6c3-11e9-9e0c-1bcab49e9d27",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1120,
+      "format": "₦1,120",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "e6814caa91614b9605ac3aaeb4f802b360102110",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds (extra services).",
+    "created_at": "04 Aug 2019"
+  },
+  {
+    "id": "576af030-b5bc-11e9-ba2b-a94a426f528d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "bd76ae8bb2b91a415c2f8186e273bac547a05206",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "03 Aug 2019"
+  },
+  {
+    "id": "576bbdc0-b5bc-11e9-b818-0fdc95dc1b09",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "51941ad1accf1c92d12a5b54dc8bededcedcda5e",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Aug 2019"
+  },
+  {
+    "id": "576d5ea0-b5bc-11e9-b0a3-a3d3d403f9e5",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "129599f4eb8c7a8e65a8b1080fae5b3d294113a6",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Aug 2019"
+  },
+  {
+    "id": "576f3620-b5bc-11e9-89de-41199332a630",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d7e3a05005066cbad7f3fe96e644933a6df9c625",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Aug 2019"
+  },
+  {
+    "id": "577071b0-b5bc-11e9-b3a9-294f7cd64677",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "2f70b8d49d27a14c9bf88cbefc26e370407b32f3",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Aug 2019"
+  },
+  {
+    "id": "57712580-b5bc-11e9-bcee-c5c05908f026",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "a0484d1c2b5c2d86084b4cb31d71b21ff2c1d1d5",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Aug 2019"
+  },
+  {
+    "id": "5772b8d0-b5bc-11e9-bba1-1dbe1271b625",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "93af96e4c264349189e614d152130ae01c584110",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Aug 2019"
+  },
+  {
+    "id": "c8001b80-9dcf-11e9-8cb2-57c75126eed7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ba857ac8bb50b0a13c8da26f16c076112670f482",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "03 Jul 2019"
+  },
+  {
+    "id": "c8015aa0-9dcf-11e9-91ac-073b17aa76a3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "3a7a398ba11b761b8f49d7b645ece0864094edf6",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Jul 2019"
+  },
+  {
+    "id": "c8022840-9dcf-11e9-8cab-01f45a5c125e",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "fb6a3d4845b0dd21144428df0fb601079aa8ffc5",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Jul 2019"
+  },
+  {
+    "id": "c802e140-9dcf-11e9-b3ed-692d03a6ab9d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "1e769d074195872d5a489d5f789a60047b719042",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Jul 2019"
+  },
+  {
+    "id": "c8039590-9dcf-11e9-ad39-474e4b2eebae",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d90ef5174eb59850d7da32a955ee0692a9f2f6b2",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Jul 2019"
+  },
+  {
+    "id": "c80451d0-9dcf-11e9-84b7-8920d875c482",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "48c49bc198f241d683f346fd3b4fb1626800f5f4",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Jul 2019"
+  },
+  {
+    "id": "c80505d0-9dcf-11e9-895d-df68ff519c35",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6856df5ddc6fe7e58a2e5a1fc9f66591670ed5c3",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Contacts limit",
+    "created_at": "03 Jul 2019"
+  },
+  {
+    "id": "ddcf5970-9a00-11e9-b2ac-3953365fd1d0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4409a0a870637b558d6a0645a0479be04a4a5066",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Extra contacts",
+    "created_at": "29 Jun 2019"
+  },
+  {
+    "id": "ddecc0f0-9a00-11e9-b9b5-094008675ed1",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "c394f9a39e4d967bfe5df7bc03b0128eab931d29",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Extra contacts",
+    "created_at": "29 Jun 2019"
+  },
+  {
+    "id": "dc4a6df0-9a00-11e9-af6d-8914b9c81ba5",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "541692cc2660ca2eec005de2a73d832cebf785e1",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Extra contacts",
+    "created_at": "29 Jun 2019"
+  },
+  {
+    "id": "d8e6b1d0-9a00-11e9-8df8-77c9e2c71bd7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "6383b150eba4d7ae97fab8106d30c8427ecb59bf",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Extra contacts",
+    "created_at": "29 Jun 2019"
+  },
+  {
+    "id": "d90b66f0-9a00-11e9-93dc-3bfb220d65dd",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d107a6be550d1ffc33fdc7b6ee8804fae6b6c0e5",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Extra contacts",
+    "created_at": "29 Jun 2019"
+  },
+  {
+    "id": "d88b5c30-9a00-11e9-9e7c-378a2326fb89",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 200,
+      "format": "₦200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "406f32b69fe63067c323d9325f34698d704d6e0f",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for extra service: Extra contacts",
+    "created_at": "29 Jun 2019"
+  },
+  {
+    "id": "cfbbc060-8631-11e9-add5-31f082cda3c3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "11491f05044c1afeb0bd2414d724f34fea2ba105",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "03 Jun 2019"
+  },
+  {
+    "id": "c749d390-6e88-11e9-a07b-03ee8bd190d0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "d6fb57f5d6c5d33151df89aa25448d0889273561",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "04 May 2019"
+  },
+  {
+    "id": "96e5b6e0-6e88-11e9-a71f-67127405b455",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 0,
+      "format": "₦0",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "eb923f4a19daad99a16176a80574d04af179b18a",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Free Plan",
+    "created_at": "04 May 2019"
+  },
+  {
+    "id": "96e067d0-6e88-11e9-b20a-090dfe35971f",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1120,
+      "format": "₦1,120",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "b42cdaa07bb53c74b75acbb82798d92e0428555a",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "04 May 2019"
+  },
+  {
+    "id": "25e6f990-6dab-11e9-a2d6-2b2d094a5fc4",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1200,
+      "format": "₦1,200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "0c37b26a69f39f95ae69b115a23f7413806fdf53",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Start-up Plan",
+    "created_at": "03 May 2019"
+  },
+  {
+    "id": "b78cbf00-6da9-11e9-8977-07c43696ceb0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 0,
+      "format": "₦0",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ea2ffb502eecc77eed65e1efe1de63bfa02e48d6",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Free Plan",
+    "created_at": "03 May 2019"
+  },
+  {
+    "id": "b786d000-6da9-11e9-bd73-17e7bc98cb7a",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1160,
+      "format": "₦1,160",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "86fcc212f6e2172c1b7ef436cc2e504da3f5504b",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "03 May 2019"
+  },
+  {
+    "id": "6f0aed60-6da9-11e9-b4c1-c732978dd57a",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1200,
+      "format": "₦1,200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9ce15bc6d6a8016cfa3b8d473236d1a041b33674",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Start-up Plan",
+    "created_at": "03 May 2019"
+  },
+  {
+    "id": "6a94a3e0-6da9-11e9-861a-53409756a1e3",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 0,
+      "format": "₦0",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "15f511584169053176f0cab1a309518e0530a409",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Free Plan",
+    "created_at": "03 May 2019"
+  },
+  {
+    "id": "6a900fc0-6da9-11e9-acc0-731aa6cd9dfe",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1160,
+      "format": "₦1,160",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "22ff27888f6dffaa11663d6f9a9c67808f8fb749",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "03 May 2019"
+  },
+  {
+    "id": "66dc39f0-6da9-11e9-8d9e-c95784dd92df",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1200,
+      "format": "₦1,200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "df58e632755f94efa6ad370ffff222718e91b57d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Start-up Plan",
+    "created_at": "03 May 2019"
+  },
+  {
+    "id": "5c4dd790-6da9-11e9-92c6-bdea956c1fb8",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 0,
+      "format": "₦0",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f1770d9fe4db9af398bd159d5f31f17ff0f161d7",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Free Plan",
+    "created_at": "03 May 2019"
+  },
+  {
+    "id": "5c48c750-6da9-11e9-8175-a5357a0fa7f7",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 3500,
+      "format": "₦3,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "764c9fb1cdafc7aa25362f891bea7ea70de7c967",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "03 May 2019"
+  },
+  {
+    "id": "817e5440-61d0-11e9-9852-dbccaa4cb81d",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "43dae1bdf86d23e21af10c1fdcfaf03997d09c07",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "18 Apr 2019"
+  },
+  {
+    "id": "817a9020-61d0-11e9-8b1a-07bf8250a98c",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1160,
+      "format": "₦1,160",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "ea656e8409cdb3c6f5562d7606d85142457b88e8",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "18 Apr 2019"
+  },
+  {
+    "id": "7c8b5460-61d0-11e9-b4c8-ad3acfa6df93",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1200,
+      "format": "₦1,200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "5ddd3d319561ebabf5e8bd7a2d3a7768d04a4589",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Start-up Plan",
+    "created_at": "18 Apr 2019"
+  },
+  {
+    "id": "7c876050-61d0-11e9-84a7-9dbbc1389de5",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 5750,
+      "format": "₦5,750",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "31df1513734f5e8ad36bf78d420d323ca45d582c",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "18 Apr 2019"
+  },
+  {
+    "id": "5b46ba90-5c95-11e9-803d-977a08eb1efd",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "cb8a5a3f8bca50d88233d95ed0c57b01e768a791",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "11 Apr 2019"
+  },
+  {
+    "id": "5b426a50-5c95-11e9-838a-e7e642494d3f",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1160,
+      "format": "₦1,160",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9aa1abe5d996b27be23b00a821360708bd855b35",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "11 Apr 2019"
+  },
+  {
+    "id": "573fc4f0-5c95-11e9-8228-6d48e5314b33",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1200,
+      "format": "₦1,200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "15567d0eebe14aa5d2afb7429cc43e7b0900968d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Start-up Plan",
+    "created_at": "11 Apr 2019"
+  },
+  {
+    "id": "573bc0b0-5c95-11e9-8656-e9250b7cb8f0",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7250,
+      "format": "₦7,250",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "da74945423ab248cff5ee4c9e9aa34f3207301a0",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "11 Apr 2019"
+  },
+  {
+    "id": "4416cf50-5c95-11e9-9395-890d600205e1",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "353ae9cc24583c136b0c45ba4a41a4de96c40c11",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "11 Apr 2019"
+  },
+  {
+    "id": "43787b20-5c95-11e9-b0c9-f5e0633adc65",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1160,
+      "format": "₦1,160",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "f47920f29545dcf5404439a95440aced723ddb7d",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "11 Apr 2019"
+  },
+  {
+    "id": "3a0459e0-5c95-11e9-8ecd-c5e08776f8e9",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1200,
+      "format": "₦1,200",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "81b17ec507320bfa5130201fd4f34dd7f3bd547d",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Start-up Plan",
+    "created_at": "11 Apr 2019"
+  },
+  {
+    "id": "39fd66d0-5c95-11e9-a45f-fd15803fd153",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 3750,
+      "format": "₦3,750",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "256ff458f755e9270e9f325ebde8e4c083d0d68c",
+    "type": "credit",
+    "status": "success",
+    "description": "Subscription Plan is changed. Return unused funds.",
+    "created_at": "11 Apr 2019"
+  },
+  {
+    "id": "b310bb20-518b-11e9-b4f7-e5fab5579dec",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 7500,
+      "format": "₦7,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "9ad3a8cbf57245b74840419c73beec016b514dfc",
+    "type": "debit",
+    "status": "success",
+    "description": "Payment for subscription plan: Professional Plan",
+    "created_at": "28 Mar 2019"
+  },
+  {
+    "id": "b8c9ef90-39f8-11e9-947a-9d738802dcbb",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 2500,
+      "format": "₦2,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "74ce5d879a3d89e185744a523121ad0d5025618f",
+    "type": "debit",
+    "status": "success",
+    "description": "Plan: Professional Plan",
+    "created_at": "26 Feb 2019"
+  },
+  {
+    "id": "c0901830-2265-11e9-ac62-ab2ae4b9d357",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1500,
+      "format": "₦1,500",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "4241f57545ef5cee78b4470c4fb08ef1b016c402",
+    "type": "debit",
+    "status": "success",
+    "description": "Plan: Start-up Plan",
+    "created_at": "27 Jan 2019"
+  },
+  {
+    "id": "4fcc5d30-0acd-11e9-b7cf-5bad79696947",
+    "account_id": "ebdbde30-0acb-11e9-94ad-e98d4b19c701",
+    "amount": {
+      "value": 1800,
+      "format": "₦1,800",
+      "currency": {
+        "code": "NGN",
+        "name": "Naira",
+        "short": "₦"
+      }
+    },
+    "reference": "b864984cb1d8699c381c0105936487d275cbf50a",
+    "type": "debit",
+    "status": "success",
+    "description": "Plan: Start-up Plan",
+    "created_at": "28 Dec 2018"
+  }
+]

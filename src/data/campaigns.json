@@ -1,8 +1,90 @@
 [
   {
-    "id": 1, 
-    "type": "",
-    "created": "",
-    "active": ""
+    "id": "1124bfa0-7b57-11e9-93ee-c7caed91a10e",
+    "name": "Flash Promo",
+    "description": "Flash Promo",
+    "contact_list_name": "Weekend Promo Rush",
+    "active": true,
+    "created_at": "2019/05/21 00:29"
+  },
+  {
+    "id": "29ff7c80-92ae-11e9-a994-897238966234",
+    "name": "Investor Newsletter",
+    "description": "Newsletter for Nodcredit Investors",
+    "contact_list_name": "NodCredit Investors",
+    "active": true,
+    "created_at": "2019/06/19 17:20"
+  },
+  {
+    "id": "463cafc0-9b2f-11e9-b092-6523ff642206",
+    "name": "Waiting List",
+    "description": "Waiting List",
+    "contact_list_name": "Waiting List",
+    "active": true,
+    "created_at": "2019/06/30 13:04"
+  },
+  {
+    "id": "a25d56b0-a032-11e9-8cdb-d99d8d3a82f3",
+    "name": "Testy Run",
+    "description": null,
+    "contact_list_name": "Test list",
+    "active": true,
+    "created_at": "2019/07/06 22:11"
+  },
+  {
+    "id": "304ff4a0-bd1e-11e9-a3b7-4bc4a46673bd",
+    "name": "Campaign Name",
+    "description": "Desc.",
+    "contact_list_name": "Fake List 2",
+    "active": false,
+    "created_at": "2019/08/12 17:28"
+  },
+  {
+    "id": "e5e8d5e0-717c-11e9-b980-b722a15a095a",
+    "name": "Email Series",
+    "description": "Demonstrating how clients could use OgaMarketer",
+    "contact_list_name": "Run form to start series",
+    "active": false,
+    "created_at": "2019/05/08 11:34"
+  },
+  {
+    "id": "ec2af830-0acb-11e9-89b7-1d3e220354fd",
+    "name": "Survey Campaign",
+    "description": "Survey Campaign description",
+    "contact_list_name": "Travel Survey",
+    "active": false,
+    "created_at": "2018/12/28 19:10"
+  },
+  {
+    "id": "ed5ae2a0-0c76-11e9-9250-29a4c8b881e2",
+    "name": "Sample Campaign",
+    "description": "Testing with 2 Sample Contacts",
+    "contact_list_name": "Samplings",
+    "active": false,
+    "created_at": "2018/12/30 22:07"
+  },
+  {
+    "id": "ee87b550-765a-11e9-aeb7-89e8a3fabe6a",
+    "name": "TEST",
+    "description": null,
+    "contact_list_name": "TEST",
+    "active": false,
+    "created_at": "2019/05/14 16:14"
+  },
+  {
+    "id": "fa165fc0-b6bb-11e9-a1d2-fbd1a52bf183",
+    "name": "test 100",
+    "description": null,
+    "contact_list_name": "Fake List 2",
+    "active": false,
+    "created_at": "2019/08/04 14:30"
+  },
+  {
+    "id": "fb210450-b12f-11e9-9bbf-0f6585eea035",
+    "name": "Test 2",
+    "description": null,
+    "contact_list_name": "NodCredit Investors",
+    "active": false,
+    "created_at": "2019/07/28 13:05"
   }
 ]

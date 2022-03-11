@@ -1,9 +1,223 @@
 [
   {
-    "id": 1,
+    "id": "a95f99a0-7379-11e9-bdf8-7916b9527a43",
+    "active": true,
+    "name": "Another Goal",
+    "text": "<p>Hello</p>",
+    "events": [
+      {
+        "name": "In-Category"
+      }
+    ]
+  },
+  {
+    "id": "5a038f10-ac7e-11e9-86a4-8b69fc497f33",
+    "active": true,
+    "name": "Bank Statement Comment",
+    "text": "<p>Please make sure to upload <strong>ONLY </strong>financial statement of the bank account you have on record with us.</p><p><br></p><p>Follow us <span class=\"ql-emojiblot\" data-name=\"point_down\">﻿<span contenteditable=\"false\"><span class=\"ap ap-point_down\">👇</span></span>﻿</span> on Twitter for Flash Support</p>",
+    "events": [
+      {
+        "name": "Apply BTN"
+      }
+    ]
+  },
+  {
+    "id": "377287d0-737c-11e9-b3e8-418d6ecfcc05",
+    "active": true,
+    "name": "Glass Cat Goal",
+    "text": "<p>Hello</p>",
+    "events": [
+      {
+        "name": "In Category Link Click"
+      }
+    ]
+  },
+  {
+    "id": "3554e3b0-73e2-11e9-93ff-2d8cc9760cbf",
+    "active": true,
+    "name": "Goal for Page view (from email)",
+    "text": "<p><strong>Welcome back, #FIRST_NAME# (<span class=\"ql-emojiblot\" data-name=\"arrow_left\">﻿<span contenteditable=\"false\"><span class=\"ap ap-arrow_left\">⬅</span></span>﻿</span> </strong>That's your name<strong>)</strong></p><p><br></p><p>Can you enter your Birthday, so we know when to celebrate your special day..</p><p><br></p><p>(You can request a customer's birthday <span class=\"ql-emojiblot\" data-name=\"arrow_heading_down\">﻿<span contenteditable=\"false\"><span class=\"ap ap-arrow_heading_down\">⤵</span></span>﻿</span>)</p>",
+    "events": [
+      {
+        "name": "features Page view"
+      },
+      {
+        "name": "2 seconds"
+      }
+    ]
+  },
+  {
+    "id": "3a7ba790-ac6b-11e9-888d-dbaf82ed5222",
+    "active": true,
+    "name": "Message on Billing Tab",
+    "text": "<p><span class=\"ql-emojiblot\" data-name=\"exclamation\">﻿<span contenteditable=\"false\"><span class=\"ap ap-exclamation\">❗</span></span>﻿</span> To add a card to NodCredit, we will attempt a charge of 20 Naira to validate your card.</p><p><br></p><p>This is not a fee to access loan on this platform.</p>",
+    "events": [
+      {
+        "name": "Nod Billing MSG"
+      }
+    ]
+  },
+  {
+    "id": "ae3d6d00-b6ba-11e9-9388-d10d6241281d",
     "active": false,
-    "name": "Test",
-    "message": "Test Message",
-    "goalType": ""
+    "name": "New Goal",
+    "text": "<p>Hello, from Mars <span class=\"ql-emojiblot\" data-name=\"joy\">﻿<span contenteditable=\"false\"><span class=\"ap ap-joy\">😂</span></span>﻿</span>  </p>",
+    "events": [
+      {
+        "name": "Safetyexcos PV 1"
+      }
+    ]
+  },
+  {
+    "id": "efabf430-736d-11e9-a6b6-ab612300f298",
+    "active": false,
+    "name": "New Trigger",
+    "text": "<p>Hello</p>",
+    "events": [
+      {
+        "name": "New event"
+      }
+    ]
+  },
+  {
+    "id": "c35d5380-22ed-11eb-8fd3-3d6e5efd4e22",
+    "active": true,
+    "name": "Nod AD landing",
+    "text": "<p>Hey there <span class=\"ql-emojiblot\" data-name=\"wave\">﻿<span contenteditable=\"false\"><span class=\"ap ap-wave\">👋</span></span>﻿</span></p><p><br></p><p>To see our 5% monthly payout plans start with a minimium of <strong style=\"color: rgb(32, 33, 36);\">₦</strong><strong>25,000</strong>, please note that you <u>CANNOT</u> invest more than <strong style=\"color: rgb(32, 33, 36);\">₦</strong><strong>300,000</strong> in these plans.</p><p><br></p><p>We are giving you an opportunity to earn <strong>UN-matched</strong> guaranteed returns on your first NodCredit investment.</p>",
+    "events": [
+      {
+        "name": "Nod Ad Landing PV"
+      }
+    ]
+  },
+  {
+    "id": "ea1a6f40-80c5-11e9-b841-b1c016a01d5f",
+    "active": true,
+    "name": "OTP page blob",
+    "text": "<p>Be patient your OTP will arrive soon.</p><p><br></p><p>Message us <span class=\"ql-emojiblot\" data-name=\"point_down\">﻿<span contenteditable=\"false\"><span class=\"ap ap-point_down\">👇</span></span>﻿</span> on Twitter for Quick Support.</p>",
+    "events": [
+      {
+        "name": "Nod Verify Page"
+      },
+      {
+        "name": "OTP resend Click"
+      }
+    ]
+  },
+  {
+    "id": "3bbf9610-7174-11e9-8856-4354036aa03d",
+    "active": true,
+    "name": "Run form to start series",
+    "text": "<p>Your <strong>click</strong> action triggered this form.</p><p><br></p><p>Enter your email in the <span class=\"ql-emojiblot\" data-name=\"point_down\">﻿<span contenteditable=\"false\"><span class=\"ap ap-point_down\">👇</span></span>﻿</span> form - and we will briefly demonstrate how you can automating your messaging like never before.</p>",
+    "events": [
+      {
+        "name": "Messaging Module Event (Link-Click)"
+      }
+    ]
+  },
+  {
+    "id": "2075b250-7387-11e9-a3a1-213e626dc1b2",
+    "active": false,
+    "name": "Run survey",
+    "text": "<p>Participate in our survey and be instantly rewarded</p>",
+    "events": [
+      {
+        "name": "5 seconds"
+      }
+    ]
+  },
+  {
+    "id": "00cb4c80-7379-11e9-83a8-a9902c5bdeeb",
+    "active": true,
+    "name": "Search SE",
+    "text": "<p>Hello <span class=\"ql-emojiblot\" data-name=\"wink\">﻿<span contenteditable=\"false\"><span class=\"ap ap-wink\">😉</span></span>﻿</span> , do you know that for every safety item you buy this week, you get a discount of 5%.</p><p><br></p><p>Use the coupon code \"<strong>SAFEIT</strong>\" during checkout.</p>",
+    "events": [
+      {
+        "name": "Search SE"
+      }
+    ]
+  },
+  {
+    "id": "0fa82ea0-71b7-11e9-a09d-db3adda3e989",
+    "active": false,
+    "name": "Sub-trigger Run form",
+    "text": "<p>Our '<strong>intro to automation</strong>' email should arrive shortly to your inbox.</p><p><br></p><p>Continue with our targeting section below <a href=\"http://ogamarketer.com#\" target=\"_blank\"><span class=\"ql-emojiblot\" data-name=\"arrow_lower_left\">﻿<span contenteditable=\"false\"><span class=\"ap ap-arrow_lower_left\">↙</span></span>﻿</span><span class=\"ql-emojiblot\" data-name=\"arrow_left\">﻿﻿</span></a></p>",
+    "events": [
+      {
+        "name": "Click on Widget"
+      }
+    ]
+  },
+  {
+    "id": "d67b2080-73ee-11e9-8f96-71a93f65dd16",
+    "active": true,
+    "name": "Survey Call",
+    "text": "<p>Run survey </p><p><br></p><p>Test Survey Below <span class=\"ql-emojiblot\" data-name=\"arrow_heading_down\">﻿<span contenteditable=\"false\"><span class=\"ap ap-arrow_heading_down\">⤵</span></span>﻿</span></p>",
+    "events": [
+      {
+        "name": "Survey for PP"
+      }
+    ]
+  },
+  {
+    "id": "4f99d120-7257-11e9-9c07-51fc5fba5118",
+    "active": false,
+    "name": "Survey goal",
+    "text": "<p>You can trigger ads, surveys, forms etc at precisely the point in a customer journey when they're most likely to respond.</p><p><br></p><p>Below is a sample survey from our survey engine. If you prefer surkeymonkey.com, no problem</p>",
+    "events": [
+      {
+        "name": "Click Survey link in Widget"
+      }
+    ]
+  },
+  {
+    "id": "627ba700-7256-11e9-bbdb-110a5f457d15",
+    "active": true,
+    "name": "Targeting section goal",
+    "text": "<p><strong>\"Describe your marketing automation experience</strong> #SEGMENT userex# \"</p><p><br></p><p>That's <span class=\"ql-emojiblot\" data-name=\"arrow_heading_up\">﻿<span contenteditable=\"false\"><span class=\"ap ap-arrow_heading_up\">⤴</span></span>﻿</span> an example of how you can make customers tag themselves with useful attributes for deeper segmentation and targeting. You can also label and tag them based on actions they performed while browsing.</p>",
+    "events": [
+      {
+        "name": "Targeting section"
+      }
+    ]
+  },
+  {
+    "id": "66113ce0-7360-11e9-9916-5f0c9846525b",
+    "active": false,
+    "name": "Test Goal",
+    "text": "<p>You can trigger surveys based on user actions.</p>",
+    "events": [
+      {
+        "name": "Test Button click"
+      }
+    ]
+  },
+  {
+    "id": "20d7f440-7b56-11e9-9969-4764ed724b11",
+    "active": true,
+    "name": "Weekend Promo Rush",
+    "text": "<p>Hello there <span class=\"ql-emojiblot\" data-name=\"grinning\">﻿<span contenteditable=\"false\"><span class=\"ap ap-grinning\">😀</span></span>﻿</span>,</p><p>Would you like to be part of our weekly flash promo? Enter your details below and stay glued to your inbox.</p>",
+    "events": [
+      {
+        "name": "15 seconds TS"
+      },
+      {
+        "name": "Pageviews on safetyexcos"
+      },
+      {
+        "name": "Another PV on Safety Excos"
+      }
+    ]
+  },
+  {
+    "id": "37e7d8c0-5222-11ec-92aa-bd5a23d6394c",
+    "active": false,
+    "name": "Welcome first time visitors with message",
+    "text": "Test",
+    "events": [
+      {
+        "name": "Site visit"
+      }
+    ]
   }
 ]
