@@ -1,8 +1,8 @@
 <template>
     <!-- rounded="lg" -->
   <v-snackbar
-    tile
-    multi-line
+    rounded-xl
+    
     :value="toast.show"
     :top="true"
     :right="$vuetify.breakpoint.mdAndUp"

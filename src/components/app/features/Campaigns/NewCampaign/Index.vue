@@ -24,7 +24,7 @@
       <v-divider vertical class="ma-4" />
       <v-btn
         exact-path
-        :to="{ name: 'app.campaigns.my-campaigns' }"
+        @click="$router.go(-1)"
         outlined
         color="error"
       >

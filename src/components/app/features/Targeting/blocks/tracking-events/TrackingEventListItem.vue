@@ -1,7 +1,7 @@
 <template>
 <v-hover v-slot:default="{ hover }" >
   <div>
-    <v-divider></v-divider>
+    
     <v-layout
       row
       :wrap="false"
@@ -23,12 +23,12 @@
         class="d-flex"
       >
         <p class="mb-0">
-          Click on button
+          {{event.name}}
         </p>
       </v-flex>
-      <v-flex md2>
+      <v-flex md3>
         <p class="mb-0">
-          button-click
+          {{event.alias}}
         </p>
       </v-flex>
       <v-flex
@@ -36,40 +36,34 @@
         class="d-flex"
       >
         <p class="mb-0">
-          Button Click
+          {{event.type.name}}
         </p>
       </v-flex>
-      <v-flex md2>
+      <!-- <v-flex md1>
         <p class="mb-0">
           0
         </p>
-      </v-flex>
+      </v-flex> -->
       <v-flex
-        md2
+        md3
         class="d-flex"
       >
-        <v-btn
-          text
-          class="text-capitalize"
-          color="primary"
-        >
-          Edit
-        </v-btn>
-        <v-btn
-          text
-          class="text-capitalize ml-2"
-          color="error"
-        >
-          Delete
-        </v-btn>
+        <EditTrackingEventModal />
+        <DeleteTrackingEventModal />
       </v-flex>
     </v-layout>
+    <v-divider></v-divider>
   </div>
 </v-hover>
 </template>
 
 <script>
-export default {};
+import DeleteTrackingEventModal from '../../modals/DeleteTrackingEventModal.vue';
+import EditTrackingEventModal from '../../modals/EditTrackingEventModal.vue';
+export default {
+  components: { EditTrackingEventModal, DeleteTrackingEventModal },
+  props: ['event']
+};
 </script>
 
 <style>

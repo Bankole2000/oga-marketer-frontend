@@ -1,9 +1,12 @@
-import auth from './auth';
+import Auth from './auth';
 import Account from './account';
-
-const Auth = auth
-
+import Campaigns from './campaigns';
+import Trackers from './trackers';
+import Payments from './payments';
 export default {
   Auth,
-  Account
+  Account, 
+  Campaigns,
+  Trackers,
+  Payments,
 }

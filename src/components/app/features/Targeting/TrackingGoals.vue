@@ -28,11 +28,42 @@
         <span>Learn more about Tracking Goals</span>
       </v-tooltip>
     </div>
+    <v-container>
+      <v-row>
+        <v-col cols="12">
+          <v-card elevation="0" class="pa-4 elevated-light rounded-lg mb-8">
+            <v-card-title class="d-flex pt-0">
+              <div style="flex-grow: 1" class="pr-16">
+                <v-icon class="mr-4"> mdi-send </v-icon>
+                Tracking Goals
+                <v-divider class="bg-primary-lt mt-1" />
+              </div>
+
+              <v-chip
+                class="primary--text"
+                @click="$router.push({ name: 'app.targeting.targeting.new'})"
+                style="background-color: var(--primary-light)"
+              >
+                <v-avatar left>
+                  <v-icon color="primary" size="24">
+                    mdi-plus
+                  </v-icon>
+                </v-avatar>
+                New Tracking Goal
+              </v-chip>
+            </v-card-title>
+            <TrackingGoalsTable />
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
 <script>
-export default {};
+import TrackingGoalsTable from './blocks/TrackingGoalsTable.vue';
+export default {
+  components: { TrackingGoalsTable },};
 </script>
 
 <style>

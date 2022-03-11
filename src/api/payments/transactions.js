@@ -1,22 +1,22 @@
 import axios from 'axios';
 import { env } from "../../utils/config";
 
-const endpoint = `${env.baseUrl}/lists`;
+const endpoint = `${env.baseUrl}/transactions`;
 
 export default {
-  getLists(queryString = ''){
+  getTransactions(queryString = ''){
     return axios.get(`${endpoint}${queryString}`);
-  }, 
-  createList(data){
+  },
+  getTransactionDetails(id){
+    return axios.get(`${endpoint}/${id}`);
+  },
+  createTransaction(data){
     return axios.post(`${endpoint}`, data);
   },
-  getListContacts(id, queryString = ``){
-    return axios.get(`${endpoint}/${id}${queryString}`);
-  }, 
-  updateList(id, data){
+  updateTransaction(id, data){
     return axios.patch(`${endpoint}/${id}`, data);
   },
-  deleteList(id){
+  deleteTransaction(id){
     return axios.delete(`${endpoint}/${id}`);
-  }, 
+  }
 }

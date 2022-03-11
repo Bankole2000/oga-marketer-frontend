@@ -4,6 +4,9 @@ import { env } from '../../utils/config';
 const endpoint = `${env.baseUrl}/api/v1/account`;
 
 export default {
+  getAccount(){
+    return axios.get(`${env.baseUrl}`)
+  },
   verifyTransaction(data) { // needs to send transaction reference
     return axios.get(`${endpoint}/transaction/verify`, data);
   },

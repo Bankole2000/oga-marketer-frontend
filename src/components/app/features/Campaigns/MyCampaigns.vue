@@ -52,10 +52,11 @@
                   <p class="mb-0 font-weight-bold">Action</p>
                 </v-flex>
               </v-layout>
-              <v-container fluid>
+              <v-divider class="mt-2"></v-divider>
+              <v-progress-linear indeterminate :active='loading' color="secondary"></v-progress-linear>
+              <v-container v-if="!campaigns.length" fluid>
                 <v-row>
                   <v-col cols="12" class="px-0">
-                    <v-divider class="mb-2"></v-divider>
                     <div class="light primary--text pa-4 d-flex align-center justify-space-between">
                       <p class="mb-0 headline">
                         You haven't created any Campaigns
@@ -74,8 +75,25 @@
                   </v-col>
                 </v-row>
               </v-container>
-              <CampaignsList />
+              <CampaignsList v-else :campaigns="campaigns"/>
             <v-divider></v-divider>
+            <v-container>
+      <v-row>
+        <v-col cols="3" class="pt-4">
+          <!-- <v-btn text color="error" class="text-capitalize">Delete All</v-btn> -->
+        </v-col>
+        <v-col cols="6">
+          <v-pagination v-model="page" :length="Math.ceil(totalCount / limit)"
+              :total-visible="7"></v-pagination>
+        </v-col>
+        <v-col cols="3" class="pt-4">
+          <!-- <div class="d-flex">
+            <v-spacer></v-spacer>
+          <v-btn text color="primary" class="text-capitalize">Action on all selected</v-btn>
+          </div> -->
+        </v-col>
+      </v-row>
+    </v-container>
           </v-card>
         </v-col>
       </v-row>
@@ -84,8 +102,44 @@
 </template>
 
 <script>
+import API from '@/api/'
 import CampaignsList from "./blocks/CampaignsList.vue";
-export default { components: { CampaignsList } };
+export default { 
+  components: { CampaignsList }, 
+  data(){
+    return {
+      loading: false,
+      campaigns: [],
+      page: 1,
+      limit: 10,
+      totalCount: 0,
+    }
+  }, 
+    watch: {
+    async page(newValue){
+      // console.log({newValue})
+      await this.getCampaigns(newValue)
+    }
+  },
+  methods: {
+    async getCampaigns(page = 1, limit = 10){
+      this.loading = true;
+      try {
+        const { data, headers } = await API.Campaigns.Campaigns.getCampaigns(`?_page=${page}&_limit=${limit}`);
+        this.campaigns = data;
+        this.totalCount = headers['x-total-count'];
+        this.loading = false;
+        console.log({data})
+      } catch (error) {
+        console.log("🚀 ~ file: MyCampaigns.vue ~ line 101 ~ getCampaigns ~ error", error)
+        this.loading = false;
+      }
+    }
+  }, 
+  async mounted(){
+    await this.getCampaigns()
+  }
+};
 </script>
 
 <style>

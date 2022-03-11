@@ -42,6 +42,7 @@
 
                         <v-chip
                           class="primary--text"
+                          @click="$router.push({ name: 'app.targeting.targeting.new'})"
                           style="background-color: var(--primary-light)"
                         >
                           <v-avatar left>
@@ -165,6 +166,7 @@
 
                         <v-chip
                           class="primary--text"
+                          @click="$router.push({ name: 'app.campaigns.new'})"
                           style="background-color: var(--primary-light)"
                         >
                           <v-avatar left>
@@ -245,6 +247,7 @@
 
                         <v-chip
                           class="primary--text"
+                          @click="$router.push({ name: 'app.contacts.my-contacts'})"
                           style="background-color: var(--primary-light)"
                         >
                           <v-avatar left>
@@ -322,6 +325,7 @@
 
                         <v-chip
                           class="primary--text"
+                          @click="$router.push({ name: 'app.targeting.targeting.new'})"
                           style="background-color: var(--primary-light)"
                         >
                           <v-avatar left>
@@ -361,6 +365,7 @@
 
                         <v-chip
                           class="primary--text"
+                          @click="$router.push({ name: 'app.campaigns.new'})"
                           style="background-color: var(--primary-light)"
                         >
                           <v-avatar left>
@@ -400,6 +405,7 @@
 
                         <v-chip
                           class="primary--text"
+                          @click="$router.push({ name: 'app.campaigns.email-templates.new'})"
                           style="background-color: var(--primary-light)"
                         >
                           <v-avatar left>

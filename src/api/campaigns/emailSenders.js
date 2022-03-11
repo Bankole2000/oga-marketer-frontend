@@ -1,22 +1,22 @@
 import axios from 'axios';
 import { env } from "../../utils/config";
 
-const endpoint = `${env.baseUrl}/lists`;
+const endpoint = `${env.baseUrl}/emailSenders`;
 
 export default {
-  getLists(queryString = ''){
+  getEmailSenders(queryString = ''){
     return axios.get(`${endpoint}${queryString}`);
-  }, 
-  createList(data){
+  },
+  getEmailSenderDetails(id){
+    return axios.get(`${endpoint}/${id}`);
+  },
+  createEmailSender(data){
     return axios.post(`${endpoint}`, data);
   },
-  getListContacts(id, queryString = ``){
-    return axios.get(`${endpoint}/${id}${queryString}`);
-  }, 
-  updateList(id, data){
+  updateEmailSender(id, data){
     return axios.patch(`${endpoint}/${id}`, data);
   },
-  deleteList(id){
+  deleteEmailSender(id){
     return axios.delete(`${endpoint}/${id}`);
-  }, 
+  }
 }

@@ -42,16 +42,6 @@
                 </v-avatar>
                 New Segment
               </v-chip>
-
-              <!-- <v-chip
-                class="primary--text"
-                style="background-color: var(--primary-light)"
-              >
-                <v-avatar left>
-                  <v-icon color="primary" size="24"> mdi-plus </v-icon>
-                </v-avatar>
-                New User
-              </v-chip> -->
             </v-card-title>
             <v-card-text class="pt-4">
               <p>

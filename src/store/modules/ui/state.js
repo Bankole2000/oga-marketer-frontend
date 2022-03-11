@@ -45,11 +45,11 @@ export default () => ({
   featureFlags: {
     dashboard: true,
     contacts: true,
-    teams: false,
+    teams: true,
     campaigns: true,
     targeting: true,
-    profile: false,
-    settings: false,
-    assistant: false,
+    profile: true,
+    settings: true,
+    assistant: true,
   }
 })

@@ -114,7 +114,7 @@
                 "
                 frameborder="0"
               ></iframe>
-              <div style="position: absolute; width: 200px; min-height: 80px; border-radius: 10px; margin-bottom: 20px; margin-right: 10px;" :style="{ ...widgetSettings, color: widgetSettings.fontColor }" class="pa-4 elevated-light">
+              <div style="position: absolute; width: 200px; min-height: 80px; border-radius: 10px; margin: 10px;" :style="{ ...widgetSettings, color: widgetSettings.fontColor }" class="pa-4 elevated-light">
                 <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quasi labore sequi</p>
               </div>
             </div>

@@ -4,6 +4,7 @@
     <v-divider vertical class="ma-4" />
     <v-chip
       class="primary--text"
+      @click="onCreateNewTrackingEvent"
       style="background-color: var(--primary-light)"
     >
       <v-avatar left>
@@ -24,11 +25,26 @@
       </template>
       <span>Learn more about Tracking Events</span>
     </v-tooltip>
+    <NewTrackingEventModal ref="newTrackingEventModal" />
   </div>
 </template>
 
 <script>
-export default {};
+import NewTrackingEventModal from '../../modals/NewTrackingEventModal.vue';
+export default {
+  components: { NewTrackingEventModal },
+  data(){
+    return {
+
+    }
+  }, 
+  methods: {
+    onCreateNewTrackingEvent() {
+      this.$refs["newTrackingEventModal"].show(true);
+      console.log({ refs: this.$refs });
+    },
+  }
+};
 </script>
 
 <style>
